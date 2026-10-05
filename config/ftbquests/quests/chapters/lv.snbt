@@ -1,0 +1,1448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:lv_electric_motor"
+	id: "393DD40CAFBB69A5"
+	order_index: 1
+	quest_links: [{
+		id: "0B8B2F7F6C5F0B43"
+		linked_quest: "4C591AA4F1D907C1"
+		x: -2.0d
+		y: -4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"The last three components can also be used as covers"
+				"{@pagebreak}"
+				"An Electric Motor is a device that converts electrical energy into mechanical energy. Its working principle is based on electromagnetic induction: when current flows through the motor's coils, a force is generated within the magnetic field, and this force makes the motor's rotor spin, thereby driving the load. Electric motors are widely used in all kinds of industrial, commercial and household appliances."
+				"{@pagebreak}"
+				"An Electric Piston is an electrically driven reciprocating device that can convert the rotary motion of a motor into linear reciprocating motion. Such a device can be used in all sorts of applications, such as compressors, pneumatic actuators and robot arms."
+				"{@pagebreak}"
+				"A Robot Arm is a mechanical device that mimics the function of a human arm. It usually consists of a series of links and joints and is capable of a range of complex movements, including rotation, bending and extension. Robot arms can carry out all kinds of tasks through programming or remote control, such as hauling, assembling, welding, spraying, measuring and exploring."
+				"{@pagebreak}"
+				"A Conveyor is a transport machine used to carry materials or products from one place to another. It consists of one or more continuous belt structures rotating around two rollers, which serve as the drive and support points. Conveyors can run horizontally, or at an incline, or vertically, to suit different hauling needs."
+			]
+			id: "2D6BB32B642AE8BA"
+			rewards: [{
+				id: "544735BB21DE9B9D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5DBFDA1AF623D088"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "31B636C7F831CBD3"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "6B73DE9C2DD2D8F1"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "29F8DEDDA3A8411F"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "58065362C30CB627"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+			]
+			title: "The Five-Piece Set"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7CB85061F0822830"
+				"553B2D61416792DC"
+			]
+			description: ["On your first playthrough, it is recommended to also browse the \"Electricity\" and \"Machines\" chapters"]
+			icon: "kubejs:lv_universal_circuit"
+			id: "51B9A72C19F84F0E"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "13DADE13289E59D0"
+				title: "Low Voltage LV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Lets you obtain wires and fine wires more efficiently"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "0CF19CAFB3355075"
+			rewards: [{
+				id: "2AC3B6BF675F4682"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "588BCA87500214EF"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Lets you obtain plates and foils more efficiently: one ingot gives one plate, one ingot gives four foils"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "3DC0B933936357B3"
+			rewards: [{
+				id: "5722F9FCDB566036"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "137AFD6CB3927548"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Lets you obtain rods and screws more efficiently: one ingot gives two rods, one bolt gives one screw"]
+			icon_scale: 2.0d
+			id: "048455FFC9BDC82A"
+			rewards: [{
+				id: "4B27D0AEB350794A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "57EDE3A779842162"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["Use it to magnetise items"]
+			hide_dependency_lines: true
+			id: "51F0CE5F1BCC78D1"
+			rewards: [{
+				id: "6F1E030D11A09345"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA43E9650F117DD"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"32CE144D9A9F0943"
+				"3F38CC8C8D650202"
+				"198ED0A20800F3ED"
+				"20F6BF1EDC6EBDC1"
+			]
+			description: [
+				"You need to place two &7LV&r Energy Hatches on the Blast Furnace to boost it to &bMV&r, so that it can &o&6run &bMV&r&o&6 recipes&r (an example of the power conversion between voltages is as follows: 4A LV = 1A MV, and so on)"
+				""
+				"Voltage aside, whether a recipe can run does not actually depend on the coils, but on the Electric Blast Furnace's heat capacity/temperature!"
+			]
+			icon_scale: 1.3d
+			id: "07D0D7005DA4F446"
+			rewards: [{
+				id: "59A5761D2A7FD87D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0BAFA129FC209B2A"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3117BF8E4782DB2A"
+				"553B2D61416792DC"
+			]
+			description: [
+				"This is the block that supplies power to multiblocks"
+				""
+				"In fact, an ordinary Energy Hatch has a capacity of 2A at the current voltage"
+				""
+				"Correspondingly, a Machine Hull has a capacity of 1A at the current voltage"
+			]
+			id: "32CE144D9A9F0943"
+			rewards: [{
+				id: "00234C85463FBBF3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66CE417A92BDA931"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"These are the hatches the Blast Furnace needs"
+				""
+				"A Maintenance Hatch &4cannot&r be shared between multiblocks"
+				""
+				"Hold Duct Tape and right-click the Maintenance Hatch to service it quickly"
+				""
+				"In fact, you cannot put Duct Tape inside a Maintenance Hatch to stop it from breaking down"
+			]
+			hide_dependency_lines: true
+			id: "3F38CC8C8D650202"
+			rewards: [
+				{
+					id: "62C270080F8D4EF8"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "483D9851469E85ED"
+					item: "gtceu:duct_tape"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DD304EE89C9B95E"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "2CD0C7B93136636E"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0814DB1EBFD42A5B"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0338C31DFA586B4D"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "Some Hatches"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3E50EE376968519F"
+				"18C2AB18B354F774"
+				"7F9F473B8C508676"
+				"36E33432C72763C8"
+			]
+			description: ["Can be shared between multiple multiblocks"]
+			icon_scale: 2.0d
+			id: "20F6BF1EDC6EBDC1"
+			rewards: [{
+				id: "0368C7A8382A16D9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Your First Set of Coils"
+			tasks: [{
+				count: 16L
+				id: "022D8EB7519F65E1"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
+			title: "Cupronickel Coil"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: [
+				"&l&c&nAn Assembler is an Assembler, a Circuit Assembler is a Circuit Assembler, don't mix them up!!!"
+				"&l&c&nAn Assembler is an Assembler, a Circuit Assembler is a Circuit Assembler, don't mix them up!!!"
+				"&l&c&nAn Assembler is an Assembler, a Circuit Assembler is a Circuit Assembler, don't mix them up!!!"
+			]
+			icon_scale: 2.0d
+			id: "3E50EE376968519F"
+			min_width: 240
+			rewards: [{
+				id: "2DF768F56128A868"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Cannot Assemble Circuits"
+			tasks: [{
+				id: "0A32B247C01822D2"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Converts items into fluids"]
+			icon_scale: 2.0d
+			id: "63C2FA96C708C125"
+			rewards: [{
+				id: "00F71B34C31D9DD1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "061EC839843C4CDA"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13DADE13289E59D0"]
+			description: ["Make dust in a Mixer and then smelt it, or just make it directly in a Steam Foundry"]
+			id: "7CC28185463F24C2"
+			rewards: [{
+				id: "1B049A74A1F581C4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B0AD5C6137AEFCE"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63C2FA96C708C125"]
+			icon: "gtceu:tin_alloy_bucket"
+			id: "18C2AB18B354F774"
+			rewards: [{
+				id: "39AA63FFC2362D94"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3674584BA72776DA"
+				item: "gtceu:tin_alloy_bucket"
+				type: "item"
+			}]
+			title: "Liquid Tin Alloy"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["Make dust in a Mixer and then smelt it, or just make it directly in a Steam Foundry"]
+			hide_dependency_lines: true
+			id: "198ED0A20800F3ED"
+			rewards: [{
+				id: "2684D5389A34E1FD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CB9DD3F4D92C8FD"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0CF19CAFB3355075"
+				"7CC28185463F24C2"
+			]
+			id: "7F9F473B8C508676"
+			rewards: [{
+				id: "79ECDB061254A027"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75A397E09A1E76A7"
+				item: "gtceu:cupronickel_double_wire"
+				type: "item"
+			}]
+			title: "Cupronickel Wire"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3DC0B933936357B3"]
+			id: "36E33432C72763C8"
+			rewards: [{
+				id: "291856E74A9E5F26"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC54740C4BEE22C"
+				item: "gtceu:bronze_foil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["Electrolyse ore dust to obtain materials"]
+			hide_dependency_lines: true
+			id: "6E3B42BCBA6064F5"
+			rewards: [{
+				id: "5CE4F17667F7FBCE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FE273B543714BD1"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3B42BCBA6064F5"]
+			description: ["{ \"text\": \"At the LV stage your Aluminium Dust can only be obtained by electrolysing Sapphire or Green Sapphire Dust\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"]
+			hide_dependency_lines: false
+			id: "73EFFB71A1A827D6"
+			rewards: [{
+				id: "069723A603517148"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E83C5426C90F1A6"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73EFFB71A1A827D6"
+				"07D0D7005DA4F446"
+			]
+			id: "11B60450D7F3C188"
+			rewards: [{
+				id: "7B15E06A86D475E2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "298A039260B352D6"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0877362A9EE36FB3"
+				"006BBE4D312A2E2E"
+			]
+			icon_scale: 2.0d
+			id: "7D399E31506924A0"
+			rewards: [{
+				id: "005FED5AFFB39EE8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "Your First MV Circuit"
+			tasks: [{
+				id: "0F9DE31D5976C043"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D399E31506924A0"]
+			description: ["This is the cheap MV circuit"]
+			icon_scale: 2.0d
+			id: "40C39645B1DE2488"
+			rewards: [{
+				id: "520AD95C373E9472"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "348825C79AD479CA"
+				item: "kubejs:elite_control_circuit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E50EE376968519F"]
+			id: "3A97E85643D2F8AC"
+			rewards: [{
+				id: "1C7F382616F0B1B4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "395F73DF4EA428B0"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A97E85643D2F8AC"
+				"1BF78ABAD1FF993F"
+			]
+			description: ["Later you can make it in a Chemical Reactor, which is more efficient"]
+			id: "006BBE4D312A2E2E"
+			rewards: [{
+				id: "556A75455225A1FC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E8A56A18EA1888B"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CF19CAFB3355075"]
+			id: "1BF78ABAD1FF993F"
+			rewards: [{
+				id: "19C6BCAF6C93F813"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D16B78D90582E29"
+				item: "gtceu:silver_single_wire"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6D63FB02A50F8249"
+				"06F767F4EFFD5DC6"
+			]
+			description: ["Later it can be made from Silicon Wafers and Polyethylene"]
+			id: "0877362A9EE36FB3"
+			rewards: [{
+				id: "13E6DA5EABE53D58"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "632999DA643003E5"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"{ \"text\": \"The early source of Gallium Dust is thermally centrifuged Sphalerite\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
+				""
+				"{ \"text\": \"The early source of Arsenic Dust, meanwhile, is Realgar\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4826DCD2FC457EA5\" } }"
+			]
+			id: "6D63FB02A50F8249"
+			rewards: [{
+				id: "243137AFBD25F931"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DBD74652FB4B8BF"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"Use it to smelt Annealed Copper and Wrought Iron"
+				""
+				"It can also recycle useless machines"
+			]
+			hide_dependency_lines: true
+			id: "524AC325E68AEB3A"
+			rewards: [{
+				id: "658C1C586BC53BC0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F2FF11089D97406"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51F0CE5F1BCC78D1"]
+			hide_dependent_lines: true
+			id: "18DC7021FF2C7EEB"
+			rewards: [{
+				id: "59DCAAF6EF76D2DD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06EC3C1BF7D124CB"
+				item: "gtceu:magnetic_steel_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["524AC325E68AEB3A"]
+			description: ["Annealed Copper can replace Copper in many places, and is sometimes more efficient"]
+			id: "31B5C9A6F8FB0BA2"
+			rewards: [{
+				id: "25EAB2420E51D496"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C8DEF275C16A96E"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Helps you obtain Nitrogen and Oxygen"]
+			hide_dependency_lines: true
+			id: "5C12B96341807611"
+			rewards: [{
+				id: "403B511B96D6568D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13AD3E7E937E345D"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C12B96341807611"]
+			description: ["It is recommended to centrifuge in a Large Steam Centrifuge (remember to place &b&ltwo&r Output Hatches!)"]
+			icon: "gtceu:nitrogen_bucket"
+			id: "05707E2FF325F723"
+			rewards: [{
+				id: "7F852A16D5EF1FEF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34EEC000DAD79557"
+				title: "Nitrogen and Oxygen"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["{ \"text\": \"You can also go buy some cables at the Small Market\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AF2865F9C88CBFD\" } }"]
+			hide_dependency_lines: true
+			id: "44DD16023AF842F1"
+			rewards: [{
+				id: "4FE417BAAE55F825"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "This is the cheap superconductor material at the LV stage"
+			tasks: [{
+				id: "001139BEE7311878"
+				item: "gtceu:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["A great helper for automation, and there is an upgraded version too"]
+			hide_dependency_lines: true
+			id: "3D8CF0C08F6A3075"
+			optional: true
+			rewards: [{
+				id: "38BBC47CD4D1C340"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "785EB9D4772FE036"
+				item: "gtceu:lv_buffer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"54034055F57DDAA5"
+				"49ABB341017BAE85"
+			]
+			icon_scale: 1.3d
+			id: "388E5C1034C54D19"
+			rewards: [{
+				id: "2DC114FA32688047"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "08CFFDE3C82C9FCF"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35F31D71CC8B67CF"]
+			description: ["{ \"text\": \"You need to make it in an Assembler\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
+			id: "49ABB341017BAE85"
+			rewards: [{
+				id: "3694138B038CCF53"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B0294376308A36D"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11B60450D7F3C188"]
+			id: "54034055F57DDAA5"
+			rewards: [{
+				id: "78F1A4EDCA1788D5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A2D5C286E8A31E"
+				item: "gtceu:aluminium_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"27A9D4E765101CB9"
+				"5D4ADE3F2E57635C"
+			]
+			description: [
+				"React Sulfur Dust and Raw Rubber Dust in a Chemical Reactor, or use a Steam Foundry to make Rubber Bars and then extract them"
+				""
+				"The Infinity Bucket can be treated as a fluid cell with 2.1MB per slot and practically unlimited slots (interacting with the ME Network may drain the ME Network's power completely); right-click the air to switch fluids"
+			]
+			id: "35F31D71CC8B67CF"
+			rewards: [{
+				id: "40AA3B1525E39A70"
+				item: "avaritia:infinity_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C49A402D20FE1B1"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			title: "Liquid Rubber"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			hide_dependency_lines: true
+			id: "27A9D4E765101CB9"
+			rewards: [{
+				id: "633A0E4549008312"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "708FD829786614CE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335ED39019FC62E7"]
+			description: [
+				"{ \"text\": \"Sulfur comes from the Ancient World\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
+				""
+				"Raw Rubber Dust comes from centrifuging Sticky Resin"
+			]
+			id: "5D4ADE3F2E57635C"
+			rewards: [{
+				id: "47DA92AD0AF8469A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F83D0A9E7203CB7"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "40CDF40EC6D4E24F"
+					item: "gtceu:raw_rubber_dust"
+					type: "item"
+				}
+			]
+			title: "Sulfur Dust and Raw Rubber"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E50EE376968519F"]
+			id: "3117BF8E4782DB2A"
+			rewards: [{
+				id: "7A61C3136C8C309B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A00FC384A33FB54"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"40C39645B1DE2488"
+				"0037D6BA6A4ABB72"
+				"06F767F4EFFD5DC6"
+				"128671E4DC47EF55"
+			]
+			description: ["{ \"text\": \"Polyvinyl Chloride is more cost-effective\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BF89185AEB4D1D5\" } }"]
+			icon_scale: 2.0d
+			id: "033DE57F0D91698C"
+			rewards: [
+				{
+					id: "1E52D1FAE4E5AEDF"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "4D947DB9ECD0E319"
+					item: "expatternprovider:ex_pattern_access_part"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "139820782C4C2E96"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"40C39645B1DE2488"
+				"54034055F57DDAA5"
+			]
+			id: "0D3122E318CB119D"
+			rewards: [{
+				id: "7D96687C8585EE02"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60A911126CE7DD9B"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07D0D7005DA4F446"]
+			description: [
+				"A proper &8LV&r superconductor"
+				""
+				"{ \"text\": \"See here for the source of Phosphorus\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70252B72F7728EFD\" } }"
+				""
+				"{ \"text\": \"And here is the source of Manganese\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C75A50B17AA9AF1\" } }"
+			]
+			id: "4EBCDD1E943F7350"
+			rewards: [{
+				count: 4
+				id: "3578D6E34AD7CFF0"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A0E245BCDBBC3D3"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4EBCDD1E943F7350"]
+			id: "0BBC0C3FB2E8C800"
+			tasks: [{
+				id: "193D5046F8A8CD47"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BBC0C3FB2E8C800"]
+			description: [
+				"{ \"text\": \"See here for the exact outputs\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D339F25E824A2C\" } }"
+				""
+				"Do not try to go inside the Slaughterhouse; you will take instant-death damage from /kill once every second"
+				""
+				"The World Accelerator &ccannot&r accelerate GT machines; it can only accelerate crop growth, Avaritia machines and so on"
+				"{@pagebreak}"
+				"You can also change the mobs the Slaughterhouse spawns in the gtlcore config file"
+			]
+			icon_scale: 2.0d
+			id: "62B5D5669A535245"
+			shape: "rsquare"
+			subtitle: "Electric Mob Farm"
+			tasks: [{
+				id: "41EE54C0336928F8"
+				item: "gtceu:slaughterhouse"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D3122E318CB119D"]
+			description: [
+				"Its usage is in AE's own guide, and it is very detailed"
+				""
+				"With the Pattern Encoding Terminal open, press U while looking at a multiblock controller, then press the plus button to write all the building materials into the pattern directly"
+				""
+				"Unless you really know what you are doing, it is recommended to &cdelete all byproducts from the pattern&r, to avoid byproducts taking part in crafting and jamming the craft"
+				""
+				"Because of various strange NBT issues, before you make the Molecular Assembler Matrix, try to avoid writing crafting patterns that contain GT tools or armour directly, and use tool-free processing patterns instead (see the Molecular Assembler guide page for details; in that case put the tools directly into the Molecular Assembler and use them as catalysts)"
+			]
+			id: "1715EF3BF00D33B7"
+			tasks: [
+				{
+					id: "46326B05CE78E329"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "58B5C7D22108C263"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "Order Up! Launch!"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1715EF3BF00D33B7"]
+			description: ["It is recommended to write it with the network disconnected, then reconnect once it is written"]
+			id: "07758FA2615B7559"
+			rewards: [{
+				id: "5425C8B8A676E77A"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BAF8D0B28FC21AE"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27A9D4E765101CB9"]
+			description: [
+				"{ \"text\": \"Can be obtained by processing Oil/Raw Oil/Light Oil\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5785F2E43E76E624\" } }"
+				""
+				"Heavy Oil requires an MV Distillery"
+				""
+				"You can also obtain it by reacting Sulfuric Acid with Ethanol"
+			]
+			hide_dependency_lines: true
+			id: "0037D6BA6A4ABB72"
+			rewards: [{
+				id: "23021EEA7BDB8553"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "Your First Production Line"
+			tasks: [{
+				id: "41803FDFF0B25EBC"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			title: "Liquid Polyethylene"
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"51B9A72C19F84F0E"
+				"18DC7021FF2C7EEB"
+			]
+			description: ["Hold it in your hand and sneak-right-click to toggle it on and off"]
+			hide_dependency_lines: true
+			id: "72D27369AF243A34"
+			optional: true
+			rewards: [{
+				id: "79B177EC0D35395A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Needs Charging"
+			tasks: [{
+				id: "28B5B9642C4C6326"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"Covers can be installed on all kinds of GT machines, hatches and even pipes to provide different functions; use a &b&lScrewdriver&r to open the cover configuration interface quickly"
+				""
+				"Conveyors and Robot Arms can extract and eject items, while Electric Pumps and Fluid Regulators do the same for fluids; once a filter card is installed you can filter the input/output"
+				""
+				"Wireless Item and Fluid Covers can even transfer across dimensions (both ends must be in loaded chunks)"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:computer_monitor_cover"
+			id: "3A726EDBF7AC5E5B"
+			rewards: [
+				{
+					id: "6194693C72F6F2AC"
+					item: "gtmthings:wireless_item_transfer_cover"
+					type: "item"
+				}
+				{
+					id: "559543CCE485C5C5"
+					item: "gtmthings:wireless_fluid_transfer_cover"
+					type: "item"
+				}
+				{
+					id: "6139A740691B0F27"
+					item: "gtceu:item_filter"
+					type: "item"
+				}
+				{
+					id: "05AA2F27244C2A21"
+					item: "gtceu:fluid_filter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69E2A810A09B2B6A"
+				title: "Covers"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C591AA4F1D907C1"]
+			description: [
+				"Input, Output, Maintenance, Dynamo - have you placed them all"
+				""
+				"Generators go into the bottom-right corner of the controller GUI, and stack up to &b&lsixteen&r of them"
+				""
+				"The wireless grid mode can &6bypass the Dynamo Hatch&r"
+				"{ \"text\": \"Feed energy directly into the wireless grid\", \"italic\":\"true\",\"underlined\":\"true\",\"color\":\"ff00ff\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D4874CA93B567A3\" } }"
+				""
+				"In wireless grid mode it is recommended that the Dynamo Hatch's capacity be at least the base power of one generator, and that there be a way to automatically consume the power buffered in the Dynamo Hatch, so that the Generator Array does not shut down because the Dynamo Hatch's power buffer is full"
+			]
+			id: "1486FC9F82B2E56E"
+			subtitle: "Double Efficiency"
+			tasks: [{
+				id: "5EE2778F62F08653"
+				item: "gtceu:generator_array"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"The Giant Input Bus/Assembly &ccannot change the hatch's own circuit setting by having a Programmed Circuit inserted from outside"
+				""
+				"The Giant Input Bus/Assembly actually has &cone fewer&r usable item slot than the item description says"
+				""
+				"The Giant Input Assembly counts as both an Input Bus and an Input Hatch for formation checks, while an ordinary Input Assembly only counts as an Input Bus; mind the difference"
+				""
+				"Items cannot be put into the Giant Input Bus/Assembly by hand; you must interact through a storage container (a chest, an ME Interface, a Pattern Provider and so on)"
+				""
+				"Besides the larger capacity, the Giant Input Bus also has 4 &bItem Catalyst&r slots, while the Giant Input Assembly has 9 Item Catalyst slots and 9 &bFluid Catalyst&r slots"
+				""
+				"Shift-right-clicking the Giant Input Bus/Assembly puts the item into a catalyst slot"
+			]
+			hide_dependency_lines: true
+			id: "62A978538C87ED8A"
+			rewards: [
+				{
+					id: "3EB43CAB76F633F2"
+					item: "gtceu:lv_dual_input_hatch"
+					type: "item"
+				}
+				{
+					id: "506F16048E7BF22A"
+					item: "gtceu:lv_dual_output_hatch"
+					type: "item"
+				}
+				{
+					id: "1A9D527C5A373229"
+					item: "gtmthings:lv_huge_dual_hatch"
+					type: "item"
+				}
+				{
+					id: "685DAB5FD4532DA6"
+					item: "gtceu:lv_huge_input_hatch"
+					type: "item"
+				}
+				{
+					id: "77BBA1AB2A6798F1"
+					item: "gtmthings:lv_huge_item_import_bus"
+					type: "item"
+				}
+				{
+					id: "5875F6DCE7FCFBE5"
+					item: "gtmthings:lv_huge_item_export_bus"
+					type: "item"
+				}
+				{
+					id: "1BC8C68C5F1E49A2"
+					item: "gtceu:lv_huge_output_hatch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "56F0995B11FD33AD"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7B55CA973EEB87DD"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "12DB7C28A7759197"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "38C67FC15CAE487E"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "Assembly"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63C2FA96C708C125"]
+			hide_dependency_lines: true
+			icon: "gtceu:glass_bucket"
+			id: "06F767F4EFFD5DC6"
+			tasks: [{
+				id: "1E2946FB6D74C148"
+				type: "checkmark"
+			}]
+			title: "Liquid Glass"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"66DC685BEC00E4A6"
+				"4357DF535061C2E5"
+			]
+			description: [
+				"Installed on small machines so that they draw energy directly from the wireless grid"
+				""
+				"{ \"text\": \"The early source of wireless power is the Generator Array\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1486FC9F82B2E56E\" } }"
+				""
+				"{ \"text\": \"See here for the specific details of the wireless grid\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D4874CA93B567A3\" } }"
+				""
+				"Multiblocks have to wait until &6HV&r before they can use Wireless Energy Hatches; you can substitute a Machine Hull/Battery Buffer + ordinary Energy Hatch combination (a hull only has 1 amp, a Battery Buffer has high amperage, and only the red face can output energy; the Nx in a Battery Buffer's name means the output amperage is N amps, and 1 battery corresponds to 1 amp of output current)"
+			]
+			id: "1FA24513965B09A8"
+			rewards: [{
+				id: "77595952A08DE8D5"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			subtitle: "The Power of Radio"
+			tasks: [{
+				id: "36AFB28F70862E5B"
+				item: "gtmthings:lv_wireless_energy_receive_cover"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["It can also be used to make a Lightning Processor, to obtain Liquid Ender Pearl reliably"]
+			id: "4357DF535061C2E5"
+			rewards: [{
+				id: "32B350A25034F919"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BE7A6F90F9E6751"
+					item: "gtceu:lv_emitter"
+					type: "item"
+				}
+				{
+					id: "7C678EAE6E1244AF"
+					item: "gtceu:lv_sensor"
+					type: "item"
+				}
+			]
+			title: "LV Sensors and Emitters"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FA24513965B09A8"]
+			description: ["The Wireless Energy Interface can feed the power it receives into the wireless grid"]
+			icon: "gtmthings:wireless_energy_monitor"
+			icon_scale: 2.0d
+			id: "2658C31A89CF5B24"
+			rewards: [{
+				id: "4E72F88862B88E73"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Now you can see exactly what is going on in your wireless network"
+			tasks: [
+				{
+					id: "44E7E15F401C1EBD"
+					item: "gtmthings:wireless_energy_monitor"
+					type: "item"
+				}
+				{
+					id: "6D00B8C9524FE833"
+					item: "gtmthings:wireless_energy_interface"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Wireless Monitoring"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"It is recommended to obtain it from the Slaughterhouse first, or from a Lightning Processor"
+				""
+				"Extract Ender Pearl Dust, then solidify Liquid Ender Pearl into blocks, then disassemble the Ender Pearl Blocks (with a Forge Hammer or Molecular Assembly) to &l&bget pearls losslessly&r&r"
+				""
+				"You can also use an Implosion Compressor (lossy)"
+			]
+			id: "66DC685BEC00E4A6"
+			rewards: [{
+				id: "06B013BBB4442F41"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04ABF24908220C1E"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2658C31A89CF5B24"]
+			description: ["Draws energy from the wireless grid; sneak-right-click the machine to speed it up at the cost of &68x the energy consumption&r"]
+			id: "1F0CED23E64D8DB5"
+			rewards: [{
+				id: "6EB5ABC55B15A326"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Time Cut in Half"
+			tasks: [{
+				id: "66CF95DF328B6E71"
+				item: "kubejs:time_twister_wireless"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: [
+				"Glowstone can come from the Slaughterhouse or a Lightning Processor"
+				""
+				"{ \"text\": \"There are also 33 Infinite Programmed Circuit components, made with 16K ME Storage Cells\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51A6B6CDC90D7E76\" } }"
+			]
+			hide_dependency_lines: true
+			id: "26FF330CEEDDDDF1"
+			rewards: [{
+				id: "74B9300C4B54B01E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "The Source of Infinity"
+			tasks: [
+				{
+					id: "20D35ABCBEB82A35"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9577EAA5C5DCCF"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Infinite Water/Cobblestone Cell"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4357DF535061C2E5"]
+			description: ["By simulating high-energy lightning it converts ordinary materials into rather useful materials, such as Fluix Crystals, Charged Certus Quartz, Ender Pearl Dust, Glowstone Dust and so on"]
+			id: "5C831396310E6546"
+			rewards: [{
+				id: "314AAA3E7631AAA5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68056D9427DD774E"
+				item: "gtceu:lv_lightning_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Tier1-LV"]
+	title: "Low Voltage"
+}

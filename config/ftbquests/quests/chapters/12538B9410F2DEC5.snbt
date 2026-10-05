@@ -1,0 +1,895 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "12538B9410F2DEC5"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:zpm_electric_motor"
+	id: "12538B9410F2DEC5"
+	order_index: 7
+	quest_links: [
+		{
+			id: "5EEBF7A4BECF0BAA"
+			linked_quest: "0B89B3108EB4A01F"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0A5828AFCC7D442F"
+			linked_quest: "0485D45408234C99"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "46BFC6BCC3440819"
+			linked_quest: "4A058FA1859A00D1"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"38D23D186C444492"
+				"5E9E2F25AE1EC731"
+			]
+			description: ["The Sterile Cleanroom is &6backwards compatible&r with Cleanroom recipes, and the same goes for the Law Cleaning one"]
+			icon: "gtceu:sterilizing_filter_casing"
+			icon_scale: 2.0d
+			id: "04B1D03A3FE114F1"
+			shape: "rsquare"
+			subtitle: "Good for biological research"
+			tasks: [
+				{
+					id: "42A2A3DE0D71F79C"
+					item: "gtceu:sterilizing_filter_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42A0398691BDA897"
+					item: "gtceu:sterile_cleaning_maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4DD127E33DCEC616"
+				"233CA36D529EC3FB"
+				"4A058FA1859A00D1"
+				"5D980DBF92017008"
+			]
+			icon_scale: 1.3d
+			id: "77759D1FE48F958B"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "One Step Further"
+			tasks: [{
+				id: "00D112DFCD012D77"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"77759D1FE48F958B"
+				"6A59FA11D10C648A"
+			]
+			description: ["&cDo not go looking for&r &eGanymede&r Ilmenite Ore and &eGanymede&r Titanium Ore"]
+			id: "38D23D186C444492"
+			tasks: [{
+				id: "33183645B439CFDB"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["503C03C654730F65"]
+			description: ["It is no longer made in a Chemical Reactor"]
+			id: "051792ED136C96D0"
+			tasks: [{
+				id: "7DFA913411D706CB"
+				item: "gtceu:wetware_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04B1D03A3FE114F1"]
+			description: [
+				"At this point you can also build the Large one directly"
+				""
+				"In fact, the Filter Casing in the multiblock can be the lowest tier, there is no need to upgrade it"
+				""
+				"{ \"text\": \"Besides asking an Elder Guardian for one, you can also make Sponges out of Polycaprolactam\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D0389442E831EC0\" } }"
+			]
+			icon: "gtceu:large_incubator"
+			id: "503C03C654730F65"
+			tasks: [
+				{
+					id: "67472857F3F58EDA"
+					item: "gtceu:incubator"
+					type: "item"
+				}
+				{
+					id: "42AA2699F73F1D0A"
+					item: "gtceu:large_incubator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Incubator"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"503C03C654730F65"
+				"079FEA1875012A69"
+				"51B2B531E6FC0055"
+			]
+			id: "64EAB77978C87CE9"
+			tasks: [{
+				id: "6B0EF909ED8DFCFD"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"64EAB77978C87CE9"
+				"7EFC2C7FF6FFF1F7"
+			]
+			icon_scale: 2.0d
+			id: "46855799A4471E34"
+			tasks: [{
+				id: "0623E66A9C488A49"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46855799A4471E34"]
+			description: ["Organically cultured Stem Cells interact with electrical stimulation to rapidly perform large-scale computation."]
+			icon_scale: 2.0d
+			id: "425D7CD010B9C90E"
+			tasks: [{
+				id: "1C1B32F4B3E713A2"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["425D7CD010B9C90E"]
+			icon_scale: 2.0d
+			id: "582AFD622AA67792"
+			tasks: [{
+				id: "63AC52623C55FBD6"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["582AFD622AA67792"]
+			icon_scale: 2.0d
+			id: "7CF037F2C4BF55B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26DC4E706EA64372"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "5E77549BE2B175D2"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77759D1FE48F958B"]
+			id: "7C23CC6ADDC33EA0"
+			tasks: [{
+				id: "68B49A32B28AECEA"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77759D1FE48F958B"]
+			id: "73C70C42B7EF5D4F"
+			tasks: [{
+				id: "1E7062E4355C5661"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["38D23D186C444492"]
+			icon_scale: 2.0d
+			id: "59CA7B4A4A417B53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0670820808EEC323"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "660C7300DF6A9A97"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			title: "Tritanium Coil"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59CA7B4A4A417B53"]
+			description: ["&3UV&r Superconductor"]
+			id: "62D2B830A98424BB"
+			tasks: [{
+				id: "188D424E2FE3A663"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7CF037F2C4BF55B5"
+				"5E86110BBAEA92BA"
+				"5C4B11CEA53D5B78"
+			]
+			dependency_requirement: "one_completed"
+			description: ["There is actually no need to use a Network Switch"]
+			icon_scale: 2.0d
+			id: "0A2D46609F5C3CAB"
+			min_required_dependencies: 2
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BF1D99A47554C8B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31A360FB27D6251A"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"5C4B11CEA53D5B78"
+			]
+			description: ["It will be useful at a later stage"]
+			icon_scale: 2.0d
+			id: "5D4131C48F9BAE46"
+			shape: "rsquare"
+			tasks: [{
+				id: "271AD42D98889163"
+				item: "gtceu:decay_hastener"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5B01312E34A3AD60"
+				"0F22A8CE63F369CA"
+				"52DF531AFB3A07CE"
+				"4172820CE8E15F90"
+			]
+			id: "4DD127E33DCEC616"
+			tasks: [{
+				id: "5E1809039C58C20B"
+				item: "gtceu:fusion_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D2B830A98424BB"]
+			description: [
+				"A single computer may not provide enough computation, and if you want to combine computation you must use this machine"
+				""
+				"Before use, make sure the computer has a &b&lBridge Component"
+				"&r"
+				"The computation shown in the switch interface is only the sum of the theoretical maximum computation of all connected computers, &c&lit is not the actual computation&r"
+				""
+				"While the Network Switch is running normally, every computation hatch continuously consumes&e 7,680 &rEU/t (0.9A &6HV&r), &4and if power is insufficient some computation hatches will fail"
+				"&r"
+				"Switches can be chained together (a switch can accept the computation of other switches)"
+			]
+			icon_scale: 1.3d
+			id: "5E86110BBAEA92BA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1DF9E2E28B0FC970"
+				item: "gtceu:network_switch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5D4131C48F9BAE46"
+				"7C4C11E7C931C01B"
+				"37C5E7628A4B826C"
+			]
+			description: [
+				"Produces some transuranium elements and the antimatter series"
+				""
+				"You can use the dual Energy Hatch plus single Laser Hatch layout to get both recipe tier and power"
+			]
+			icon_scale: 2.0d
+			id: "2802E34A99CE1D79"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Needed Later"
+			tasks: [{
+				id: "30BC4BA2F6A606D5"
+				item: "gtceu:super_particle_collider"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0507FDF7BECE29AF"
+				"52DF531AFB3A07CE"
+			]
+			description: ["You can now make the computer Bridge Component, though you may not need it at this stage"]
+			id: "5E9E2F25AE1EC731"
+			rewards: [{
+				id: "2D31F3080985F641"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C99AB623FB588D4"
+				item: "gtceu:zpm_emitter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0B89B3108EB4A01F"
+				"5E9E2F25AE1EC731"
+			]
+			description: ["You can now swap in Advanced Computation Components for your computer"]
+			hide_dependent_lines: true
+			id: "7C4C11E7C931C01B"
+			rewards: [{
+				id: "317FA5D50BB6754B"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A1852A8E4DD94CF"
+				item: "gtceu:zpm_field_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: [
+				"Also called the small OP (Ore Processor)"
+				""
+				"Only &eZPM&r Muffler Hatches can be used"
+			]
+			icon_scale: 2.0d
+			id: "35C61EF7C0FBD32F"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "All in One Go"
+			tasks: [{
+				id: "64C7755B5517C918"
+				item: "gtceu:integrated_ore_processor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: [
+				"Input Oil and Steam, output products"
+				""
+				"The coil only affects energy usage"
+				""
+				"The Petrochemical Plant does not produce intermediates; you can either keep your old petrochemical line or later use the Space Elevator to collect the intermediates directly"
+			]
+			icon_scale: 2.0d
+			id: "61838E13426B2B88"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "All in One Go"
+			tasks: [{
+				id: "6FEB78AB1D5BDDCA"
+				item: "gtceu:petrochemical_plant"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7C4C11E7C931C01B"
+				"04B1D03A3FE114F1"
+			]
+			description: ["Head beyond the Solar System"]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_7_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 0L
+							Fluid: "minecraft:empty"
+						}]
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "7FD1D1D8ED72D40C"
+			rewards: [{
+				id: "4BCD53BFF7E94B0A"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50DBDD703AB9CE43"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_7_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 0L
+									Fluid: "minecraft:empty"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B69AA49652FBF95"
+					item: "gtceu:stellar_energy_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FD1D1D8ED72D40C"]
+			description: [
+				"{ \"text\": \"Use the Incubator for Cyclic Production\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"35D158AD5036923D\" } }"
+				""
+				"The amount of material consumed on a probabilistic basis also affects the parallel count"
+			]
+			id: "079FEA1875012A69"
+			tasks: [{
+				count: 4L
+				id: "32F1F3F299981C4F"
+				item: { Count: 4, id: "kubejs:glacio_spirit" }
+				type: "item"
+			}]
+			title: "Glacio Spirit"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64EAB77978C87CE9"]
+			description: ["Nanorobot Swarm"]
+			id: "02F523E003E1C93D"
+			tasks: [{
+				id: "50ACEB6385D60F9C"
+				item: "gtceu:carbon_nanoswarm"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02F523E003E1C93D"]
+			description: [
+				"The entire Nano Forge series can only use Laser Hatches"
+				""
+				"Requires &6Carbon Nanoswarm&r to be inserted"
+				""
+				"Remember to optimise the Carbon Nanoswarm recipe"
+			]
+			icon_scale: 2.0d
+			id: "3B098EA4601A7827"
+			rewards: [{
+				id: "5F0FAE078ED077A9"
+				item: "avaritia:neutron_ring"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Large-Scale Nanoswarm Production"
+			tasks: [{
+				id: "429C36800C493E79"
+				item: "gtceu:nano_forge_1"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E9E2F25AE1EC731"]
+			description: ["Use a &dData Stick&r to bind"]
+			icon_scale: 2.0d
+			id: "6C24E5BA18FE8CF5"
+			shape: "rsquare"
+			subtitle: "No Need to Lay Optical Cables Anymore"
+			tasks: [
+				{
+					id: "230E8001CE426D4F"
+					item: "gtmthings:wireless_computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "3536A2F8BBFA6517"
+					item: "gtmthings:wireless_computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "Wireless Computation Data Hatches"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0485D45408234C99"
+				"298369255C8130F7"
+				"4E1A28AFF661CED0"
+			]
+			id: "5D980DBF92017008"
+			tasks: [{
+				id: "1E867C12E424C07B"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["051792ED136C96D0"]
+			description: ["Of course, this one still has to be made in a Chemical Reactor"]
+			id: "7EFC2C7FF6FFF1F7"
+			tasks: [{
+				id: "1BB25071E7E00C66"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EFC2C7FF6FFF1F7"]
+			description: ["Can only be placed into the &bData Access Hatch&r of a &6formed Data Bank&r"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5C4B11CEA53D5B78"
+			tasks: [{
+				id: "4B5ADAE9ED77C366"
+				item: {
+					Count: 1
+					id: "gtceu:data_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4B11CEA53D5B78"]
+			description: ["It is not mandatory; the Space Elevator can also mine all the ores that the Large Void Miner cannot extract"]
+			icon_scale: 2.0d
+			id: "6DDE77C23FC5D067"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Contains ores that cannot be mined"
+			tasks: [{
+				id: "0F730F8E535FA432"
+				item: "gtceu:large_void_miner"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C4B11CEA53D5B78"]
+			description: [
+				"Higher efficiency"
+				""
+				"Can only collect the six Overworld fluids and Lava"
+			]
+			icon_scale: 2.0d
+			id: "52980D117AB477B2"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "From the Void"
+			tasks: [{
+				id: "2E8C86DE512279CC"
+				item: "gtceu:void_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53D0B2B73387C7CE"
+				"042A0E98DC1084B3"
+			]
+			description: [
+				"Can be used to make Magneto Resonatic Circuits that only need SMD components and come in large quantities, you will like it"
+				""
+				"It is also a material you will definitely need later"
+			]
+			id: "0DC5BFACB3D4BC95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44B46508F30710B2"
+				table_id: 6225023274141477362L
+				type: "loot"
+			}]
+			subtitle: "Magneto Resonatic Circuit! Activate!"
+			tasks: [{
+				id: "4A9623D2D33B88B9"
+				item: "gtceu:magneto_resonatic_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6DDE77C23FC5D067"
+				"7A7C73D046390488"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ \"text\": \"Zirconium is on Ganymede\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E844874F97530A\" } }"
+				""
+				"Tellurium, on the other hand, can only be obtained through Void Mining or Space Mining"
+			]
+			id: "042A0E98DC1084B3"
+			tasks: [
+				{
+					id: "0B436E19F0479E87"
+					item: "gtceu:zirconium_dust"
+					type: "item"
+				}
+				{
+					id: "3EE902C024F94F0D"
+					item: "gtceu:tellurium_dust"
+					type: "item"
+				}
+			]
+			title: "Zirconium and Tellurium"
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0485D45408234C99"
+				"39380262677612A9"
+			]
+			description: [
+				"You need to &binput a Programmed Circuit 1 in an Input Bus to keep the machine running"
+				"&r"
+				"At this point you can also build the Large one directly"
+				""
+				"Just place the block inside the multiblock to convert it"
+				""
+				"The Block Bus is essentially a chest; automation has to interact with it through active input/output methods such as Robot Arms/Conveyors or AE Import/Export Buses"
+				""
+				"With a Conversion Simulation Card installed, blocks inside the &6Block Bus&r can also be converted (&cblocks inside the Input Bus will not be converted&r)"
+				""
+				"If it does not work after inserting the Conversion Simulation Card, break the controller and place it back"
+				""
+				"See the next page for the specific conversion \"recipes\""
+				"{@pagebreak}"
+				"Grass Block -> Moss Block"
+				""
+				"Moss Block -> Sculk Block"
+				""
+				"Oak Log -> Crimson Stem"
+				""
+				"Birch Log -> Warped Stem"
+				""
+				"Calcium Block -> Bone Block"
+				""
+				"Bone Block -> Essence Block"
+				""
+				"Draconium-Infused Obsidian -> Charged Draconium Block"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:block_conversion_room"
+			icon_scale: 2.0d
+			id: "41201C74CC5F7B90"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "569902AC45012A06"
+					item: "gtceu:block_conversion_room"
+					type: "item"
+				}
+				{
+					id: "762F2B3A5742321F"
+					item: "gtceu:large_block_conversion_room"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "434CB442F980C5B3"
+					item: "gtceu:block_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C5AFABF348FFA69"
+					item: "gtlcore:conversion_simulate_card"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["41201C74CC5F7B90"]
+			description: ["Grind the Essence Block"]
+			id: "35D158AD5036923D"
+			tasks: [{
+				id: "7A39828F0956F250"
+				item: "kubejs:essence"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35D158AD5036923D"]
+			description: [
+				"The various ore vein essences are not only used for the precision mode of the Large Void Miner, but are also one of the materials for items you will definitely need later"
+				""
+				"Essence can only be made with &9GregTech&r Milk. So where does the Milk come from? Scoop up a bucket of Milk, craft a Cow Spawn Egg and put it into an Extractor"
+			]
+			icon: "kubejs:space_essence"
+			id: "68D3E6670941A3F5"
+			tasks: [{
+				id: "158FBB1423A51456"
+				title: "Various Ore Vein Essences"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"62D2B830A98424BB"
+				"7C23CC6ADDC33EA0"
+			]
+			description: ["Bigger, Stronger"]
+			icon_scale: 2.0d
+			id: "41C7A298C421C65D"
+			shape: "rsquare"
+			tasks: [{
+				id: "070CBBD82AB7328A"
+				item: "gtceu:mega_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: ["In the same CPU &cdo not mix it with other Crafting Storages&r (including another MAX), otherwise the CPU will be in an &eunusable state&r"]
+			id: "31A1ECA11AC31A29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A8B0A2836FC024F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			subtitle: "9.22E Capacity"
+			tasks: [{
+				id: "22A5A0569A6E914F"
+				item: "gtlcore:max_storage"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"38D23D186C444492"
+				"58936CEB6176A18B"
+			]
+			description: [
+				"Implode directly using electricity, no more Dynamite needed, and you can even install a Parallel Hatch!"
+				""
+				"Only &eLuV&r Muffler Hatches can be used"
+				""
+				"You can now make the Extreme Crafting Table, but it is almost useless"
+			]
+			icon_scale: 2.0d
+			id: "6A6895119CECF238"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5F057510EFCAAEC7"
+				item: "gtceu:electric_implosion_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D2B830A98424BB"]
+			description: ["Bigger, Stronger"]
+			icon_scale: 2.0d
+			id: "71C7130610E0294D"
+			shape: "rsquare"
+			tasks: [{
+				id: "228D7C725D7D92B8"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+	]
+	subtitle: ["Tier7-ZPM"]
+	title: "ZPM Voltage"
+}

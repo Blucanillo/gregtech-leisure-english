@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "24F4987B35ABEE82"
+	icon: "ae2:controller"
+	id: "6980669C5265DA02"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Request quantity limit increased to &d15 digits&r"]
+			icon: "merequester:requester"
+			id: "225FC6F6F3626C53"
+			rewards: [{
+				id: "65093F52636EB9D4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C01B0FEAADE8281"
+				title: "ME Requester"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Channels are &dunlimited&r by default here, and for performance reasons the &eME Controller's crafting recipe has been removed&r"
+				"{@pagebreak}"
+				"&mactually making Fishbig would give you a controller&r"
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "0259EEEAE6F3C3CB"
+			rewards: [{
+				id: "28E44D4CB84273F4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Why Can't I Craft an ME Controller?"
+			tasks: [{
+				id: "777CFBC4F54FBCE9"
+				title: "Channels"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Base transfer speed increased to the &b64*int&r magnitude"]
+			icon: "expatternprovider:ex_io_port"
+			id: "4E1E59DD41AEEC17"
+			rewards: [{
+				id: "1B45E4F32729CBAA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF437FD2CAA4A4C"
+				title: "Extended IO Port"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&8ULV mid&r unlocks AE storage and logistics"
+				"&bMV early&r unlocks requisitioning and (basic) upgrade cards"
+				"&bMV late&r unlocks (advanced) upgrade cards"
+				"&6HV late&r unlocks wireless AE"
+				"&dEV early&r unlocks the Creative Energy Cell and the assembly matrix"
+			]
+			icon: "ae2:controller"
+			id: "5AB25B6A1A96FFF1"
+			rewards: [{
+				id: "7BAB47A6F79DA3F0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E327F3A46D8F21"
+				title: "About the Corresponding Stages"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The capacity of the infinite water/cobblestone cells is increased to &d9.22P/E&r"
+				"{@pagebreak}"
+				"Creative disks have been buffed in the same way"
+			]
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "324F420032FB9112"
+			rewards: [{
+				id: "0063B8E8FAFA7D3F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B2777F734BD4F5C"
+				title: "Infinite Cells"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The storage type defaults to &d4x&r, adjustable in the gltcore config file"
+				""
+				"The AE inventory update interval can also be adjusted in the gtlcore config file"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "772E4BC43E9C3A09"
+			rewards: [{
+				id: "5D236A4D2FF670E5"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550042261D7CDFD8"
+				title: "Disks"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["The &bslot count of the Extended Pattern Provider&r can be adjusted in the &6gtlcore config file&r"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "6B5FD34433F96957"
+			rewards: [{
+				id: "5E1211C813682438"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E27D16F8CFDACB4"
+				title: "Extended Pattern Provider"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["Base capacity per slot increased to the &bint&r magnitude"]
+			icon: "ae2:interface"
+			id: "3D2E392FD1C7A858"
+			rewards: [{
+				id: "18A0469DB87BA283"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "042A7D3DB05154B7"
+				title: "ME Interface"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"You can now double quantities directly while encoding (processing patterns only)"
+				""
+				"The encoding input limit has been adjusted to &b2^31-1&r, and with the doubling feature it can reach up to &b9.22E/P"
+				""
+				"When blank patterns run out, &6blank patterns from the ME Network are automatically used&r to refill"
+				""
+				"When writing patterns for multiblocks, you can &bautomatically filter certain blocks&r (see and modify the details in the gtlcore config; filtering is determined by whether the block id contains a string from the list), and after ordering, that specific order is &6automatically cancelled&r (i.e. orders whose product is a &dwritten book&r)"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "5BF2FF86A30EF30C"
+			rewards: [{
+				id: "1F4ED17AAA95E860"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11AFFE5DA6C9DF13"
+				type: "checkmark"
+			}]
+			title: "About Pattern Encoding"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Crafting calculation defaults to &6UlTRA FAST mode&r, adjustable in the gtlcore config file"
+				""
+				"The AE crafting update interval can also be adjusted in the gtlcore config file"
+				""
+				"The crafting confirmation screen now shows the number of crafting rounds (number of dispatches) and the percentage of stock used by the items"
+			]
+			icon: "ae2:1k_crafting_storage"
+			id: "60D25FEE107A7A63"
+			rewards: [{
+				id: "203D454048007BE3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2E7DAA9A528870"
+				type: "checkmark"
+			}]
+			title: "About Ordering and Crafting"
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+	title: "AE2 Tweaks"
+}

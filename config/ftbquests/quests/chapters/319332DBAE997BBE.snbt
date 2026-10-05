@@ -1,0 +1,1044 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "319332DBAE997BBE"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:luv_electric_motor"
+	id: "319332DBAE997BBE"
+	order_index: 6
+	quest_links: [
+		{
+			id: "2D863FE0CCAA0BFC"
+			linked_quest: "4BFA114E12BCB163"
+			shape: "gear"
+			size: 2.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0CAFD876C525D8C6"
+			linked_quest: "38091E7431B96FF6"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "7BACBBDE37935335"
+			linked_quest: "2AE3DE0BC3CD1D5B"
+			shape: "hexagon"
+			x: 2.0d
+			y: 10.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["73613E3EBEFFB326"]
+			description: ["{ \"text\": \"Go mine on Io\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
+			id: "7F92A8EE58AD5BA2"
+			tasks: [{
+				id: "7247977F19E25C6A"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"09F132EE8A88C872"
+				"15580C25FF239402"
+			]
+			icon_scale: 2.0d
+			id: "13BBF0FF3267BFDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13D0AB27F4F0D223"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78E1EA0D0D683394"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			title: "Naquadah Coil"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			dependency_requirement: "one_completed"
+			description: ["Dust can be obtained by maceration or electromagnetic separation"]
+			id: "0507FDF7BECE29AF"
+			tasks: [{
+				id: "39855610E9E80307"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			description: ["The main material of the ZPM stage"]
+			id: "0485D45408234C99"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "373808445A507E87"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			description: ["&dLuV&r Superconductor"]
+			id: "2CEEFDACE7B13D5A"
+			tasks: [{
+				id: "4EA57D5B0BBC42FB"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2CEEFDACE7B13D5A"
+				"2BEF03C52636E165"
+			]
+			description: ["Using advanced superconducting cables reduces the consumption of Niobium Titanium and Trinium"]
+			id: "5B01312E34A3AD60"
+			tasks: [{
+				id: "7A45FAD14DF53B00"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"79D48E5CA0E21A07"
+				"00B9091E4824D78C"
+				"0F22A8CE63F369CA"
+				"4381BC8012E94E0A"
+				"4BFA114E12BCB163"
+				"14396D30F281CE72"
+				"37C5E7628A4B826C"
+			]
+			description: [
+				"A normal Fusion Reactor &6running recipes of the controller's tier&r &ccannot overclock&r; when running recipes below the controller's tier, every tier the controller is above the recipe gives 2x recipe speed, 2x power consumption and 1x total energy cost"
+				""
+				"A Fusion Reactor's energy buffer capacity depends on the &bnumber&r of Energy Hatches rather than their &ctier&r, so remember to place all 16 Energy Hatches!"
+				""
+				"In the JEI multiblock page, pressing P switches to the Fusion Reactor version that uses Fusion Glass"
+			]
+			icon_scale: 1.3d
+			id: "118FDF6D9F868002"
+			min_width: 210
+			rewards: [{
+				id: "4219810155501659"
+				item: "avaritia:infinity_ring"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Donut"
+			tasks: [{
+				id: "30F5A61CE755449F"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			description: ["First obtained by solidifying the liquid Europium produced by fusion; later it can be smelted directly in the Electric Blast Furnace"]
+			id: "52DF531AFB3A07CE"
+			tasks: [{
+				id: "102F17C54DB17FBD"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52DF531AFB3A07CE"]
+			description: ["The Raw Crystal Chip Parts can be used for cyclic production increases"]
+			icon: "gtceu:raw_crystal_chip"
+			id: "4068B8F601B041D9"
+			tasks: [
+				{
+					id: "167573A2E0ACFF35"
+					item: "gtceu:raw_crystal_chip"
+					type: "item"
+				}
+				{
+					id: "35B3F4CC4402C5DF"
+					item: "gtceu:raw_crystal_chip_parts"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7F649184083236E1"
+				"1F0C8D37619111BE"
+				"4604207A60F04214"
+				"4E1A28AFF661CED0"
+			]
+			description: ["Uses extremely high direct energy flows to perform calculations similar to electronic circuits."]
+			icon_scale: 2.0d
+			id: "5BB55AABB91EEF9D"
+			tasks: [{
+				id: "3BB71E30BB01BF1F"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BB55AABB91EEF9D"]
+			icon_scale: 2.0d
+			id: "3DCB5E7F69CE5F7F"
+			tasks: [{
+				id: "042B52D3F408E0DA"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DCB5E7F69CE5F7F"]
+			icon_scale: 2.0d
+			id: "09856E59E52AEE7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58C7573B898D7C58"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "3864B056087A7894"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"09856E59E52AEE7D"
+				"298369255C8130F7"
+			]
+			icon_scale: 2.0d
+			id: "233CA36D529EC3FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "759A5D82CB0503F0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BB959FA3D648151"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4068B8F601B041D9"]
+			icon_scale: 2.0d
+			id: "7F649184083236E1"
+			tasks: [{
+				id: "0471E640C4427300"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			hide_dependency_lines: true
+			id: "4381BC8012E94E0A"
+			tasks: [{
+				id: "74011E6BE9AA8BDE"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B01312E34A3AD60"
+				"4172820CE8E15F90"
+			]
+			id: "79D48E5CA0E21A07"
+			tasks: [{
+				id: "1716B0692F1C0249"
+				item: "gtceu:fusion_casing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			id: "4172820CE8E15F90"
+			tasks: [{
+				id: "452A699C8A8C2AF5"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F8C2ECC7CE2BF20"
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+				"25F272243EB904D5"
+			]
+			id: "00B9091E4824D78C"
+			tasks: [{
+				id: "20C4C63653ED3480"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			icon_scale: 2.0d
+			id: "23B23867F311BF51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547BB487C427E24E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3CDD2D97C975A389"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			title: "Trinium Coil"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["233CA36D529EC3FB"]
+			hide_text_until_complete: false
+			icon_scale: 2.0d
+			id: "2A0269009ABF1414"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "This Is Not an Assembly Line"
+			tasks: [{
+				id: "17918BFA4E414A13"
+				item: "gtceu:precision_assembler"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["23B23867F311BF51"]
+			description: ["&cZPM&r Superconductor"]
+			id: "0B89B3108EB4A01F"
+			tasks: [{
+				id: "7E7B15A8DCDA158C"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2CEEFDACE7B13D5A"]
+			hide_dependency_lines: true
+			id: "4ECACC2A6159D332"
+			tasks: [{
+				id: "66F78A994427739B"
+				item: "gtceu:luv_field_generator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50FFFB0EBEDAE50B"
+				"52DF531AFB3A07CE"
+			]
+			description: [
+				"Research requires Computation provided by computers; while researching, the research item and the data storage item must be placed into the &bObject Holder"
+				""
+				"The Research Station's multiblock structure includes air; the air in the 4*3*3 area containing the Object Holder cannot be replaced by other blocks, or the Research Station will not form"
+				""
+				"The Research Station &ccannot&r run Scanner recipes"
+			]
+			icon: "gtceu:research_station"
+			icon_scale: 1.3d
+			id: "298369255C8130F7"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "223832A139BBC896"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					id: "0CB4B11AEBE2BB78"
+					item: "gtceu:object_holder"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4ECACC2A6159D332"
+				"0B89B3108EB4A01F"
+				"4E1A28AFF661CED0"
+			]
+			description: [
+				"Provides Computation for machines to run; more Computation requires upgraded components, or the use of a Network Switch to combine the Computation of multiple computers"
+				""
+				"Wired Computation Hatches transmit Computation with Optical Fiber Cable, and the cable &ecannot branch&r"
+				""
+				"The coolant required by HPCA Active Cooling Components is supplied through an Input Hatch"
+				""
+				"If the HPCA overheats, random components will be damaged (turning into the corresponding casing) and it will then stop working"
+				""
+				"The HPCA will not work when there is &eInsufficient power input&r or &eno Computation demand&r"
+				""
+				"&4&lPlease be careful to distinguish Computation Data Hatches (which transmit Computation) from Optical Data Hatches (which transmit data)"
+				""
+				"Computation Data Reception/Transmission Hatches &ccannot&r be shared"
+			]
+			icon: "gtceu:high_performance_computation_array"
+			icon_scale: 2.0d
+			id: "50FFFB0EBEDAE50B"
+			rewards: [{
+				id: "00B45CE41F6F9DE1"
+				item: "gtceu:hpca_active_cooler_component"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1E7BE63B3A0D93A8"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "47DB4BF1F015DA2B"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "54575D8670C83558"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "23B8685F9D8A0C1C"
+					item: "gtceu:hpca_computation_component"
+					type: "item"
+				}
+				{
+					id: "06AB74F84583FBAA"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					id: "486BA41B749013B0"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04FD2A25CAC86CAB"]
+			id: "1F0C8D37619111BE"
+			tasks: [{
+				id: "733C183D65E9CA06"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F92A8EE58AD5BA2"
+				"7DCA0B7C9F3C3ACF"
+			]
+			id: "09F132EE8A88C872"
+			tasks: [{
+				id: "62E375AC37B369C7"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			description: [
+				"Once you have Naquadah you can make this, which improves efficiency"
+				""
+				"ExtendedAE's Block of Silicon &ccannot be used&r, please use the &9GregTech&r Block of Silicon"
+			]
+			hide_dependency_lines: true
+			id: "1C10383050657004"
+			tasks: [{
+				id: "78A1A23B153BDD1E"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13BBF0FF3267BFDB"
+				"766D051A40AB5324"
+				"38091E7431B96FF6"
+			]
+			id: "2BEF03C52636E165"
+			tasks: [{
+				id: "0B22F2ABE0FBC895"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"23B23867F311BF51"
+				"38091E7431B96FF6"
+			]
+			description: ["Later on you can also make it with Fusion III"]
+			id: "4A058FA1859A00D1"
+			tasks: [{
+				id: "20E616EF8F63C870"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"09F132EE8A88C872"
+				"15580C25FF239402"
+			]
+			description: [
+				"{ \"text\": \"Calorite can be mined on Mercury\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19BB6B20C2335469\" } }"
+				""
+				"It is also used later to craft Netherite Ingots"
+			]
+			id: "66AE53E13E3C3C19"
+			tasks: [{
+				id: "41F85AC3AB132C38"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"66AE53E13E3C3C19"
+				"0485D45408234C99"
+				"0507FDF7BECE29AF"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_6_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 0L
+							Fluid: "minecraft:empty"
+						}]
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "67784DEB22D18308"
+			rewards: [{
+				id: "6798C71A84FECE4E"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1382D199FDBDEBF5"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 0L
+									Fluid: "minecraft:empty"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCAFEB828914FFF"
+					item: "ad_astra:cryo_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"37C5E7628A4B826C"
+				"2AA63D77B0E86D2E"
+			]
+			description: [
+				"Input Hatches can be placed on the top layer, Output Hatches on the bottom layer"
+				""
+				"Neutron kinetic energy is provided by the &bNeutron Accelerator&r"
+				""
+				"You can use the &eNeutron Sensor&r to control the neutron kinetic energy (the Neutron Sensor cannot change the upper and lower thresholds at the same time; after changing one value, exit the GUI and open it again to set the other)"
+				""
+				"Decide the machine's parallel count based on the neutron kinetic energy per tick required by the recipe and the efficiency of the Neutron Accelerator"
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:neutron_activator"
+			icon_scale: 2.0d
+			id: "766D051A40AB5324"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2033E704723D1C29"
+					item: "gtceu:neutron_activator"
+					type: "item"
+				}
+				{
+					id: "55AD9887A8EA7B50"
+					item: "gtceu:neutron_sensor"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["298369255C8130F7"]
+			description: [
+				"The ISA Mill line, a new ore processing line; its efficiency is average, but it must be used in the late game."
+				""
+				"It can directly produce &bRhodium, Ruthenium, Iridium and Osmium&r (at the platinum stage), &dLanthanum, Erbium, Europium, Lutetium, Yttrium and Ytterbium&r (at the lanthanum stage), &aIndium and Naquadria&r and &aTrinium&r (naquadah processing), plus &6Thallium"
+				""
+				"{ \"text\": \"You can actually put this off until UEV\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61B5CBFAACE6010D\" } }"
+				""
+				"Grinding balls need to be placed into the multiblock controller, and they wear out easily; they can be replenished with an ME Export Bus (the AE one), or a Robot Arm + ME Interface, etc."
+				""
+				"Aluminium grinding balls have 100 durability and Soapstone grinding balls have 50 (putting Unbreaking on them does nothing, Mending works &mbut it's useless anyway&r)"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "5B73961795BE42EE"
+			shape: "rsquare"
+			tasks: [{
+				id: "4532FD760D4A8258"
+				item: "gtceu:isa_mill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B73961795BE42EE"]
+			icon_scale: 1.5d
+			id: "2588A0EF7F27DE5B"
+			shape: "rsquare"
+			subtitle: "Very Slow"
+			tasks: [{
+				id: "6372AD4866BBD6B6"
+				item: "gtceu:flotation_cell_regulator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2588A0EF7F27DE5B"
+				"4706F66FF46487F2"
+				"18CB66D8EABD5132"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Besides processing ore foam, it can also be used as a Dehydrator"
+				""
+				"When used as a Vacuum Drying Furnace, the mechanics are the same as the Electric Blast Furnace"
+				""
+				"When used as a Dehydrator, it uses the temperature parallel mechanic, where every 900K of temperature raises the parallel count ×2"
+			]
+			icon_scale: 1.5d
+			id: "147A71CE5EEBC836"
+			min_required_dependencies: 2
+			shape: "rsquare"
+			tasks: [{
+				id: "09A3EC272A7B5FF8"
+				item: "gtceu:vacuum_drying_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4172820CE8E15F90"]
+			description: ["A bit cheaper than casings, and can be used to fill out the structure"]
+			id: "14396D30F281CE72"
+			tasks: [{
+				id: "277BB227A11F67EC"
+				item: "gtceu:fusion_glass"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			id: "6A59FA11D10C648A"
+			tasks: [{
+				id: "4C1F30305CB157EA"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"298369255C8130F7"
+				"5F0A175D6704A8D0"
+			]
+			description: ["16-Slot Capacity"]
+			id: "0723418AF58675E7"
+			optional: true
+			subtitle: "Larger Capacity"
+			tasks: [{
+				id: "619E79A8D61563CA"
+				item: "gtceu:advanced_data_access_hatch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			id: "2AA63D77B0E86D2E"
+			rewards: [{
+				id: "74F83E0CD43D15C7"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			subtitle: "Man!"
+			tasks: [{
+				id: "07D2F38F2B6D6996"
+				item: "gtceu:fall_king_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+			]
+			description: ["Note that this machine &cdoes not&r produce &dNaphthalene&r"]
+			icon_scale: 1.5d
+			id: "12F9033C4C2B29EB"
+			shape: "rsquare"
+			subtitle: "Wondrous Technology"
+			tasks: [{
+				id: "3BC83ABCD0AD2F48"
+				item: "gtceu:wood_distillation"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+			]
+			description: ["A Chemical Reactor with parallels; upgrading the coils also improves efficiency"]
+			icon_scale: 1.5d
+			id: "4CDCF542F45205EB"
+			shape: "rsquare"
+			tasks: [{
+				id: "29BFCB27C5CDC79E"
+				item: "gtceu:chemical_plant"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"52DF531AFB3A07CE"
+				"2A0269009ABF1414"
+			]
+			description: [
+				"Every Fusion Reactor has a corresponding compressed version; it can not only overclock (equivalent to lossless!), but also has parallels, and can even use &b&lLaser Hatches&r!"
+				""
+				"About the positions of the Parallel Hatch and the input/output hatches:"
+				"{image:ftbquests:textures/picture/004.png width:200 height:100 align:center}"
+				"The diagrams are for position reference only; in practice Parallel Hatches cannot be stacked, and the input/output hatch positions also apply to the other faces"
+				"About the energy/laser hatch positions (the diagram shows the view from inside the Compressed Fusion Reactor looking outwards):"
+				"{image:ftbquests:textures/picture/005.png width:200 height:100 align:center}"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "43A83C00715285B5"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Big Donut"
+			tasks: [{
+				id: "379AB770F78942DD"
+				item: "gtceu:luv_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			description: [
+				"Equivalent to a higher-power Energy Hatch (target hatch) and Dynamo Hatch (source hatch); they can only be used on machines or generators whose description says &eAllows using laser hatches&r, and they can likewise &bdouble-hatch boost&r (if two laser hatches are allowed)"
+				""
+				"Normal Laser Hatches are connected with normal Laser Cables (no energy loss), and the cables cannot turn, so use an Active Transformer to turn the laser; Wireless Laser Hatches interact directly with the wireless energy network once placed, with no extra operations needed."
+				""
+				"Maximum power can reach 4194304A/hatch voltage"
+				""
+				"Note: even if a machine's description contains the words &oAllows using laser hatches&r, in most cases &l&cLaser Target Hatches still cannot replace Energy Hatches in multiblock structures&r&r&r (a few exceptions, such as the Deep Chemical Distorter and the Nano Forge, can only use Laser Target Hatches and cannot use Energy Hatches; while the Compressed Fusion Reactor can have its Energy Hatches replaced with Laser Target Hatches; please refer to the multiblock JEI page and the machine controller's description)"
+			]
+			icon: "gtmthings:iv_256a_wireless_laser_target_hatch"
+			icon_scale: 1.5d
+			id: "0E3F70831E273595"
+			rewards: [
+				{
+					id: "42469597B63926E2"
+					item: "gtmthings:iv_4194304a_wireless_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "1B7475317549B28D"
+					item: "gtmthings:iv_4194304a_wireless_laser_source_hatch"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Higher Power"
+			tasks: [
+				{
+					id: "3B3E93B980B75406"
+					item: "gtceu:iv_256a_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "42CFF2261F20BBF7"
+					item: "gtceu:iv_256a_laser_source_hatch"
+					type: "item"
+				}
+			]
+			title: "Laser Hatches"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["233CA36D529EC3FB"]
+			description: ["Bigger and stronger; even with a Petrochemical Plant you cannot throw it away"]
+			icon_scale: 2.0d
+			id: "01526A08D01458FA"
+			shape: "rsquare"
+			tasks: [{
+				id: "1ADE7259443AA0A3"
+				item: "gtceu:large_cracker"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			description: [
+				"The ME Pattern Buffer's relationship with the other hatches is &calways&r &bcompletely isolated"
+				""
+				"\"Recipe Cached\" is a kind of &blocked recipe&r; only when the ME Pattern Buffer matches the previously cached operating conditions (including the &bcatalyst&r, &bprogrammed circuit&r, etc.) will the machine run the recipe, and it also reduces the machine's performance cost for searching recipes"
+				""
+				"Supports caching multiple recipes in the same pattern (the actual recipe count must be set in the GUI of the dedicated catalyst slot)"
+				""
+				"In the ME Pattern Access Terminal, an ME Pattern Buffer's default name is the name of the multiblock controller it is on plus the programmed circuit setting (e.g. Super Blast Smelter-3)"
+				""
+				"The dedicated catalyst slot's GUI can be dragged around (there may be strange overlay display issues)"
+				""
+				"If the middle mouse button cannot open the dedicated catalyst slot, check whether the middle button is bound to another function that could conflict, such as inventory sorting"
+				""
+				"The ME Pattern Buffer forces AE to &bignore&r the &cbyproducts&r in the pattern while crafting, which can be turned off in the bottom-left corner of the GUI"
+				""
+				"The Copy Tool &6cannot&r copy catalyst settings; when pasting a configuration, make sure you have enough &dBlank Patterns&r in your inventory"
+				""
+				"The Cut Tool &6can&r carry catalyst settings"
+			]
+			icon: "gtceu:me_mini_pattern_buffer"
+			icon_scale: 1.5d
+			id: "688861674CAC5315"
+			optional: true
+			rewards: [
+				{
+					id: "041FB87527533B1E"
+					item: "gtlcore:me_pattern_buffer_copy"
+					type: "item"
+				}
+				{
+					id: "74D22D009867C423"
+					item: "gtlcore:me_pattern_buffer_cut"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Also an ME Hatch"
+			tasks: [{
+				id: "43C0B303F8635A1D"
+				item: "gtceu:me_mini_pattern_buffer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0485D45408234C99"]
+			description: [
+				"Can be used to disassemble all kinds of hatch items that were made by mistake or are outdated"
+				""
+				"The Disassembler's recipes are all over the place; take a look when you have time"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "241B0D495A31D060"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Recycled Materials"
+			tasks: [{
+				id: "0C695095F63770B4"
+				item: "gtceu:disassembly"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2CEEFDACE7B13D5A"
+				"7F8C2ECC7CE2BF20"
+			]
+			description: [
+				"Bulk data storage; it uses Optical Data Hatches to provide data to multiple Assembly Lines"
+				""
+				"Data Banks can also be chained together (a Data Bank can obtain data from other Data Banks through a reception hatch)"
+				""
+				"Optical Data Reception/Transmission Hatches &ccannot&r be shared"
+				""
+				"Wired optical hatches transmit data with Optical Fiber Cable, and the cable &ecannot branch&r"
+				""
+				"Wireless optical hatches are bound together using a &dData Stick&r"
+				""
+				"Every hatch (optical and access) continuously consumes &e1,920&r EU/t (0.9A &bMV&r)"
+				"If the Data Bank is being written to or read from by another machine, each hatch's energy usage rises to &e30,720&r EU/t (0.9A &5EV&r)"
+				"&4If the power supply is insufficient, some hatches will fail"
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:data_bank"
+			icon_scale: 1.5d
+			id: "5F0A175D6704A8D0"
+			rewards: [
+				{
+					id: "30BB79C8EC292E07"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "388BB64700A5AD98"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Essential"
+			tasks: [
+				{
+					id: "488C1A3FC0D7CCB6"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					id: "04C16CC58A3C2785"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "2133DF3F29F434FF"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "5044E6156B99035B"
+					item: "gtceu:normal_optical_pipe"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Tier6-LuV"]
+	title: "Ludicrous Voltage"
+}

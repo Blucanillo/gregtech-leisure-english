@@ -1,0 +1,201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "367D3E683D1387D0"
+	group: "24F4987B35ABEE82"
+	icon: "gtceu:lv_bender"
+	id: "367D3E683D1387D0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Is the EU/t supplied to the multiblock greater than the recipe's EU/t?"
+				"Have you maintained the Maintenance Hatch?"
+				"Have you met any special requirements it might have?"
+				"Are the items and fluids all correctly inserted into the bus/hatch/assembly?"
+				"Is there enough room in the output?"
+				"Is the Muffler Hatch facing an air block?"
+				"Maybe the multiblock has already formed, but you forgot a hatch."
+			]
+			icon: "gtceu:maintenance_hatch"
+			id: "498CB29FA7447C46"
+			rewards: [{
+				id: "6F0F202CEF4CCFD7"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CA2F43F475CFD9"
+				title: "Why It Is Not Working"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The Electric Blast Furnace smelts items at a certain temperature - what does that affect? Every EBF recipe has a specific base temperature; for example, Aluminium smelts at 1700K. If the temperature is not high enough, the recipe will not run, and if the temperature is high enough, the duration is also reduced."
+				""
+				"The temperature mainly depends on the tier of the coils used, but on top of that, starting from HV, every voltage tier adds 100K of temperature. This means that at some point you can use coils one tier lower together with a sufficiently high voltage to run recipes that appear to require coils one tier higher."
+			]
+			icon: "kubejs:uruium_coil_block"
+			id: "2205C5F410B9C4DB"
+			rewards: [{
+				id: "67F6BBF7159FD130"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50F636D9BF4F6025"
+				title: "Coils"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"A multiblock checks whether enough power is supplied before it starts working."
+				""
+				"The power a multiblock can consume is the sum of all its Energy Hatches."
+				""
+				"For example, the machine needs at least 120EU/t of power input to run its recipe. This can be done with two LV Energy Hatches, each hatch taking 2 amps of LV, so a total of 4 amps of LV is needed to reach a maximum of 128EU/t. That is &bdual-hatch voltage boosting&r."
+				"This lets a lower voltage tier process higher voltage tier recipes, but note that this only works between adjacent voltages, i.e. &6you can only boost once&r, and you must use &btwo&r Energy Hatches."
+			]
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "0BADECF30AC0BAC4"
+			rewards: [{
+				id: "74229AAB3C2222DD"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E71635D04A5A77"
+				title: "Power Supply"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"This is the key to a multiblock's input and output; higher-tier buses/hatches/assemblies provide more room."
+				""
+				"Buses/hatches/assemblies also come with &dautomatic input and output&r, which can be controlled with a toggle."
+			]
+			icon: "gtceu:lv_input_bus"
+			id: "5DB8BE71B3733C36"
+			rewards: [{
+				id: "7B4ECA8505F078B1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35761A42191E549C"
+				title: "Bus/Hatch"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Run 16 LV machines at the same time: the power is equal to one HV machine, but the speed is four times that of one HV machine. This is because the 16 LV machines do not suffer the losses caused by lossy overclocking, which lets them get the job done faster at a lower speed."
+				""
+				"Parallelism in multiblocks is a similar concept. Simply put, parallelism is a different kind of lossless overclock."
+				"{@pagebreak}"
+				"Sub-tick parallelism (1toc) is a mechanism triggered by some multiblocks when processing a single recipe in less than 1 game tick."
+				""
+				"All single-block machines and cross-recipe parallel machines do not trigger 1toc."
+				""
+				"Example 1: When a LuV-tier multiblock processes a recipe that takes exactly 1 game tick at IV voltage, the machine will process 2 recipes per game tick. If the machine's voltage tier is one step higher (reaching ZPM), it will process 4 recipes per game tick; if the machine has a lossless overclocking mechanism (such as the Large Chemical Reactor), it will process 4 and 16 recipes in parallel at LuV and ZPM respectively."
+				""
+				"Example 2: For a recipe that takes 3 game ticks and overclocks losslessly (each overclock reduces the duration to 1/4 of the original while total energy usage stays the same), after one overclock it will process 4 recipes at once, but the duration is still 3 game ticks."
+				""
+				"In reality there is a distinction between \"lossy 1toc\" and \"lossless 1toc\"; the examples above are only a reference."
+				"{@pagebreak}"
+				"Cross-recipe parallelism is a mechanism exclusive to some multiblock machines, allowing a machine to run several different recipes under the same machine mode at the same time."
+				""
+				"Correspondingly, all machines with cross-recipe parallelism have a minimum recipe time of 1 second."
+				""
+				"Example: the Holy Separator can make Silver Rods and Iron Rods at the same time, but it cannot centrifuge Air and make Iron Rods at the same time."
+				""
+				"\"Threads\" are a property unique to machines with cross-recipe parallelism (all of them have 64 threads). The total parallelism of a cross-recipe parallel machine is the thread count multiplied by the machine's own parallelism; the thread count represents the maximum number of recipes the total parallelism can be distributed across. Note: a cross-recipe parallel machine will distribute all of its total parallelism to a single recipe whenever possible."
+				"{@pagebreak}"
+				"If a recipe contains a material that is consumed by chance, that material is calculated as 100% consumed when calculating parallelism."
+			]
+			icon: "gtceu:iv_parallel_hatch"
+			id: "6F503441C24ABD5B"
+			rewards: [{
+				id: "749E6E378FFF375B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1CC517916931AB"
+				title: "Parallelism"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The &7front&r should be obvious; the &9output face&r is the side with dots or holes, and by default this is the back when you place the machine."
+				""
+				"Machines can output automatically through their &aoutput face&r. To enable automatic output, click the corresponding button in the GUI; fluid and item auto-output are toggled separately, and automatic output can be controlled further with &dcovers&r."
+				""
+				"Right-click the machine with a &5Wrench&r to change the output side, and shift-right-click to change the front."
+				""
+				"By default, items and fluids cannot be inserted through the output side, but this can be toggled with a &5Screwdriver&r: either right-click the output face directly, or shift-right-click the grid corresponding to the output side."
+				""
+				"Some unique machines do not process recipes, such as the &3Pump&r, &3Miner&r, &3Fishing Machine&r, &3Item Collector&r and so on; these machines output on their &7front&r (still marked with a dot)."
+			]
+			icon: "minecraft:hopper"
+			id: "2B1992E2158E63A2"
+			rewards: [{
+				id: "0908FF95BE82979B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A68620AD827B0E5"
+				title: "Machine Logistics"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"If you switch the machine mode while the machine is running, the machine will try to keep running the recipe from before the switch. Only re-forming it or refreshing the input materials will make the machine change its operating mode."
+				""
+				"Example 1: The Large Fractionating Distillery is running the Distilled Water recipe in Distillation Tower mode; after switching to Distillery mode it still runs the Distillation Tower recipe."
+				""
+				"Example 2: The Large Brewing Vat is running the Potato + Water → Biomass recipe in Brewery mode; after switching to Fermenter mode it will not switch to the Potato → Poisonous Potato recipe."
+				""
+				"Example 3: While the Space Elevator's collection module is running a mining recipe, switching to fluid extraction mode still mines."
+				"{@pagebreak}"
+				"Likewise, if you change the machine's operating environment (such as duration reduction, parallelism, etc.) while it is running a recipe, the machine will keep running that recipe with the configuration it had when the recipe started, and will only switch to the new operating environment after this recipe has finished."
+				"{@pagebreak}"
+				"In JEI you will find that the tooltip of some chance-related materials/products contains \"Voltage Bonus: +n% per tier\", where the exact value of \"per tier\" is the machine's own maximum recipe voltage tier minus the recipe's own minimum voltage tier."
+			]
+			icon: "gtceu:large_assembler"
+			id: "662FE1772CF9B5ED"
+			rewards: [{
+				id: "0697DFBA0B8FB11C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4807FB6A36F025EC"
+				title: "Other"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+	]
+	title: "Machines"
+}

@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1F2D08F4FEF1CEDC"
+	group: "24F4987B35ABEE82"
+	icon: "gtceu:lv_sodium_battery"
+	id: "1F2D08F4FEF1CEDC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The energy system in GregTech is nowhere near as simple as those of other tech mods."
+				""
+				"The energy unit of GregTech is EU, unlike the FE used by other mods."
+				""
+				"The EU system is not very similar to real-world electricity:"
+				"Power = Voltage x Amperage"
+				"Energy = Power x Time"
+				"Resistance is modelled in GregTech as cable loss"
+				""
+				"GregTech defines things as follows:"
+				"- EU is the unit of energy."
+				"- EU/t is power."
+				"- A (Ampere) is amperage."
+				"- V (Volt) is voltage, called LV, MV, HV... in game, because these are gameplay-related values (technically: LV = 32V = 32EU/t/A)."
+			]
+			icon: "gtceu:lv_battery_buffer_4x"
+			id: "7F97BED1B9552E5E"
+			rewards: [{
+				id: "21A127B9A78F381C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B797503EA800D59"
+				title: "Basic Settings"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"In GregTech, electricity is transmitted in the form of \"packets\". Each packet is the size of its voltage tier."
+				""
+				"Take an LV packet as an example: this \"packet\" will carry 32EU. Multiple blocks are able to produce these EU packets, and they only produce packets when they can access a destination."
+				""
+				"Every tick (1/20 of a second, i.e. 0.05 seconds), EU \"packets\" attempt to travel from energy producers to consumers."
+				""
+				"These \"packets\" have two parameters: the voltage tier (V), determined by the producer's tier, and the amperage (A), which determines how much power can actually be transmitted."
+				""
+				"Energy is only transferred when a complete amperage \"packet\" can be received. You may notice your machines running at just under full EU capacity - they will only accept EU when they are missing at least 1A of input voltage."
+				""
+				"If a machine receives a voltage higher than its own voltage tier, it will explode, but any excess amperage has no adverse effect, since machines only consume as much as they need."
+				"{@pagebreak}"
+				"Machine explosions would normally destroy terrain too, but that is disabled in this pack."
+				""
+				"In short, energy is transmitted in the form of \"packets\", 32EU for LV, 128EU for MV... and so on. Due to cable loss, the energy a machine actually receives may be less than the energy sent."
+				""
+				"Machine energy input is limited by both voltage and amperage, so an MV machine connected to an LV line with an input amperage of 1A will never accept more than 32EU/t of power."
+				""
+				"You can still run an MV machine on an LV line, but only if the recipe power is low enough, or if you have an MV battery in the machine's charging slot; while idle the machine will only accept 1A, so the battery will charge at a maximum rate of 32EU/t."
+			]
+			icon: "gtceu:lv_transformer_1a"
+			id: "0CC922B821305906"
+			rewards: [{
+				id: "6AACFA4A99B6EF47"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D8E6B118290930"
+				title: "Energy Transfer"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"EU is transmitted through directly connected wires or cables."
+				""
+				"Wires are the poorer choice, because they electrocute you and have fairly high line loss, so you need to use insulated cables."
+				""
+				"Line loss means you have to keep your machines close to your generators, but this only becomes a problem early in the game."
+				""
+				"GregTech cable loss means that every cable block an EU packet passes through reduces the EU it carries."
+				""
+				"For example, Tin Cable has a line loss of 1; for a 4-metre cable running out of a Basic Combustion Engine, the voltage at the far end is only 28EU/t, short of the 30EU/t a typical LV machine needs. So a running machine may brown out after a few seconds."
+				""
+				"But there is nothing to worry about here: if you browse the quest book you will find cheap superconductors early on and wireless later, completely sidestepping the problem."
+			]
+			icon: "gtceu:tin_single_cable"
+			id: "4A7E19EF14D3C072"
+			rewards: [{
+				id: "0742E14D9F82B5DA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C551BD24A83AB3F"
+				title: "Cable Transmission"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"In GregTech each small generator produces 1A at its voltage tier, but here the output amperage of small generators has been greatly increased."
+				""
+				"If a machine needs 32EU/t, a 32EU \"packet\" is sent every tick."
+				""
+				"An LV Battery Buffer with 4 batteries can produce 4 amps of LV (128EU/t)."
+				""
+				"Generic machines are configured to draw 2 amps; other machines have specific amperage inputs, described in their tooltips."
+				""
+				"Trying to carry more amperage than the limit will burn out your cables."
+				""
+				"Amperage is only drawn through cables directly connecting a producer and a consumer, and only while the consumer is running."
+				""
+				"This means that in some places you can safely reduce your cable thickness."
+			]
+			icon: "gtceu:lv_diode"
+			id: "4F7A3702787F86A7"
+			rewards: [{
+				id: "12DB6E7A8A385246"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "007D09C6CE7CB00B"
+				title: "Amperage"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Overclocking is a mechanic that occurs when you try to run a recipe in a machine with more power than the recipe itself needs; the recipe will use more energy, but the recipe time will be reduced according to the overclock tier."
+				""
+				"Some machines have a side menu to set the maximum voltage tier they can overclock to; click it to cycle through all available voltages and pick a limit."
+				""
+				"Each fourfold increase in supplied power over the recipe power allows one overclock. Each overclock means: 2x recipe speed, 4x power consumption, 2x total energy cost, known as a &blossy overclock&r. Most machines use lossy overclocking."
+				""
+				"However, ULV recipes (even 2EU/t Macerator recipes) will not overclock in an LV machine, so they only use LV-tier power at MV (Macerator recipes generally only use 32EU/t at HV)."
+				""
+				"There is a corresponding concept called &dlossless overclocking&r: 4x recipe speed, 4x power consumption, 1x total energy cost."
+			]
+			icon: "minecraft:clock"
+			id: "5535934109A12B5D"
+			rewards: [{
+				id: "31ED6CE96AA0C0E8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB7B7FC0312D572"
+				title: "Overclocking"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Of course, voltage can be converted between tiers with transformers. A transformer can only convert between two adjacent voltage tiers, and has both step-up and step-down modes. In step-up mode, the voltage and 4x amperage are converted into one tier higher voltage and 1x amperage; step-down mode is the reverse."
+				""
+				"There are four kinds of transformer: normal, advanced, hi-amp and power. A normal Transformer is 1A<-->4A, an Advanced Transformer is 2A<-->8A, a Hi-Amp Transformer is 4A<-->16A, and a Power Transformer is 16A<-->64A. The red face of a transformer is the lower voltage and the green face is the higher voltage."
+				""
+				"The Active Transformer, a multiblock unlocked at LuV, supports conversion between any voltage and any amperage, stepping up/down automatically, and can replace all ordinary transformers in the high-voltage, high-amperage environment of the mid and late game."
+				""
+				"But the real use of the Active Transformer is to turn lasers corners."
+			]
+			icon: "gtceu:active_transformer"
+			id: "010CF028448C17A9"
+			rewards: [{
+				id: "7C3F436CBD1BBB13"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "311562AB006A065E"
+				title: "Voltage Conversion"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The wireless grid is already established from the moment you enter the save, and it has &dinfinite capacity&r, &bno energy loss&r, and can even &6transmit power across dimensions&r"
+				""
+				"You can interact with the wireless grid through the Wireless Energy Cover, Wireless Energy/Dynamo Hatches, Wireless Laser Target/Source Hatches, the Wireless Energy Interface, and the Generator Array"
+				""
+				"The Wireless Energy Monitor can monitor the details of the wireless grid"
+			]
+			icon: "gtmthings:wireless_energy_monitor"
+			id: "1D4874CA93B567A3"
+			rewards: [{
+				id: "1AA63229CC142EBE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673111C64F7BABA2"
+				type: "checkmark"
+			}]
+			title: "Wireless Grid"
+			x: 9.0d
+			y: -2.5d
+		}
+	]
+	title: "Electricity"
+}

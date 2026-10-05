@@ -1,0 +1,1062 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2366BEB7A81C122D"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:uv_electric_motor"
+	id: "2366BEB7A81C122D"
+	order_index: 8
+	quest_links: [
+		{
+			id: "23C44004B0D7572C"
+			linked_quest: "73C70C42B7EF5D4F"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "3F71D8E597D26019"
+			linked_quest: "7C23CC6ADDC33EA0"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "3C65CAC0D7289CD7"
+			linked_quest: "702EFE9BA62A8CDA"
+			x: 2.0d
+			y: 12.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"0A2D46609F5C3CAB"
+				"7C4C11E7C931C01B"
+				"73C70C42B7EF5D4F"
+				"2719D88ECD353F24"
+			]
+			description: [
+				"Since the UV Wireless Energy Hatch needs Neutronium, try attaching your largest existing Wireless Energy Cover to the Machine Hull you just made, then aim the Machine Hull at the Energy Hatch on the Fusion Reactor (red to green)"
+				""
+				"You can also use an Active Transformer; a Dynamo Hatch and an Energy Hatch placed right against each other can transmit power too"
+			]
+			icon_scale: 1.3d
+			id: "6C4F1C87F08F38AC"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1A869FB7AB0C0536"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C4F1C87F08F38AC"]
+			description: ["The basic material for UHV"]
+			id: "035C470213E8B4DB"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The demand is a little large"
+			tasks: [{
+				id: "39B8A1A88BE55729"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: ["A more advanced Monocrystalline Silicon"]
+			icon_scale: 2.0d
+			id: "264EA49453E188C4"
+			tasks: [{
+				id: "0DAE2E307ACAD4E6"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1223F5F9BF7FF37F"]
+			id: "4D8E0C0295DB26EF"
+			tasks: [{
+				id: "381C8725FC2BBC19"
+				item: "gtceu:highly_advanced_soc"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["24B011E770B7DF3F"]
+			description: ["Every later circuit has a corresponding SMD component"]
+			id: "2810CED22A6AD31A"
+			tasks: [
+				{
+					id: "7D4B60D506FF83C0"
+					item: "kubejs:smd_capacitor_bioware"
+					type: "item"
+				}
+				{
+					id: "796C0C67C3F01F7B"
+					item: "kubejs:smd_diode_bioware"
+					type: "item"
+				}
+				{
+					id: "7980D10B3CF288A4"
+					item: "kubejs:smd_resistor_bioware"
+					type: "item"
+				}
+				{
+					id: "36CB0E3E237EC422"
+					item: "kubejs:smd_transistor_bioware"
+					type: "item"
+				}
+				{
+					id: "43093BDBA607AFB5"
+					item: "kubejs:smd_inductor_bioware"
+					type: "item"
+				}
+			]
+			title: "Bioware SMDs"
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4D8E0C0295DB26EF"
+				"43A7282802A06626"
+				"4F87B7DA47087F97"
+			]
+			description: ["It performs calculations by simulating a micro-ecosystem and turns the results into comprehensive solutions. A high-speed, high-throughput computing device."]
+			icon_scale: 2.0d
+			id: "5E7F20C5F8530E1E"
+			size: 1.0d
+			tasks: [{
+				id: "2A747FECF6A9366B"
+				item: "kubejs:bioware_processor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5E7F20C5F8530E1E"
+				"53EB6E99F976AF31"
+			]
+			icon_scale: 2.0d
+			id: "76C32ADCD71DE8B8"
+			tasks: [{
+				id: "3EDE41255F7E04E7"
+				item: "kubejs:bioware_assembly"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["76C32ADCD71DE8B8"]
+			icon_scale: 2.0d
+			id: "2AA1E574BA4327F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0873F101ADC29532"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "648367DCA2352C63"
+				item: "kubejs:bioware_computer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2AA1E574BA4327F8"
+				"1DFC7DC123A3D830"
+				"09537D159735D297"
+			]
+			description: ["{ \"text\": \"UHV needs a lot of Netherite\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"39380262677612A9\" } }"]
+			icon_scale: 2.0d
+			id: "7204F1B6BCC74F1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2550FB2AB2774952"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1E35DC7EF8C5881E"
+				item: "kubejs:bioware_mainframe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: ["&4UHV&r Superconductor"]
+			id: "1DFC7DC123A3D830"
+			tasks: [{
+				id: "396FE1151A63CF4A"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2928C640C522E0A5"]
+			description: ["Polyimide is a speciality engineering material widely used in aviation, aerospace, microelectronics, nanotechnology, liquid crystals, separation membranes, lasers and other fields"]
+			icon: "gtceu:polyimide_bucket"
+			id: "24B011E770B7DF3F"
+			tasks: [{
+				id: "62A6274CE1A1FF7A"
+				title: "Polyimide"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"59CA7B4A4A417B53"
+				"18CB66D8EABD5132"
+			]
+			id: "1FA9E56114BFABF5"
+			tasks: [{
+				id: "6A73DF3A0B7C1184"
+				item: "gtceu:pikyonium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1FA9E56114BFABF5"
+				"776563C5BA327495"
+				"3B098EA4601A7827"
+			]
+			description: [
+				"The Input Bus &e&lmust&r contain a robot to be used as an &o&ccatalyst&r; the higher the robot's tier, the shorter the recipe time, and here the number of robots does not affect parallel processing"
+				""
+				"Placing robots in the controller identical to those in the Input Bus gives a higher parallel count, up to 64 robots (128 parallels)"
+				""
+				"Unlike the Assembly Line, the Circuit Assembly Line can use the &bULV Giant Input Bus&r and the &bEV Giant Input Hatch&r"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:circuit_assembly_line"
+			icon_scale: 1.3d
+			id: "53EB6E99F976AF31"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "It really is not a multiblock Circuit Assembler!"
+			tasks: [
+				{
+					id: "2E802CA66A25BB20"
+					item: "gtceu:circuit_assembly_line"
+					type: "item"
+				}
+				{
+					id: "02EE64DF10DA8AC6"
+					item: "kubejs:precision_circuit_assembly_robot_mk1"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"39380262677612A9"
+			]
+			description: ["The second machine that can condense plasma"]
+			icon_scale: 1.3d
+			id: "71D029B59C690121"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Essential"
+			tasks: [{
+				id: "50C209A33583AD73"
+				item: "gtceu:plasma_condenser"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"21CF5BE902E89B8A"
+				"2810CED22A6AD31A"
+				"583079AD88755662"
+				"7C9AC873CB7209D9"
+			]
+			icon_scale: 2.0d
+			id: "43A7282802A06626"
+			tasks: [{
+				id: "1763964DDAF2AECC"
+				item: "kubejs:bioware_processing_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1B548589C6044A63"
+				"1223F5F9BF7FF37F"
+				"333B741B06E49CE8"
+				"11B90D1FD2508092"
+			]
+			description: ["Half of the biological cells can be recovered"]
+			icon_scale: 2.0d
+			id: "21CF5BE902E89B8A"
+			tasks: [{
+				id: "708ED67D28AAA758"
+				item: "kubejs:bioware_boule"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7A7C73D046390488"
+				"53DEE1A65051E06F"
+			]
+			description: [
+				"Time multiplier: 0.8^(Elevator voltage tier-8)"
+				"Max parallel count: 4^(Elevator Power Module tier-1)"
+				""
+				"Simply make the module's &6Space Elevator Module Base&r and &6Space Elevator Module Connector&r overlap exactly with the ones built into the Space Elevator itself to complete the installation"
+			]
+			icon_scale: 2.0d
+			id: "31EDE3D976DE5A33"
+			shape: "rsquare"
+			subtitle: "This is not an Assembly Line"
+			tasks: [{
+				id: "194425B2D808120E"
+				item: "gtceu:assembler_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7A7C73D046390488"
+				"53DEE1A65051E06F"
+			]
+			description: [
+				"Time multiplier: 0.8^(Elevator voltage tier-8)"
+				"Max parallel count: 4^(Elevator Power Module tier-1)"
+				""
+				"With the unlock of higher-tier drones you can skip all sorts of production lines and obtain resources directly"
+				""
+				"Simply make the module's &6Space Elevator Module Base&r and &6Space Elevator Module Connector&r overlap exactly with the ones built into the Space Elevator itself to complete the installation"
+			]
+			icon_scale: 2.0d
+			id: "7ADB50ACF5AE1D13"
+			shape: "rsquare"
+			subtitle: "The green fuel goes well with the collection module"
+			tasks: [{
+				id: "3F389DDC4C0810B4"
+				item: "gtceu:resource_collection"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31EDE3D976DE5A33"]
+			description: [
+				"The &dME Stocking Bus/Assembly&r can be used to share one across several collection modules"
+				""
+				"Once you have Infused Gold Dust, remember to upgrade the Power Module to MK2!"
+			]
+			id: "6D83BAAC7DB34D51"
+			shape: "pentagon"
+			subtitle: "Alien Algae, Infused Gold, Trinium Compound, Enriched Naquadah, Tellurium, Tungsten, Titanium, Rubidium, Sky Stone, Ancient Debris, Indium"
+			tasks: [{
+				id: "54ED6D9B82E6A10E"
+				item: "kubejs:space_drone_mk1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7A7C73D046390488"
+				"1278152299FBED54"
+				"61A202B234E64B8C"
+			]
+			description: ["Go to Barnard C and use the &bSmall Gas Collector&r to collect Barnard C Air"]
+			id: "12F8275FC06FCFEE"
+			tasks: [{
+				id: "3B3096FCBB8D2FE6"
+				item: "gtceu:abyssalalloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["12F8275FC06FCFEE"]
+			icon_scale: 2.0d
+			id: "3EA935A712FA0EBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49B4CDC78BC20627"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1D87EC0E1793346B"
+				item: "kubejs:abyssalalloy_coil_block"
+				type: "item"
+			}]
+			title: "Abyssal Alloy Coil"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6C4F1C87F08F38AC"
+				"2802E34A99CE1D79"
+			]
+			description: ["A new magical metal"]
+			id: "776563C5BA327495"
+			tasks: [
+				{
+					id: "55625B7675054641"
+					item: "gtceu:orichalcum_ingot"
+					type: "item"
+				}
+				{
+					id: "09537D159735D297"
+					item: "gtceu:mithril_ingot"
+					type: "item"
+				}
+			]
+			title: "Orichalcum and Mithril"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7ADB50ACF5AE1D13"
+				"6D83BAAC7DB34D51"
+				"07A5A5AD37710056"
+			]
+			description: ["There is no natural high-gravity environment, so you have to use a &bGravity Control Hatch&r"]
+			id: "1B548589C6044A63"
+			subtitle: "Alien life"
+			tasks: [{
+				id: "74AD31D4642ED7CF"
+				item: "kubejs:tcetieseaweedextract"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1FA9E56114BFABF5"
+				"776563C5BA327495"
+				"37C5E7628A4B826C"
+				"035C470213E8B4DB"
+				"2A0269009ABF1414"
+			]
+			description: [
+				"This is the T8 rocket, which unlocks Barnard C; click &eDeparture&r in the controller GUI to travel there (you can also go to other planets)"
+				""
+				"Requires &ban Input Bus with a Programmed Circuit 1 inserted&r and a continuous supply of 128 computation; while the Elevator is working normally the runtime &6cycles between 6 and 13s"
+				"Therefore, &c&l&odo not use a Configurable Maintenance Hatch to change the recipe time"
+				""
+				"Only when the main body of the Space Elevator is working normally (that is, the Power Module and the controller are lit up) will the extension modules show as connected and working properly"
+				""
+				"The higher the voltage of the Space Elevator's main body, the greater the time reduction of the extension modules; the higher the Power Module tier, the greater the parallel count of the extension modules"
+				""
+				"In JEI's multiblock structure preview screen, clicking \"M\" shows the multiblock structure with &eall modules installed&r"
+			]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "7A7C73D046390488"
+			rewards: [
+				{
+					id: "680C703A77E766E4"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "253A05AC70840061"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "377492F72A4F19D0"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "50FC070B92E66FE7"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2E049D2A5A1162D8"
+				item: "gtceu:space_elevator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"051792ED136C96D0"
+				"4A058FA1859A00D1"
+				"4786A4C8A643EA4A"
+			]
+			description: ["Very similar to Wetware"]
+			id: "583079AD88755662"
+			tasks: [{
+				id: "6B65C07BCA6CC667"
+				item: "kubejs:bioware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["264EA49453E188C4"]
+			id: "1223F5F9BF7FF37F"
+			tasks: [{
+				id: "3DA4F596F8B93303"
+				item: "gtceu:neutronium_wafer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1DFC7DC123A3D830"]
+			description: ["Bigger, Stronger"]
+			icon_scale: 2.0d
+			id: "4500AC22EE5C09F0"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1B9D3E6BA58D1E74"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"41C7A298C421C65D"
+				"7204F1B6BCC74F1C"
+				"71C7130610E0294D"
+			]
+			description: [
+				"The laser version of the Alloy Blast Smelter, Alloy Smelter and Electric Blast Furnace, with cross-recipe parallel"
+				""
+				"The Alloy Blast Smelter and the Alloy Smelter &6are not the same mode&r; the former outputs &bliquid/molten metal&r and &bCarbon Disulfide&r, while the latter produces &aalloys in ingot form&r and other &a items"
+				""
+				"&c&n&lThe Alloy Blast Smelter outputs fluids, the Alloy Smelter outputs items, do not get them mixed up!!!"
+				"&c&n&lThe Alloy Blast Smelter outputs fluids, the Alloy Smelter outputs items, do not get them mixed up!!!"
+				"&c&n&lThe Alloy Blast Smelter outputs fluids, the Alloy Smelter outputs items, do not get them mixed up!!!"
+			]
+			icon_scale: 2.0d
+			id: "1FCD63F77E978107"
+			min_width: 250
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "A bit expensive, but worth it"
+			tasks: [{
+				id: "67242CD537B6FEC1"
+				item: "gtceu:super_blast_smelter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A7C73D046390488"]
+			description: ["Mine it at Barnard C first; later you can collect it directly with the Elevator"]
+			icon: "gtceu:unknowwater_bucket"
+			id: "333B741B06E49CE8"
+			subtitle: "An unknown liquid that can culture new life"
+			tasks: [{
+				id: "51F32C7FCCFA73A7"
+				title: "Unknown Liquid"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"233CA36D529EC3FB"
+			]
+			id: "2719D88ECD353F24"
+			tasks: [{
+				id: "6BA667DA94DDC286"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2802E34A99CE1D79"
+				"035C470213E8B4DB"
+			]
+			icon: "gtceu:antimatter_bucket"
+			id: "24585C3114095227"
+			subtitle: "Only useful at UEV"
+			tasks: [{
+				id: "32D1AAAFAE4E6E8D"
+				type: "checkmark"
+			}]
+			title: "Discrete Antimatter"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: [
+				"0 is zero gravity, 1~99 is normal gravity, 100 is high gravity"
+				""
+				"{ \"text\": \"The Configuration Copy Tool can copy and paste gravity settings, while the later Configurable Auto Gravity Maintenance Hatch can copy and paste both the processing time settings and the gravity settings\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
+				"{@pagebreak}"
+				"Fun fact: if you use a Gravity Control Hatch configured for high gravity in a zero-gravity environment, the multiblock will register as being in both a zero-gravity and a high-gravity environment at the same time"
+			]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "07A5A5AD37710056"
+			shape: "rsquare"
+			subtitle: "Maintenance can be automated too"
+			tasks: [{
+				id: "7039AA556E4A462A"
+				item: "gtceu:gravity_hatch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			icon_scale: 2.0d
+			id: "7597D3F42E7E8515"
+			shape: "rsquare"
+			subtitle: "No wear"
+			tasks: [{
+				id: "798CD0CCB2B791EF"
+				item: "gtceu:zpm_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"02F523E003E1C93D"
+				"035C470213E8B4DB"
+			]
+			description: [
+				"Only laser hatches can be used (two can be placed), and the available positions are the centre of the bottom layer and the centre of the top layer"
+				""
+				"The production lines that can be optimised are (colours indicate the voltage stage):"
+				"&3Platinum Group Processing, Polyphenylene Sulfide, Epoxy, Silicone Rubber, Mutagen&r "
+				"&3Styrene Butadiene Rubber, Polytetrafluoroethylene, Polyvinyl Butyral, Polybenzimidazole&r "
+				"&3Acidic Enriched/Naquadria Solution&r "
+				"&4Polyimide, Stem Cells, Naquadah Processing, Polyvinyl Chloride&r  "
+				"&aPolyurethane Resin, Photoresist, Liquid Crystal Kevlar, Unfolded Fullerene, Cycloparaphenylene, Zircon Processing, Biological Cells, Polyetheretherketone &r"
+				"&eZylon, EUV Photoresist, Photopolymer, Hexanitrohexaazaisowurtzitane &r"
+				"&eCosmic Superconductor&r"
+			]
+			icon_scale: 2.0d
+			id: "16C93F76F74CB8DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75A2190E42EDDB29"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "A massive optimisation for your production lines"
+			tasks: [{
+				id: "42B8B94BB1B32E83"
+				item: "gtceu:chemical_distort"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11B90D1FD2508092"]
+			icon: "gtceu:mutated_living_solder_bucket"
+			id: "4F87B7DA47087F97"
+			tasks: [{
+				id: "2B9CE70914717C3A"
+				type: "checkmark"
+			}]
+			title: "Mutated Living Solder"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"035C470213E8B4DB"
+				"0A2D46609F5C3CAB"
+			]
+			description: [
+				"Up to 1A MAX output, extremely powerful"
+				""
+				"Starting from the Large Naquadah Reactor, all generators can use a &l&cLaser Source Hatch&r&r to output energy"
+				""
+				"They also have an overclock mechanic:"
+				"{ \"text\": \"See the definition of lossless overclocking for the specific mechanic\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
+				"Replacing &b4x recipe speed&r with &60.25x recipe time&r (including the multiplication from the Configurable Maintenance Hatch), &benergy usage&r with &6power generation&r, and &btotal energy cost&r with &6total energy generated&r is what the generator overclocking mechanic does"
+				"Generators &eautomatically overclock&r to the overclock limit according to the &dsize of the Dynamo Hatch/Laser Source Hatch&r, and the runtime can be shortened to a minimum of 1~3 ticks"
+				""
+				"All generators whose description contains the words &b&loverclocking will not lose energy efficiency&r have the overclock mechanic"
+			]
+			icon_scale: 2.0d
+			id: "09E013C97E05C052"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A7DD0EB96FD2044"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "Large Naquadah Reactor, ~~generate power with a vengeance~~"
+			tasks: [{
+				id: "6D5ADEFDD6695856"
+				item: "gtceu:large_naquadah_reactor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: ["{ \"text\": \"See here for the notes on building the Evaporation Tower\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"224B850538D346D3\" } }"]
+			hide_dependency_lines: true
+			icon: "gtceu:grade_8_purified_water_bucket"
+			id: "4EA64DC5DA2F0F8C"
+			subtitle: "You can start getting ready"
+			tasks: [{
+				id: "53B625F402EEFC80"
+				type: "checkmark"
+			}]
+			title: "Grade 8 Purified Water"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"31A1ECA11AC31A29"
+			]
+			description: ["The Fast Infinity Cell combines item and fluid storage in one and performs better"]
+			id: "2DA05E5BAEAFB88E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51D272FBB89C06A0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			subtitle: "Infinite capacity"
+			tasks: [
+				{
+					id: "105A19D975EC4EAA"
+					item: "gtlcore:item_infinity_cell"
+					type: "item"
+				}
+				{
+					id: "78D71EA51CA14E68"
+					item: "gtlcore:fluid_infinity_cell"
+					type: "item"
+				}
+				{
+					id: "1EA2B1541113D258"
+					item: "gtlcore:fast_infinity_cell"
+					type: "item"
+				}
+			]
+			title: "Infinity Cell"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"39380262677612A9"
+			]
+			description: [
+				"You can now craft the 8-piece component sets efficiently (&osaving&d 25%&r&o of the materials&r), and you can also &bskip Data Bank slots&r"
+				""
+				"The Assembly Line Casing tier must be greater than or equal to the recipe tier (&6backwards compatible&r)"
+				""
+				"All eight blocks directly below the controller can be replaced with input assemblies and Pattern Buffers (including the &bTungstensteel Frame&r)"
+				""
+				"The positions of the energy/laser hatches are shown below; the diagrams are for reference only, and in practice at most two Energy Hatches and one Laser Hatch can be placed at the same time"
+				"(Front)"
+				"{image:ftbquests:textures/picture/003.png width:200 height:100 align:center}"
+				"(Back)"
+				"{image:ftbquests:textures/picture/006.png width:200 height:100 align:center}"
+			]
+			icon_scale: 2.0d
+			id: "36A2AF68AE67C70A"
+			min_width: 210
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "355BA94438730713"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "65C99D3D67D677D5"
+				item: "gtceu:component_assembly_line"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37C5E7628A4B826C"
+				"5D4131C48F9BAE46"
+			]
+			description: ["Do not go looking for ore, go &bdecay&r&6 Radium"]
+			id: "53DEE1A65051E06F"
+			tasks: [{
+				id: "7A9EEB0C236E8FE7"
+				item: "gtceu:actinium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"035C470213E8B4DB"
+				"0A2D46609F5C3CAB"
+			]
+			description: [
+				"First right-click the Pattern Buffer with a &dData Stick&r, then right-click the Proxy to bind the Proxy to the previous Pattern Buffer"
+				""
+				"The Proxy will display the coordinates of the bound Pattern Buffer"
+				""
+				"Right-clicking the Proxy lets you interact directly with the bound Pattern Buffer"
+			]
+			icon_scale: 2.0d
+			id: "536DE86AD2109F58"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Let your factory cluster thrive"
+			tasks: [{
+				id: "0B7BBAEB89C27FF0"
+				item: "gtceu:me_pattern_buffer_proxy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19D008698197459E"]
+			description: ["High-performance biocompatible engineering plastic"]
+			icon: "gtceu:polyetheretherketone_bucket"
+			id: "7C9AC873CB7209D9"
+			tasks: [{
+				id: "39D039C317D64FD9"
+				title: "Polyetheretherketone"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"0A2D46609F5C3CAB"
+				"035C470213E8B4DB"
+				"5F0A175D6704A8D0"
+			]
+			description: [
+				"Longer and faster, it can take a Parallel Hatch, and it can even use the &bGiant Input Assembly&r and &bPattern Buffers&r!"
+				""
+				"Input Hatches can be replaced with Giant Input Assemblies and Pattern Buffers, while Input Buses cannot"
+				""
+				"The Parallel Hatch can be placed next to the Input Bus"
+				""
+				"Data can only be provided by the &e(Wireless) Optical Data Reception Hatch&r"
+				""
+				"Up to 65 blocks long, with a time multiplier as low as 0.35"
+			]
+			icon_scale: 2.0d
+			id: "172FC2F2B20CD187"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EACC5A946C44981"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1F71F073D091459C"
+				item: "gtceu:advanced_assembly_line"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"776563C5BA327495"
+				"035C470213E8B4DB"
+				"12F8275FC06FCFEE"
+				"2A0269009ABF1414"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Supports configuring output filters, priority (the higher the value, the higher the output priority) and single &blong&r-level item output"
+				""
+				"Output filter settings can be copied with a &dData Stick&r"
+				""
+				"The output priority is &6always higher than&r the Extended/Ultimate ME Pattern Buffer"
+				""
+				"The asynchronous version is better suited to cross-recipe parallel machines, but output filters cannot be configured; all other properties are the same"
+				""
+				"The asynchronous and normal versions use the same reference frame for priority"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "02BEE3DC9E98AF15"
+			min_required_dependencies: 3
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6641F5083C721A75"
+					item: "gtceu:me_extended_export_buffer"
+					type: "item"
+				}
+				{
+					id: "3A065A45C61CAEB8"
+					item: "gtceu:me_extended_async_export_buffer"
+					type: "item"
+				}
+			]
+			title: "Extended Export Buffer"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["702EFE9BA62A8CDA"]
+			description: [
+				"Has 36 slots"
+				""
+				"The Extended/Ultimate and their bound Proxies support returning products directly to the ME Network (with a higher priority than ordinary output hatches)"
+				""
+				"The minimum output interval and maximum output interval can be set in the gtlcore config file"
+				""
+				"Note: in a multiblock, the Extended/Ultimate and their bound Proxies are counted as both input hatches and output hatches at the same time"
+			]
+			icon_scale: 1.5d
+			id: "21A1A4DB4BA35B42"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Bigger, Stronger"
+			tasks: [{
+				id: "50A279F563E3B266"
+				item: "gtceu:me_extend_pattern_buffer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"702EFE9BA62A8CDA"
+				"1DFC7DC123A3D830"
+				"7C9AC873CB7209D9"
+				"24585C3114095227"
+				"4F87B7DA47087F97"
+			]
+			description: [
+				"The GT version of a super Molecular Assembler; it consumes no EU, has cross-recipe parallel, and interacts with the ME Network through the Matrix Port"
+				""
+				"&6Five&r speed cores are enough to reach the minimum time (1 tick)"
+				""
+				"The cores can only replace the &bMolecular Machine Casings in the central structure, and nothing else"
+				"&r"
+				"The Matrix Port &ccannot&r be crafted using a Pattern Buffer"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:molecular_assembler_matrix"
+			icon_scale: 1.5d
+			id: "47A332D8C189A51B"
+			optional: true
+			shape: "rsquare"
+			subtitle: "The Molecular Assembler, plus pro max edition"
+			tasks: [
+				{
+					id: "412C806531848D9A"
+					item: "gtceu:molecular_assembler_matrix"
+					type: "item"
+				}
+				{
+					id: "5EDAAC48DD8F65C1"
+					item: "gtceu:me_molecular_assembler_io"
+					type: "item"
+				}
+				{
+					id: "70CF8CCA0B5D814F"
+					item: "gtceu:me_craft_speed_core"
+					type: "item"
+				}
+				{
+					id: "0DF940A83B251F62"
+					item: "gtceu:me_craft_parallel_core"
+					type: "item"
+				}
+				{
+					id: "354C4D4C1F092764"
+					item: "gtceu:me_craft_pattern_container"
+					type: "item"
+				}
+			]
+			title: "Molecular Assembler Matrix"
+			x: 12.5d
+			y: 12.0d
+		}
+	]
+	subtitle: ["Tier8-UV"]
+	title: "Ultimate Voltage"
+}
