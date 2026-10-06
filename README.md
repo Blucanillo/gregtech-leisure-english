@@ -2,6 +2,12 @@
 
 For GTL1450.
 
+> **IMPORTANT COMPATIBILITY NOTICE**
+>
+> **This translation ONLY works with modpack versions from [this Google Drive folder](https://drive.google.com/drive/folders/1Ga_w-TmDKNru0me1kAM_gXyedz_Ne4-x).**
+>
+> **Compatibility with the latest GTLCore and GTLAdditions versions is NOT guaranteed.**
+
 An English translation package for an existing GregTech Leisure GTL1450 instance. It includes translated FTB Quests content, KubeJS item names and tooltips, and a companion resource pack.
 
 This is an add-on package. Install the GTL1450 modpack separately before using it. Use a matching GTL1450 instance; compatibility with other modpack versions has not been established.
