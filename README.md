@@ -1,22 +1,28 @@
 # GregTech Leisure English Translation
 
-For GTL1450.
+For GTL1450 and for [GregTech Leisure 1.4.5.2 from CurseForge](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure/files/8903963) (GTL1452).
 
 > **IMPORTANT COMPATIBILITY NOTICE**
 >
 > **This translation ONLY works with modpack versions from [this Google Drive folder](https://drive.google.com/drive/folders/1Ga_w-TmDKNru0me1kAM_gXyedz_Ne4-x).**
 >
 > **Compatibility with the latest GTLCore and GTLAdditions versions is NOT guaranteed.**
+>
+> **The `GTL1452/` folder is the one exception: it contains the quest book for GregTech Leisure 1.4.5.2 from CurseForge. Use it only with that version.**
 
 An English translation package for an existing GregTech Leisure GTL1450 instance. It includes translated FTB Quests content, KubeJS item names and tooltips, and a companion resource pack.
 
 This is an add-on package. Install the GTL1450 modpack separately before using it. Use a matching GTL1450 instance; compatibility with other modpack versions has not been established.
 
+GregTech Leisure 1.4.5.2 from CurseForge (GTL1452) ships different quests, so it has its own quest book in `GTL1452/config/ftbquests/quests/`. Its KubeJS scripts are the same as GTL1450's, so the KubeJS files and the resource pack in this package work for both versions.
+
 ## Contents
 
 ```text
 config/
-  ftbquests/quests/                  Translated quest definitions
+  ftbquests/quests/                  Translated quest definitions (GTL1450)
+GTL1452/
+  config/ftbquests/quests/           Translated quest definitions (CurseForge 1.4.5.2)
 kubejs/
   startup_scripts/item.js           Item registrations and translated names
   startup_scripts/tips.js           Translated item tooltips
@@ -28,8 +34,8 @@ resourcepacks/
 ## Installation
 
 1. Fully close Minecraft and back up the instance, including any worlds. Keep copies of the existing `config/ftbquests/quests/` directory and the three KubeJS files listed above so you can restore them later.
-2. Locate the GTL1450 instance folder using your launcher's instance-folder option. This is the folder containing the instance's `config`, `kubejs`, and `resourcepacks` directories.
-3. Copy this package's `config`, `kubejs`, and `resourcepacks` folders into that instance folder. Merge the folders and replace the matching files when prompted. Keep unrelated instance files. Do not copy the outer `AIO` folder into the instance.
+2. Locate the GTL1450 or GTL1452 instance folder using your launcher's instance-folder option. This is the folder containing the instance's `config`, `kubejs`, and `resourcepacks` directories.
+3. Copy this package's `kubejs` and `resourcepacks` folders into that instance folder. Then copy the `config` folder for your version: `config` for GTL1450, or `GTL1452/config` for CurseForge 1.4.5.2. Merge the folders and replace the matching files when prompted. Keep unrelated instance files. Do not copy the outer `AIO` folder or the `GTL1452` folder itself into the instance.
 4. Keep `GTL1450-English-resourcepack.zip` zipped inside `resourcepacks/`.
 5. Launch Minecraft. In **Options > Resource Packs**, enable **GTL1450 English**. Give it higher priority than other packs that replace the same translations.
 6. Set the game language to **English (US)**, then fully exit and restart Minecraft.
@@ -38,7 +44,7 @@ A full restart is required for the KubeJS startup scripts. Reloading only the qu
 
 ## Installing individual components
 
-- **Quest book:** Install `config/ftbquests/quests/` to use the translated quest definitions.
+- **Quest book:** Install `config/ftbquests/quests/` (GTL1450) or `GTL1452/config/ftbquests/quests/` (CurseForge 1.4.5.2) to use the translated quest definitions.
 - **Language resources:** Enable the resource-pack ZIP to use its English language entries.
 - **Item names and tooltips:** Install the three KubeJS scripts together with the resource pack. The scripts depend on its translation keys; missing resources can cause raw keys to appear instead of English text.
 
@@ -51,8 +57,8 @@ Coordinate quest and startup-script changes with the server administrator. Playe
 ## Troubleshooting
 
 - **Raw translation keys:** Check that the resource pack is enabled, has suitable priority, and is installed in the same instance as the KubeJS scripts. Fully restart the game.
-- **Quest book still in Chinese:** Check that `config/ftbquests/quests/` was copied into the active instance and that the game language is English (US). On multiplayer servers, ask the administrator to check the server's quest definitions.
-- **Script errors or unexpected item behavior:** Confirm that the instance matches GTL1450 and that other custom scripts do not conflict with the replaced files. Restore the backup if necessary.
+- **Quest book still in Chinese:** Check that the quest directory for your version (`config/ftbquests/quests/` or `GTL1452/config/ftbquests/quests/`) was copied into the active instance and that the game language is English (US). On multiplayer servers, ask the administrator to check the server's quest definitions.
+- **Script errors or unexpected item behavior:** Confirm that the instance matches GTL1450 or CurseForge 1.4.5.2 and that other custom scripts do not conflict with the replaced files. Restore the backup if necessary.
 
 ## Removing the package
 
@@ -61,6 +67,7 @@ Close Minecraft. Restore the original quest directory and the three KubeJS scrip
 ## Credits
 
 - **English translation:** blucanillo, assisted by DeepSeek V4.1 Flash and ChatGPT Astra 6.
+- **CurseForge 1.4.5.2 quest book:** sgiath, assisted by Claude Opus 5.5, based on blucanillo's GTL1450 translation.
 - **Original modpack:** [GregTech Leisure](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure), published by nutant233, and its contributors.
 - **Included mods:** Their respective authors and contributors.
 

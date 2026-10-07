@@ -1,0 +1,1786 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77F8039ACE718C6C"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:primitive_robot_arm"
+	id: "77F8039ACE718C6C"
+	order_index: 0
+	quest_links: [{
+		id: "4E8ED4704A82F154"
+		linked_quest: "376F6857ABEF60BF"
+		x: -2.0d
+		y: 4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["46F82A0A3D57C225"]
+			description: [
+				"Once you have a Bronze Ingot, you can start the Steam Age"
+				"Gather your courage and step into GregTech's first voltage tier!"
+			]
+			id: "5F5F348E3A34827E"
+			rewards: [{
+				id: "41A3ACD4F54D9969"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "47D6C464DF34C115"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "Steam Age ULV"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E605EC5CFDE71A"]
+			description: [
+				"And where does water come from? Right now you need some water"
+				""
+				"Water output varies by biome; the wetter the biome, the more it produces"
+				""
+				"In addition, an LV or MV Output Hatch multiplies the output by 400%, and rain multiplies it by another 150%"
+			]
+			id: "4E96A08CF12D496A"
+			rewards: [{
+				id: "0EF18EDF382FF874"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "229E6CD8C1F311CF"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "032BCE4DA9E399A5"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
+			title: "Where Water Comes From"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [
+				"Diamond burns the longest, so it's the recommended fuel"
+				""
+				"Feeding water into a boiler that has run dry makes it &4explode&r"
+				""
+				"Liquid Fuel Boilers burn lava; Solar Boilers heat up on their own during the day and cool down at night or when covered"
+			]
+			id: "4BFC342697BDE75A"
+			rewards: [{
+				count: 64
+				id: "5EB3FB5E5FAF9235"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_shulker_box"
+					tag: {
+						accentColor: 16383998
+						mainColor: 16383998
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70DE0442DB10C914"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Low Pressure Boiler"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"Remember to sneak-right-click with a wrench to lock the flow direction when using it (keep your off hand empty)"
+				""
+				"It can also be crafted into larger pipes and used as a big storage tank"
+				""
+				"If you don't want to get scalded by steam or other hot fluids, cover the pipes with frames (the blocks made from rods)"
+				""
+				"You can change the capacity of Spacetime Pipes in the gtlcore config file"
+			]
+			icon: "gtceu:spacetime_tiny_fluid_pipe"
+			id: "781417A4FA36101D"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "6CF397F913CDAA81"
+				item: "gtceu:spacetime_tiny_fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02A2DDC03475574B"
+				title: "A Few Pipes for You"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A49197309D1F09"]
+			description: [
+				"You can start making steel now"
+				""
+				"You can also go straight to the &5Dimensionally Transcendent Dirt Forge&r"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			icon_scale: 2.0d
+			id: "5CE50DDC960340D8"
+			rewards: [
+				{
+					id: "2D8761085E458691"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6BF8F26BE81E1228"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6649B915F2C7704F"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "42BD89429E9AAD22"
+					item: { Count: 12, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["It's used to compress things"]
+			id: "5C936EF307594737"
+			rewards: [{
+				id: "704DF16EECC15BD8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E7B6F2A5F20C06"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Just grind it into dust with a mortar and craft it directly"]
+			icon: "gtceu:fireclay_dust"
+			id: "36A49197309D1F09"
+			rewards: [{
+				id: "777E0B3B0A58DE1A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35AB6D0569B73FB7"
+					item: "gtceu:brick_dust"
+					type: "item"
+				}
+				{
+					id: "3F0F3F0437100ADB"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+				{
+					id: "3AC2D6A0AAB107FA"
+					item: "gtceu:fireclay_dust"
+					type: "item"
+				}
+			]
+			title: "Fireclay Dust"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Early on, just make it in a Compressor"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "79E81CC078F246C0"
+			rewards: [{
+				count: 128
+				id: "289E9D4B6242976B"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A519A3A397BBD45"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			title: "Your First Rubber Sheet"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			id: "388BD32463FA905D"
+			rewards: [{
+				id: "57B2E9912F4375C3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADD8EEFE40F5663"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Your First Steel Ingot"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02375F5D54E5F347"
+				"43DE0784E5D32B46"
+			]
+			description: [
+				"Used to craft electric machines, and hatches too"
+				""
+				"It can even &cst&r&eore&r &apo&bwer&r&r and &3con&r&9nect&r &1ME&r&5 net&r&dworks&r!"
+			]
+			icon_scale: 1.3d
+			id: "7CB85061F0822830"
+			rewards: [{
+				id: "0D14C938E01BD29D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "You'll need a wild imagination to use this one"
+			tasks: [{
+				id: "6500863B6A64DE2F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["Use the Alloy Smelter to mix metals"]
+			id: "30F031CD02425ED7"
+			rewards: [{
+				count: 64
+				id: "4FB6BBE01DEAFC93"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7E7EBAB75A2F8D"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00579BDA1FA1BEC6"]
+			description: [
+				"{ \"text\": \"The Ancient World has some useful ores\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FFD20E53A9DF62A\" } }"
+				""
+				"If a recipe in JEI shows a block named after a dimension in its bottom-right corner, that recipe &bcan only be made in that dimension&r (for example, Damascus Steel Dust can only be made in the Ancient World)"
+			]
+			icon: "kubejs:reactor_core"
+			icon_scale: 2.0d
+			id: "335ED39019FC62E7"
+			rewards: [
+				{
+					id: "0AB3A8A039EB840F"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					id: "120C3F2CEC94168B"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1436494559DCBE1B"
+					item: {
+						Count: 1
+						id: "gtceu:avanced_nanomuscle_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "542A36C70B6D39A1"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "4A5E920CBD312AF2"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "kubejs:ancient_world"
+					id: "7B798A358D3DA56B"
+					optional_task: true
+					title: "The Ancient World"
+					type: "dimension"
+				}
+				{
+					id: "5570EF3E7801BFD4"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["A ULV superconductor material, but for now use it to make the Ancient Reactor Core"]
+			id: "3D65D9712DFB63D9"
+			rewards: [{
+				id: "7FAA57A862B018AE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DE17D3F21E3C195"
+				item: "gtceu:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D65D9712DFB63D9"]
+			description: [
+				"Now you can use it to travel to the Ancient World"
+				""
+				"The structure: core in the center, Steel Blocks on the 4 adjacent sides, Diamond Blocks in the 4 corners, laid flat"
+				"Right-click the core to travel to the Ancient World"
+				""
+				"Once you make the Tier 3 Rocket in &5EV&r, you will also need it to travel to the Nether"
+				""
+				"The Ancient World doesn't generate meteorite structures; the compass is for finding them in the Overworld"
+			]
+			icon: "kubejs:reactor_core"
+			id: "00579BDA1FA1BEC6"
+			rewards: [
+				{
+					id: "51AF08C499E8329A"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					id: "20A6866ADD102503"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C71CBD9FE0DC224"
+					item: "kubejs:reactor_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1CB49FF2229A3D77"
+					item: { Count: 4, id: "gtceu:steel_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3542128803577207"
+					item: { Count: 4, id: "minecraft:diamond_block" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [
+				"It hammers three ingots into two plates, a better yield than crafting by hand"
+				""
+				"{ \"text\": \"There is also a multiblock called the Steam Piston Hammer, which is even more efficient\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4877DB6020D6BFBC\" } }"
+			]
+			hide_dependency_lines: true
+			id: "6525C9DE2A276238"
+			rewards: [{
+				id: "6B3DEE9FC411E85C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BB0DC594040BE2"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6525C9DE2A276238"
+				"388BD32463FA905D"
+			]
+			description: ["The Forge Hammer machine gives a slightly better yield"]
+			id: "02375F5D54E5F347"
+			rewards: [{
+				id: "1A0B2145C6BEAD5B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78729EFD5CE8CD48"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79E81CC078F246C0"]
+			id: "43DE0784E5D32B46"
+			rewards: [{
+				id: "61C758028D9C9DB9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8D0D8D101E1641"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			title: "Tin Cable"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			id: "707E5114B7979898"
+			rewards: [{
+				id: "255AB427616C13EB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CD30ADFD9B58AE"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"707E5114B7979898"
+				"388BD32463FA905D"
+			]
+			description: ["Your first ULV circuit; you need it to help make cheaper ones, so a few are enough"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "5CD26DECB937FC71"
+			rewards: [{
+				id: "327EC9AD42261D00"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16EA9C62F6D609A0"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["You can't mix this by hand like bronze; it can only be made with machines"]
+			id: "3C91E284A9A03B1B"
+			rewards: [{
+				id: "08462119775B14A3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15717008A6B7F20E"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Grind wood to get Wood Pulp"]
+			id: "1FAB9EF48D8D9258"
+			rewards: [{
+				count: 128
+				id: "6333E0136E33F27A"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F9E85F4FF39EB70"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["335ED39019FC62E7"]
+			description: [
+				"Sneak-right-click while holding the Crystal Pickaxe to switch between Fortune III and Silk Touch"
+				"&m(you can even use this to farm experience)&r"
+			]
+			id: "12FE2B59FA86381C"
+			rewards: [
+				{
+					id: "0D834802BFD2366F"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33B6A4577EB69E5A"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			subtitle: "Much more efficient than the base stone"
+			tasks: [
+				{
+					id: "456D397A52A6D291"
+					item: "gtceu:certus_quartz_gem"
+					type: "item"
+				}
+				{
+					id: "5E645191AA6CD3ED"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Ores from the Ancient World"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"12FE2B59FA86381C"
+				"664C46D5C12E7255"
+				"5CD26DECB937FC71"
+			]
+			description: ["An automated crafting table/smithing table/stonecutter, but it needs patterns to work; for now it's just a crafting material"]
+			id: "3C071C0542CF935D"
+			rewards: [{
+				id: "4304D0C677F66D9B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5738459D5168A55F"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C071C0542CF935D"]
+			description: ["Even cavemen have to assemble circuits"]
+			icon_scale: 2.0d
+			id: "34FCFA114E75D770"
+			rewards: [{
+				id: "0C0731B2ACDDCE0D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6255EA9A7B4B58EC"
+				item: "gtceu:large_steam_circuit_assembler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"With it you can build some very powerful steam multiblocks"
+				""
+				"They have very high parallels, and once you have Stainless Steel they can also overclock and be upgraded (MV)"
+				""
+				"{ \"text\": \"Head to the Multiblocks chapter to learn more\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40405034AE9D9945\" } }"
+			]
+			hide_dependent_lines: true
+			id: "5276CA8FA5262C9B"
+			rewards: [{
+				id: "7A6E4F26CB4EC8FB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72CA64283A8A3E34"
+				item: "kubejs:precision_steam_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5276CA8FA5262C9B"
+				"38CC43F7A6A39BB4"
+			]
+			description: ["Don't forget to place the Output Hatch"]
+			icon_scale: 2.0d
+			id: "2585418910B6798A"
+			rewards: [{
+				id: "372783FB309C5A6A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5F47C1E28CF33F84"
+				item: "gtceu:large_steam_centrifuge"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7CB85061F0822830"]
+			description: [
+				"They can be shared"
+				""
+				"In practice, with a few exceptions, every multiblock that needs a Muffler Hatch can use an LV Muffler Hatch; higher-tier Muffler Hatches are of little use"
+				""
+				"A Muffler Hatch full of ash still doesn't stop the machine from working"
+			]
+			hide_dependent_lines: true
+			id: "38CC43F7A6A39BB4"
+			rewards: [{
+				id: "3354D072C3B1F387"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Never Block the Exhaust"
+			tasks: [{
+				id: "6FF18125E551DB42"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5CD26DECB937FC71"
+				"740C2D1F3F420480"
+				"6D729450ED86BDAF"
+				"3C91E284A9A03B1B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"You don't need many; a few will do"
+				""
+				"Later you can make them with the Large Steam Circuit Assembler"
+			]
+			icon_scale: 2.0d
+			id: "5065BEDC95AE564E"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "58F5C373D0AE0142"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "011218464BCA60AC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "Your First Circuit"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79D4AD9908A4578A"]
+			description: ["A bit more involved than in vanilla"]
+			id: "77A1011F608079C9"
+			rewards: [{
+				id: "11D6ADD9CE28FA57"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36895A43C9C125F4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["77A1011F608079C9"]
+			description: ["Resistors have many recipes; the Fine Wire one is the best value"]
+			id: "6D729450ED86BDAF"
+			rewards: [{
+				id: "108CAF7D675F876A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F7066EE104AACE"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FAB9EF48D8D9258"]
+			hide_dependency_lines: true
+			id: "051710FFC9907807"
+			rewards: [{
+				id: "765C29DBBBD61E54"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8641531625E4B7"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["051710FFC9907807"]
+			id: "740C2D1F3F420480"
+			rewards: [{
+				id: "0C13652D6A0B6866"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6354CE91F0CF6378"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2585418910B6798A"]
+			description: ["Centrifuge Sticky Resin"]
+			id: "06285BE2396AB639"
+			rewards: [{
+				id: "2AEAC8B8E1C1EBB2"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48597AE64D4B6F49"
+				item: "gtceu:glue_bucket"
+				type: "item"
+			}]
+			title: "Glue"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"34FCFA114E75D770"
+				"06285BE2396AB639"
+			]
+			description: ["A very cheap circuit; this line goes all the way up to EV circuits"]
+			icon_scale: 2.0d
+			id: "08B7D8F835DFE214"
+			size: 1.0d
+			tasks: [{
+				id: "344BB3250C20E4FB"
+				item: "kubejs:basic_control_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"08B7D8F835DFE214"
+				"5065BEDC95AE564E"
+			]
+			description: ["This is the cheap LV circuit"]
+			icon_scale: 2.0d
+			id: "553B2D61416792DC"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "41CA550B62F920A6"
+				item: "kubejs:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: [
+				"AE2 is a very handy automation mod"
+				""
+				"See the changes to AE2 in the &dAE2 Tweaks&r chapter"
+				""
+				"The guide has a detailed introduction to AE2; it's worth reading"
+				""
+				"Hold G over an AE2 item to open its guide entry directly (provided you've rebound the key that toggles the accessory slots)"
+				""
+				"ME Import/Export Buses are not recommended; the ME Interface performs better and is more efficient (all GregTech machines have &bauto-output&r, and with &dcovers&r they can &6actively pull&r from an ME Interface, hatches have &bactive input/output&r, and the ME Interface's storage has been greatly expanded)"
+			]
+			icon: "ae2:guide"
+			id: "6E69F45AEA66D5ED"
+			rewards: [
+				{
+					id: "5C30500B7291441C"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "6CE1DC92795F5890"
+					item: "ae2:guide"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31A932E5D9F650C0"
+					table_id: 2505965930486456479L
+					type: "choice"
+				}
+				{
+					id: "1D99840CFCD12862"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+				{
+					id: "1DFA26133A6F203D"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "AE2"
+			tasks: [{
+				id: "76E9DDCCC307F224"
+				title: "Applied Energistics 2"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			description: [
+				"The Large Steam Boilers have been massively buffed, so you can run on steam power all the way to HV without a second thought (HV needs several of them, and higher-tier boilers burn fuel faster)"
+				""
+				"Later there are also Large Steel, Titanium and Tungstensteel Steam Boilers"
+				""
+				"Water consumption = output * throttle efficiency / 32 mB/t "
+				""
+				"The Maintenance Hatch needs manual maintenance early on"
+				""
+				"Put the Input Hatches/Buses/Assemblies, Maintenance Hatch and Muffler Hatch on the bottom layer, and the Output Hatches on layers two to four"
+				""
+				"This is not a steam machine; steam buses cannot be used"
+				""
+				"Do not use a Huge Input Dual Hatch in the boiler; it can cause a &4crash&r"
+			]
+			icon_scale: 2.0d
+			id: "328D5CF265FCCCA3"
+			rewards: [
+				{
+					id: "02EE5681EA132E6A"
+					item: "avaritia:star_fuel"
+					type: "item"
+				}
+				{
+					id: "38F3639A0D9D9BBB"
+					item: "kubejs:diamond_compressed_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "31B3E7B10BBA0EDD"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"Steam machines need an &a&dexhaust vent set&r; they need to vent after each run, and the vent must face air or they cannot work"
+				""
+				"Right-click with a wrench to set the exhaust vent"
+				""
+				"The vented steam deals damage"
+			]
+			icon: "gtceu:lp_steam_rock_crusher"
+			id: "7736F74AEBCB914E"
+			rewards: [{
+				id: "25A3A90A72A7835D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FF020A8688728E6"
+				title: "Why Does My Steam Machine Stop After One Run?"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			description: [
+				"Only the firebricks on the bottom layer can be replaced with input/output buses"
+				""
+				"Make sure the Input Bus and Output Bus have enough space for the forge to run"
+				""
+				"This is not a steam machine: it &c&ldoes not need a Steam Input Hatch&r &c&land cannot use steam buses&r"
+				""
+				"Lush caves have plenty of clay; there is a lush cave below where azalea trees grow"
+			]
+			icon_scale: 1.3d
+			id: "0662E205D1783D31"
+			rewards: [
+				{
+					count: 2100
+					id: "739BBFD8B3216A13"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 1200
+					id: "2898894E21E5801A"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "315AFCCED70ADF27"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get the Product Instantly"
+			tasks: [{
+				id: "2BE6A835D6EF790C"
+				item: "gtceu:dimensionally_transcendent_dirt_forge"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AB03D24332B722E"]
+			description: [
+				"A powerful furnace that uses little steam"
+				""
+				"&b&lCan&r use steam buses"
+				""
+				"Using a Large Steam Input Hatch only increases your steam consumption for nothing, with no other effect"
+			]
+			icon_scale: 1.3d
+			id: "0532330B52D98469"
+			rewards: [{
+				id: "142C72A3F57D1D8C"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5AC94C8C8DEF4A0E"
+				item: "gtceu:dimensionally_transcendent_steam_oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: ["The Steam Age furnace; it's actually slower than a regular furnace"]
+			hide_dependency_lines: true
+			id: "10750DEB64B4BF89"
+			rewards: [{
+				id: "5931B37625BB11BB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12742633AB7C6E1F"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10750DEB64B4BF89"]
+			description: ["256 parallels, and it can be upgraded further"]
+			id: "1AB03D24332B722E"
+			rewards: [{
+				id: "26F40D0C80FD0D34"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE97C5270D5F402"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5F5F348E3A34827E"
+				"4E96A08CF12D496A"
+			]
+			description: [
+				"Steam generally comes from boiling water"
+				""
+				"Steam converts to power at 1mB/t = 2EU/t"
+			]
+			icon: "gtceu:steam_bucket"
+			id: "2B9D62FB6BF39201"
+			rewards: [{
+				id: "7E1DBDCD0B82F6E6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61D5BA33A860F807"
+				title: "Where Steam Comes From"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"Steam multiblocks need a &bSteam Input Hatch&r to supply steam (the Large Steam Input Hatch is a &cLate MV&r item you can't make yet, so just use a regular Steam Input Hatch)"
+				""
+				"The &bSteam Input Bus&r and &bSteam Output Bus&r (buffed to 16 slots!) handle item input and output for steam multiblocks (the Steam Input Bus &ccannot hold a programmed circuit&r; if you need one, use another input bus or Dual Input Hatch)"
+				""
+				"For fluids, use Input Hatches and Output Hatches; regular input/output hatches can only hold &cone fluid&r; regular Output Hatches and the LV Huge Output Hatch can lock their fluid output by marking the second slot from the top (drag from JEI, mark with a filled bucket, etc.)"
+				""
+				"Large steam multiblocks all have &664&r parallels, &bcan run LV recipes&r, and process twice as fast as LV machines; the non-large steam multiblocks have &68&r parallels and &bcan run LV recipes&r too"
+				""
+				"{ \"text\": \"Steam multiblock casings can be bought at the Small Market\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E6BC2F76ED6F531\" } }"
+				""
+				"A large steam multiblock running at full parallel uses a huge amount of steam; supply it with high-throughput fluid transport such as Spacetime Pipes or laser nodes, or it will run short of steam"
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:steam_piston_hammer"
+			icon_scale: 2.0d
+			id: "05BB1E1E38478F26"
+			rewards: [
+				{
+					id: "2D8751AF3B8B1D6A"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "3BC641A02C9D4998"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "38DB793439A26752"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "58C24B68D0260EBD"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5C377797179ABF3E"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "08E592312C7CBF11"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Steam grinding has no byproducts; those wait until HV"
+			tasks: [{
+				id: "6ACDB1E4B636D7F0"
+				title: "Steam Multiblocks"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: [
+				"LaserIO recipes have all been buffed (64x output from the void), so you can use this mod for logistics before you have AE"
+				""
+				"Sneak-right-click a node or connector with a wrench to bind it, right-click other nodes or connectors to link them, and sneak-right-click any other block or the air to clear the binding"
+				""
+				"The Advanced Laser Connector can &bconnect across dimensions&r"
+				""
+				"Logistic Overclockers go in laser cards, up to 4; Node Overclockers go in laser nodes, up to 8"
+				""
+				"Overclockers and filters cannot be installed in cards stacked to more than 1"
+				""
+				"Energy Cards cannot transfer EU"
+				""
+				"The Card Cloner quickly copies and pastes card settings (left-click the card to copy, then right-click to paste; this has to be done in a laser node's GUI), and the Card Holder stores cards and overclockers"
+				""
+				"By default, Shift, Ctrl and Ctrl+Shift adjust numeric settings quickly (faster from left to right)"
+			]
+			icon: "laserio:laser_wrench"
+			id: "7B38A7C2643C6766"
+			optional: true
+			rewards: [
+				{
+					id: "42242771F67681FC"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "58583204BED26590"
+					item: "laserio:card_cloner"
+					type: "item"
+				}
+				{
+					id: "3413625607E9471E"
+					item: "laserio:card_holder"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B7F433768CE2A64"
+					item: "laserio:overclocker_card"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "60EB885295924B29"
+					item: "laserio:overclocker_node"
+					type: "item"
+				}
+			]
+			subtitle: "It Can Even Cross Dimensions"
+			tasks: [
+				{
+					id: "1B1773B40FB9AB2F"
+					item: "laserio:laser_connector"
+					type: "item"
+				}
+				{
+					id: "2D87329069B3E34F"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "5B2CA5034DD7A34B"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+				{
+					id: "184937C5AEE643FD"
+					item: "laserio:laser_connector_advanced"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Laser Logistics"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"Before you have power, you can use a hand crank for energy, or build a Vibration Chamber and burn diamonds"
+				""
+				"Inscriber Presses are obtained by breaking Mysterious Cubes"
+				""
+				"Later the &6Forming Press&r can replace the Inscriber to make processors more efficiently"
+			]
+			id: "664C46D5C12E7255"
+			rewards: [
+				{
+					id: "3753CAA23389F755"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4293BEFEC83DEFB3"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46DB998969DFD278"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+				"The Energy Acceptor converts EU into AE/FE for the ME Network"
+				""
+				"Connecting a generator to the Energy Acceptor with GT cables can easily burn out the cable; it's better to place the generator directly against the Energy Acceptor"
+				""
+				"The CRG can only connect to the ME Network through its bottom face, and the whole network (including other networks linked through Quartz Fiber) can only have one"
+				""
+				"The Extended Crafting Terminal can run stonecutter, smithing table and anvil recipes"
+			]
+			icon: "ae2:drive"
+			id: "007BBB3D4E349869"
+			optional: true
+			rewards: [
+				{
+					id: "6B14C1D1A61EFD20"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "27C330BF86FCD4DA"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "52A2B395450AF309"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "28C68B3244898F58"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+				{
+					id: "0A4B9AC78642D6A8"
+					item: "expatternprovider:ex_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "1A7FA662F18A00CA"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "307806F3D4DEE9BE"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "49539E3D27493D9F"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "07F17172D1EB66D0"
+					item: "ae2:vibration_chamber"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "34FA7A3FDCEEFF9C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "A Good Deal"
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:fluix_crystal"
+			id: "3C4577BA6C01FD37"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "4D53D6781FE064EF"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "3ECB4C0EB5E8F595"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Can't Be Bothered? Buy Some 1"
+			x: 13.75d
+			y: 2.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:logic_processor"
+			id: "54A70F547E4F87C2"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "15293996D8FA5F0C"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "29ED502848D5ECAA"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Can't Be Bothered? Buy Some 2"
+			x: 14.25d
+			y: 2.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:calculation_processor"
+			id: "3D4B2ED043BAF8E4"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "25D2B5A2963C5701"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "52F04A057F457538"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Can't Be Bothered? Buy Some 3"
+			x: 13.75d
+			y: 3.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:engineering_processor"
+			id: "49265178B29A2A51"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "6887FB040E263E04"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "7734AD7C5393BBC4"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Can't Be Bothered? Buy Some 4"
+			x: 14.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: ["Once a storage component is installed it can also be used to produce Matter Balls and Singularities"]
+			id: "144AC3BC2AA25E63"
+			optional: true
+			rewards: [{
+				id: "037A6AECE7DF8FF6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3450B32B0DB406C7"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "This Is a Trash Can"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08B7D8F835DFE214"]
+			description: [
+				"{ \"text\": \"See the <Covers> quest for specific usage\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"
+				""
+				"Combined with an ME Interface it can achieve astonishing transfer efficiency"
+				""
+				"Note: except for the Primitive Fluid Regulator, every Fluid Regulator is capped at 65536mB/t; the description is wrong"
+			]
+			hide_dependency_lines: true
+			id: "205B11E482DDF464"
+			optional: true
+			rewards: [{
+				id: "5C0BF363979378F9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "Primitive Tech, Truly Stunning"
+			tasks: [
+				{
+					id: "08A0A7ABDCC61BFB"
+					item: "gtlcore:primitive_robot_arm"
+					type: "item"
+				}
+				{
+					id: "31170C895B9A9E5C"
+					item: "gtlcore:primitive_fluid_regulator"
+					type: "item"
+				}
+			]
+			title: "The Primitive Duo"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+				"A fairly convenient way to transfer EU (it certainly will not adapt its voltage automatically!)"
+				""
+				"Obtained by tuning an ME P2P Tunnel with a GT tool that has a stored charge"
+				""
+				"How to bind multi-node P2P: first right-click one tunnel you want as an input with the Memory Card, then place the Memory Card in your off-hand and right-click the other tunnels you want as inputs, finally put it back in your main hand and right-click the tunnels you want as outputs (there can be multiple outputs); this way you can create many-to-one and even many-to-many P2P tunnels"
+			]
+			hide_dependency_lines: true
+			icon: "mae2:eu_p2p_tunnel"
+			id: "4B66FAB975B2C7D2"
+			optional: true
+			rewards: [{
+				id: "2CC3618D4DDD6383"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A2F1ED90BB8F670"
+					item: "mae2:eu_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "7A2181B89E5C7ADD"
+					item: "mae2:eu_multi_p2p_tunnel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "EU P2P Tunnel"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02375F5D54E5F347"]
+			description: [
+				"It can also be copied with the Forming Press"
+				""
+				"When writing a pattern, molds and extruder shapes are &dnot written into the pattern&r by default"
+			]
+			icon: "gtceu:credit_casting_mold"
+			id: "7AAC7AB5F406C812"
+			optional: true
+			rewards: [
+				{
+					id: "10D25AF5C250664F"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+				{
+					id: "3960AE52ED06BEF4"
+					item: "gtceu:gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "0F02EAFFB25199B7"
+					item: "gtceu:credit_casting_mold"
+					type: "item"
+				}
+				{
+					id: "19912E483BC3B8F5"
+					item: "gtceu:bottle_casting_mold"
+					type: "item"
+				}
+				{
+					id: "43FF29BE17FF3127"
+					item: "gtceu:ingot_casting_mold"
+					type: "item"
+				}
+				{
+					id: "60CCE9C975A89524"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+				{
+					id: "4A96D40A67FD144C"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+				{
+					id: "22373C1DC9868666"
+					item: "gtceu:nugget_casting_mold"
+					type: "item"
+				}
+				{
+					id: "3161B7DDAB2832AA"
+					item: "gtceu:cylinder_casting_mold"
+					type: "item"
+				}
+				{
+					id: "5D3BEA454BCA5A08"
+					item: "gtceu:anvil_casting_mold"
+					type: "item"
+				}
+				{
+					id: "414AA40FF2A79254"
+					item: "gtceu:name_casting_mold"
+					type: "item"
+				}
+				{
+					id: "355AF34191458924"
+					item: "gtceu:small_gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "746D7FC6EE9B9291"
+					item: "gtceu:rotor_casting_mold"
+					type: "item"
+				}
+				{
+					id: "7775EF23FA550F52"
+					item: "gtceu:pill_casting_mold"
+					type: "item"
+				}
+				{
+					id: "1468A31CE65F0332"
+					item: "gtceu:plate_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "613BF7E5D7CC81C3"
+					item: "gtceu:rod_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "58E4D4F4C75B21AC"
+					item: "gtceu:bolt_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "7ABB058135BD5D9B"
+					item: "gtceu:ring_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5BB2CA9CAD0D26C3"
+					item: "gtceu:cell_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "243B0109EED4F30B"
+					item: "gtceu:ingot_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "15A841A413A36177"
+					item: "gtceu:wire_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "6F1CE5E56C3FAE5C"
+					item: "gtceu:tiny_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "71A4038C282B39C3"
+					item: "gtceu:small_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5A850610656A7D4E"
+					item: "gtceu:normal_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "023A1691F70CBB1C"
+					item: "gtceu:large_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "4B1D3F0A320970F1"
+					item: "gtceu:huge_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "31BA9869E7DD2139"
+					item: "gtceu:block_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5BB7A858F948BC5C"
+					item: "gtceu:gear_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "51B04924B3B591CD"
+					item: "gtceu:bottle_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "7F43025B1FB60FDA"
+					item: "gtceu:foil_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "500E483FC12BC04A"
+					item: "gtceu:small_gear_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5A5A6B872BB2651F"
+					item: "gtceu:long_rod_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "6D4894B2A8AF5CAF"
+					item: "gtceu:rotor_extruder_mold"
+					type: "item"
+				}
+			]
+			subtitle: "A full set of molds and extruder shapes for you"
+			tasks: [{
+				id: "7BE713D4B18B2691"
+				title: "Mold and Extruder Shape Care Package"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"51B9A72C19F84F0E"
+				"516AA655EF6CBBF0"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"It can be understood as a non-consumed item (a catalyst), but no actual item is needed; you only have to set it in the machine/input hatch, specifically in the bottom left corner of the machine/input hatch GUI."
+				""
+				"If a Programmed Circuit item is input from outside, it will override the machine/hatch's current circuit setting, allowing free switching of programmed circuits."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "51A6B6CDC90D7E76"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "7AFF24BD5E9724BE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7A6B0453CD49843F"
+				title: "Programmed Circuit"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["Tier0.5-ULV"]
+	title: "Steam Age"
+}
