@@ -100,12 +100,12 @@
 			description: [
 				"Throw the blue-framed Magma Block into the particle effect of a working Door of Creation to convert and obtain it"
 				""
-				"For the Magmatter Block, throw in 64 Magmatter Ingots &mthough the Magmatter Block is useless&r"
+				"For the Magmatter Block, throw in 64 Magmatter Ingots &m(not that the Magmatter Block is any use)&r"
 			]
 			icon_scale: 2.0d
 			id: "470DDCCD8E017A4F"
 			shape: "rsquare"
-			subtitle: "An item obtained through trading, but nobody knows how to use it"
+			subtitle: "An item obtained through trading, but you don't know how to use it"
 			tasks: [{
 				id: "6C1581BB60019E84"
 				item: "minecraft:command_block"

@@ -102,7 +102,7 @@
 					type: "item"
 				}
 			]
-			title: "HV Sensor and Emitter"
+			title: "HV Sensors and Emitters"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -256,7 +256,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "It also handles automatic maintenance"
+			subtitle: "It also maintains itself"
 			tasks: [{
 				id: "0106634910539280"
 				item: "gtceu:cleaning_maintenance_hatch"
@@ -374,11 +374,11 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
-				"The Fishing Ground can provide some useful resources, do not forget to build it"
+				"The Fishing Ground yields some useful resources; do not forget to build it"
 				""
 				"The Zero Point Module is a ZPM-tier &dbattery&r, and can only go into a ZPM-tier Battery Buffer"
 				""
-				"You can use multiple Buses, Giant Buses, Stock Buses and other methods to input 64 fishing rods"
+				"You can input 64 fishing rods with multiple buses, Giant Input Buses, Stocking Input Buses and so on"
 			]
 			icon_scale: 1.5d
 			id: "6F85AB2294DA3310"
@@ -399,10 +399,10 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
-				"By EV you will need large amounts of all sorts of strange chemical feedstocks; if you do not get the combined petrochemical and biochemical production line built now, EV will be absolute hell later"
+				"By EV you will need large amounts of all sorts of odd chemical feedstocks; if you do not build the combined petrochemical and biochemical line now, EV will be miserable"
 				""
 				"Apart from the bottom layer, each layer of the Distillation Tower &o&6can and must&r have exactly one &bSmall&r Output Hatch, and each Output Hatch corresponds to one product (you can stack it higher yourself; the height gives no additional bonus whatsoever)"
-				"&6Only the bottom layer&r can use an &bOutput Assembly&r, which reduces the height; if you use the &dME Output Assembly&r you can even build just three layers"
+				"&6Only the bottom layer&r can use a &bDual Output Hatch&r, which reduces the height; with an &dME Dual Output Hatch&r you can even build just three layers"
 			]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
@@ -632,7 +632,7 @@
 					type: "item"
 				}
 			]
-			title: "SMD"
+			title: "SMDs"
 			x: -2.0d
 			y: 8.0d
 		}
@@ -754,7 +754,7 @@
 				"027197A71E630966"
 			]
 			description: [
-				"If you see this dust and it can be obtained from ore, do not go looking for it"
+				"If you see that this dust can be obtained from ores, do not go looking for it"
 				"This ore is obtained later through the Large Void Miner or the Space Elevator"
 			]
 			id: "74D9136DE32F9129"
@@ -783,7 +783,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "You can finally get maceration byproducts"
+			subtitle: "Finally, you can get macerating byproducts"
 			tasks: [{
 				id: "68B4BAC1D648029B"
 				item: "gtceu:hv_macerator"
@@ -817,7 +817,7 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["It can actually fill an LV Giant Input Hatch instantly (2.1MB/t)"]
+			description: ["It can actually fill an LV Huge Input Hatch instantly (2.1MB/t)"]
 			id: "05360F828860DB6F"
 			rewards: [{
 				id: "700022A87BC01B7D"
@@ -854,11 +854,11 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["{ \"text\": \"The Cleanroom is not worth building; the Cleaning Maintenance Hatch is more powerful and convenient\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
+			description: ["{ \"text\": \"The Cleanroom is not worth building; the Cleaning Maintenance Hatch is stronger and more convenient\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
 			icon: "gtceu:cleanroom"
 			id: "46C791B2130A833B"
 			optional: true
-			subtitle: "It has bugs, not recommended"
+			subtitle: "It has bugs; not recommended"
 			tasks: [{
 				id: "495F1F2B39DC8C3A"
 				type: "checkmark"

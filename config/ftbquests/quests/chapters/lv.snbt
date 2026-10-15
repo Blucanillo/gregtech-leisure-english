@@ -16,7 +16,7 @@
 		{
 			dependencies: ["51B9A72C19F84F0E"]
 			description: [
-				"The last three components can also be used as covers"
+				"The last three parts can also be used as covers"
 				"{@pagebreak}"
 				"An Electric Motor is a device that converts electrical energy into mechanical energy. Its working principle is based on electromagnetic induction: when current flows through the motor's coils, a force is generated within the magnetic field, and this force makes the motor's rotor spin, thereby driving the load. Electric motors are widely used in all kinds of industrial, commercial and household appliances."
 				"{@pagebreak}"
@@ -222,7 +222,7 @@
 				""
 				"Hold Duct Tape and right-click the Maintenance Hatch to service it quickly"
 				""
-				"In fact, you cannot put Duct Tape inside a Maintenance Hatch to stop it from breaking down"
+				"In fact, you cannot put Duct Tape inside a Maintenance Hatch to prevent breakdowns"
 			]
 			hide_dependency_lines: true
 			id: "3F38CC8C8D650202"
@@ -599,7 +599,7 @@
 		{
 			dependencies: ["075D368E91231337"]
 			description: [
-				"{ \"text\": \"The early source of Gallium Dust is thermally centrifuged Sphalerite\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
+				"{ \"text\": \"The early source of Gallium Dust is thermally centrifuging Sphalerite\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
 				""
 				"{ \"text\": \"The early source of Arsenic Dust, meanwhile, is Realgar\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4826DCD2FC457EA5\" } }"
 			]
@@ -1006,7 +1006,7 @@
 				""
 				"Unless you really know what you are doing, it is recommended to &cdelete all byproducts from the pattern&r, to avoid byproducts taking part in crafting and jamming the craft"
 				""
-				"Because of various strange NBT issues, before you make the Molecular Assembler Matrix, try to avoid writing crafting patterns that contain GT tools or armour directly, and use tool-free processing patterns instead (see the Molecular Assembler guide page for details; in that case put the tools directly into the Molecular Assembler and use them as catalysts)"
+				"Because of various strange NBT issues, before you build the Molecular Assembler Matrix, avoid writing crafting patterns that contain GT tools or armour directly, and use tool-free processing patterns instead (see the Molecular Assembler guide page for details; put the tools directly into the Molecular Assembler as catalysts)"
 			]
 			id: "1715EF3BF00D33B7"
 			tasks: [
@@ -1136,7 +1136,7 @@
 		{
 			dependencies: ["4C591AA4F1D907C1"]
 			description: [
-				"Input, Output, Maintenance, Dynamo - have you placed them all"
+				"Input, Output, Maintenance, Dynamo: have you placed them all?"
 				""
 				"Generators go into the bottom-right corner of the controller GUI, and stack up to &b&lsixteen&r of them"
 				""
@@ -1162,13 +1162,13 @@
 				""
 				"The Giant Input Bus/Assembly actually has &cone fewer&r usable item slot than the item description says"
 				""
-				"The Giant Input Assembly counts as both an Input Bus and an Input Hatch for formation checks, while an ordinary Input Assembly only counts as an Input Bus; mind the difference"
+				"The Huge Input Dual Hatch counts as both an Input Bus and an Input Hatch for formation checks, while a regular Dual Input Hatch counts only as an Input Bus; mind the difference"
 				""
-				"Items cannot be put into the Giant Input Bus/Assembly by hand; you must interact through a storage container (a chest, an ME Interface, a Pattern Provider and so on)"
+				"Items cannot be put into the Huge Input Bus/Dual Hatch by hand; interact with it through a storage container (chest, ME Interface, Pattern Provider and so on)"
 				""
-				"Besides the larger capacity, the Giant Input Bus also has 4 &bItem Catalyst&r slots, while the Giant Input Assembly has 9 Item Catalyst slots and 9 &bFluid Catalyst&r slots"
+				"Besides the larger capacity, the Huge Input Bus has 4 &bitem catalyst&r slots, and the Huge Input Dual Hatch has 9 item catalyst slots and 9 &bfluid catalyst&r slots"
 				""
-				"Shift-right-clicking the Giant Input Bus/Assembly puts the item into a catalyst slot"
+				"Shift + right-click the Huge Input Bus/Dual Hatch to put items into the catalyst slots"
 			]
 			hide_dependency_lines: true
 			id: "62A978538C87ED8A"
@@ -1231,7 +1231,7 @@
 					type: "item"
 				}
 			]
-			title: "Assembly"
+			title: "Dual Hatches"
 			x: -2.0d
 			y: -2.0d
 		}
@@ -1268,7 +1268,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			subtitle: "The Power of Radio"
+			subtitle: "The Power of Wireless"
 			tasks: [{
 				id: "36AFB28F70862E5B"
 				item: "gtmthings:lv_wireless_energy_receive_cover"
@@ -1336,11 +1336,11 @@
 		{
 			dependencies: ["075D368E91231337"]
 			description: [
-				"It is recommended to obtain it from the Slaughterhouse first, or from a Lightning Processor"
+				"It is recommended to get it from the Slaughterhouse first; a Lightning Processor also works"
 				""
-				"Extract Ender Pearl Dust, then solidify Liquid Ender Pearl into blocks, then disassemble the Ender Pearl Blocks (with a Forge Hammer or Molecular Assembly) to &l&bget pearls losslessly&r&r"
+				"Extract Ender Pearl Dust, solidify the Liquid Ender Pearl into blocks, then break the Ender Pearl Blocks down (Forge Hammer or Molecular Assembler) to get pearls &l&blosslessly&r&r"
 				""
-				"You can also use an Implosion Compressor (lossy)"
+				"An Implosion Compressor also works (lossy)"
 			]
 			id: "66DC685BEC00E4A6"
 			rewards: [{
@@ -1358,7 +1358,7 @@
 		}
 		{
 			dependencies: ["2658C31A89CF5B24"]
-			description: ["Draws energy from the wireless grid; sneak-right-click the machine to speed it up at the cost of &68x the energy consumption&r"]
+			description: ["Draws energy from the wireless network; sneak-right-click a machine to accelerate it at the cost of &68x the power consumption&r"]
 			id: "1F0CED23E64D8DB5"
 			rewards: [{
 				id: "6EB5ABC55B15A326"
@@ -1381,7 +1381,7 @@
 			description: [
 				"Glowstone can come from the Slaughterhouse or a Lightning Processor"
 				""
-				"{ \"text\": \"There are also 33 Infinite Programmed Circuit components, made with 16K ME Storage Cells\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51A6B6CDC90D7E76\" } }"
+				"{ \"text\": \"There are also 33 Infinite Programmed Circuit Cells, made with 16K ME Storage Cells\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51A6B6CDC90D7E76\" } }"
 			]
 			hide_dependency_lines: true
 			id: "26FF330CEEDDDDF1"
@@ -1427,7 +1427,7 @@
 		}
 		{
 			dependencies: ["4357DF535061C2E5"]
-			description: ["By simulating high-energy lightning it converts ordinary materials into rather useful materials, such as Fluix Crystals, Charged Certus Quartz, Ender Pearl Dust, Glowstone Dust and so on"]
+			description: ["Converts ordinary materials into more useful ones by simulating high-energy lightning, such as Fluix Crystals, Charged Certus Quartz, Ender Pearl Dust and Glowstone Dust"]
 			id: "5C831396310E6546"
 			rewards: [{
 				id: "314AAA3E7631AAA5"

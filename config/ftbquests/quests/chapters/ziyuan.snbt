@@ -195,7 +195,7 @@
 			id: "0BFF08842D22B72C"
 			tasks: [{
 				id: "327415F83D02B65E"
-				title: "A Solid Foundation Lets You Walk Briskly"
+				title: "Build a Solid Foundation to Stride Ahead"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -206,7 +206,7 @@
 			id: "68765386EA084EC0"
 			tasks: [{
 				id: "3F8107D325CEA1B4"
-				title: "At First You Can Only Dig by Hand, but Later There Are Many Machines"
+				title: "At First You Can Only Dig by Hand, but Later There Are Plenty of Machines"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -217,7 +217,7 @@
 				"68765386EA084EC0"
 				"40C39645B1DE2488"
 			]
-			description: ["Automatically mine ores"]
+			description: ["Mines ores automatically"]
 			id: "6693A00751424E19"
 			optional: true
 			tasks: [
@@ -245,7 +245,7 @@
 				"411628D717089480"
 				"4DDFAAF4A8E0622A"
 			]
-			description: ["Mine ores from the void"]
+			description: ["Mines ores from the void"]
 			id: "1999B90B73BAB11F"
 			optional: true
 			tasks: [{
@@ -261,7 +261,7 @@
 				"68765386EA084EC0"
 				"51B9A72C19F84F0E"
 			]
-			description: ["Extract fluids"]
+			description: ["Extracts fluids"]
 			id: "1E1E0437E8E241AB"
 			optional: true
 			tasks: [
@@ -295,7 +295,7 @@
 				"68765386EA084EC0"
 				"7296C57805F5DC96"
 			]
-			description: ["Extract fluids from beneath bedrock"]
+			description: ["Extracts fluids from beneath the bedrock"]
 			id: "1809019DAC0E3C2A"
 			optional: true
 			tasks: [
@@ -324,7 +324,7 @@
 				"1809019DAC0E3C2A"
 				"52DF531AFB3A07CE"
 			]
-			description: ["Extract fluids from the void"]
+			description: ["Extracts fluids from the void"]
 			id: "7FC5F639F89C2C22"
 			optional: true
 			tasks: [{
@@ -340,7 +340,7 @@
 				"1809019DAC0E3C2A"
 				"035C470213E8B4DB"
 			]
-			description: ["Extract fluids from beneath bedrock"]
+			description: ["Extracts fluids from beneath the bedrock"]
 			id: "1D4903B520E37BFE"
 			optional: true
 			tasks: [{
@@ -356,7 +356,7 @@
 				"1E7344C133C99565"
 				"411628D717089480"
 			]
-			description: ["Automatically mine ores over a large area"]
+			description: ["Mines ores automatically over a large area"]
 			id: "74D0577CA2F540F1"
 			optional: true
 			tasks: [
@@ -386,7 +386,7 @@
 				"233CA36D529EC3FB"
 				"1999B90B73BAB11F"
 			]
-			description: ["Mine ores from the void"]
+			description: ["Mines ores from the void"]
 			id: "214B86B97ED9C962"
 			optional: true
 			tasks: [{
@@ -426,7 +426,7 @@
 				"68765386EA084EC0"
 				"1A48D2DB936FF632"
 			]
-			description: ["Efficient fishing machine"]
+			description: ["An efficient fishing machine"]
 			id: "04A1D335D69E9779"
 			optional: true
 			tasks: [{
@@ -442,7 +442,7 @@
 				"68765386EA084EC0"
 				"51B9A72C19F84F0E"
 			]
-			description: ["Efficient automatic mob farm"]
+			description: ["An efficient automatic mob farm"]
 			id: "57886739347D6809"
 			optional: true
 			tasks: [{
@@ -458,7 +458,7 @@
 				"0375D068023B13D7"
 				"68765386EA084EC0"
 			]
-			description: ["Collect atmosphere on a large scale"]
+			description: ["Collects atmosphere on a large scale"]
 			id: "6E9E740AAEB580E0"
 			optional: true
 			tasks: [{
@@ -471,9 +471,9 @@
 		}
 		{
 			dependencies: ["7E436D979AF67921"]
-			description: ["If you want to check an item's tags, besides F3+H you can also hold the item in your hand and type /kubejs hand to view its tags"]
+			description: ["To check an item's tags, besides F3+H you can hold the item and type /kubejs hand"]
 			id: "7979C5ACF9A0C8D2"
-			subtitle: "The subtitle is the corresponding tag"
+			subtitle: "The subtitle is the matching tag"
 			tasks: [{
 				id: "54A100B30D3F4C53"
 				title: "So How Do You Process It?"
@@ -484,7 +484,7 @@
 		}
 		{
 			dependencies: ["7979C5ACF9A0C8D2"]
-			description: ["Dig It Up"]
+			description: ["Dig it up"]
 			icon: "minecraft:raw_iron"
 			id: "7DB63DF889DDDEF4"
 			subtitle: "forge:raw_materials"
@@ -532,7 +532,7 @@
 				"703EEB941F0C745C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Stuff raw ore and ore into the Macerator and crush them hard"]
+			description: ["Throw raw ore and ore into the Macerator and crush them hard"]
 			icon: "gtceu:crushed_iron_ore"
 			id: "6596611DD4CB5A60"
 			min_required_dependencies: 1
@@ -555,7 +555,7 @@
 		}
 		{
 			dependencies: ["6596611DD4CB5A60"]
-			description: ["Crushed Ore - Hammer/Grind"]
+			description: ["Crushed Ore - Forge Hammer/Macerator"]
 			icon: "gtceu:impure_iron_dust"
 			id: "05046054F7D65653"
 			subtitle: "forge:impure_dusts"
@@ -578,7 +578,7 @@
 		{
 			dependencies: ["6596611DD4CB5A60"]
 			description: [
-				"Crushed Ore - Ore Wash/Chemical Bath"
+				"Crushed Ore - Ore Washer/Chemical Bath"
 				""
 				"Purified ores that can be sifted have the special tag &o&bforge:siftables&r"
 			]
@@ -636,10 +636,10 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Impure Dust/Pure Dust - Centrifuge/Ore Wash"
-				"Refined Ore - Grinding"
+				"Impure Dust/Purified Dust - Centrifuge/Ore Washer"
+				"Refined Ore - Macerator"
 				""
-				"Some Pure Dust - Electromagnetic Separation"
+				"Some Purified Dusts - Electromagnetic Separator"
 			]
 			icon: "gtceu:iron_dust"
 			id: "5AEE74DD9B0D511C"
@@ -662,7 +662,7 @@
 		}
 		{
 			dependencies: ["14EE67044597E62A"]
-			description: ["Purified Ore - Hammer/Grind"]
+			description: ["Purified Ore - Forge Hammer/Macerator"]
 			icon: "gtceu:pure_iron_dust"
 			id: "79B98F942F1D8EDC"
 			subtitle: "forge:pure_dusts"
@@ -679,7 +679,7 @@
 					type: "item"
 				}
 			]
-			title: "Pure Dust"
+			title: "Purified Dust"
 			x: 11.5d
 			y: 4.0d
 		}
@@ -688,7 +688,7 @@
 				"7DB63DF889DDDEF4"
 				"703EEB941F0C745C"
 			]
-			description: ["Stuff from the ISA Mill line"]
+			description: ["Items from the IsaMill line"]
 			icon: "gtceu:milled_pyrope"
 			id: "3C2B4B80E425A9AD"
 			subtitle: "forge:milled"
@@ -717,7 +717,7 @@
 			tasks: [
 				{
 					id: "4C799DC47F6C6B79"
-					title: "Ore Foam"
+					title: "Ore Froth"
 					type: "checkmark"
 				}
 				{
@@ -735,7 +735,7 @@
 				"68765386EA084EC0"
 				"1FA9E56114BFABF5"
 			]
-			description: ["Use space drones to mine ores and fluids on distant planets"]
+			description: ["Mine ores and fluids on distant planets with drones"]
 			id: "7DA6DA0780F3DDA3"
 			optional: true
 			tasks: [
@@ -755,7 +755,7 @@
 		}
 		{
 			dependencies: ["14EE67044597E62A"]
-			description: ["Purified Ore - Sifting"]
+			description: ["Purified Ore - Sifter"]
 			icon: "gtceu:flawless_emerald_gem"
 			id: "621C664A94B042C0"
 			subtitle: "forge:*_gems"
@@ -799,14 +799,14 @@
 		}
 		{
 			dependencies: ["45D1E65DFC2DEF6F"]
-			description: ["The vast majority of the special byproducts show up in the Thermal Centrifuge"]
+			description: ["Most of the characteristic byproducts come out of the Thermal Centrifuge"]
 			id: "184CE47D10A10C84"
 			tasks: [{
 				id: "27CDD5B1DB6728DF"
-				title: "The Vast Majority of Ores"
+				title: "Most Ores"
 				type: "checkmark"
 			}]
-			title: "Most Ores Are: Grinding-Ore Wash / Grinding-Thermal Centrifuge-Grinding"
+			title: "Most Ores Go: Macerate - Wash / Macerate - Thermal Centrifuge - Macerate"
 			x: 5.5d
 			y: 15.0d
 		}
@@ -835,10 +835,10 @@
 		{
 			dependencies: ["5AEE74DD9B0D511C"]
 			description: [
-				"Electrolysis/Centrifuge"
+				"Electrolyzer/Centrifuge"
 				""
-				"Some ores have deeper, more complex processing flows,"
-				"such as Titanium, Tungsten, Uranium, the Platinum Group, Rare Earth, Naquadah..."
+				"Some ores have deeper, more complex processing chains,"
+				"such as Titanium, Tungsten, Uranium, the Platinum Group, Rare Earths, Naquadah..."
 			]
 			id: "192A144ADAC186BA"
 			tasks: [{
@@ -908,12 +908,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "Things That Flow Out of the Pyrolyse Oven"
+			title: "What Flows Out of the Pyrolyse Oven"
 			x: 48.0d
 			y: 4.0d
 		}
 		{
-			description: ["An optional way of obtaining Oil during the LV era; you can also just fill buckets yourself"]
+			description: ["An optional way to get Oil in the LV era; you can also collect it with buckets yourself"]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_pump"
 			id: "6DEAA19092FBCF99"
@@ -1046,14 +1046,14 @@
 		{
 			dependencies: ["184CE47D10A10C84"]
 			description: [
-				"For example, Sheldonite in the Platinum line, or Galena and Sphalerite in the crude Indium process, and so on"
+				"For example Sheldonite in the Platinum line, or Galena and Sphalerite in the crude Indium process"
 				""
-				"Make them when you need them; don't hoard your ores"
+				"Make them when you need them; don't hoard the ores"
 			]
 			id: "0A24F26D2EFE2822"
 			tasks: [{
 				id: "3FDED6E55897AD8D"
-				title: "Some Ores Go to the Chemical Reactor After Being Purified"
+				title: "Some Ores Go to the Chemical Reactor for Further Processing Once Purified"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -1061,11 +1061,11 @@
 		}
 		{
 			dependencies: ["0A24F26D2EFE2822"]
-			description: ["Such as Zircon Dust, Molybdenite Dust, and so on"]
+			description: ["Such as Zircon Dust, Molybdenite Dust and so on"]
 			id: "726A61CD2C9D9495"
 			tasks: [{
 				id: "3767ADB65635488D"
-				title: "A Tiny Few Ores Have Even More Special Processing Flows"
+				title: "A Very Few Ores Have Even More Special Processing"
 				type: "checkmark"
 			}]
 			x: 10.5d
@@ -1078,19 +1078,19 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Platinum Group processing flow is linear and clear, so it is very easy to set up"
-				"You can run everything passively; relying entirely on on-demand ordering isn't unworkable either"
+				"The Platinum Group processing chain is linear and clear, so it is very easy to set up"
+				"You can run it fully passively, though doing it all on demand works too"
 				""
-				"It is recommended to keep a certain stock of many later products"
+				"It is recommended to keep a stock of many of the later products"
 				""
-				"It is recommended to use a Crafting Card/Requester/(Level Emitter + Toggle Bus/Machine Controller Cover) to maintain quantities"
+				"It is recommended to maintain stock with a Crafting Card/Requester/(Level Emitter + Trigger Bus/Machine Controller Cover)"
 				""
-				"Once you have IV-tier multiblocks, it is recommended to use them to optimise your production lines"
+				"Once you have IV multiblocks, it is recommended to optimize your production lines with them"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3CB16B36A5AA2A10"
-			subtitle: "This Is the First Large-Scale Ore Processing Flow You Encounter"
+			subtitle: "This Is the First Large Ore Processing Chain You Meet"
 			tasks: [{
 				id: "61B56D54AB271C8A"
 				title: "Platinum Group Metal Processing"
@@ -1104,7 +1104,7 @@
 				"1D247D35BFB55469"
 				"0AE7E19DC4FD17B2"
 			]
-			description: ["The Platinum Group metals include Platinum, Palladium, Rhodium, Ruthenium, Iridium and Osmium. These metals all have good corrosion resistance, high melting points and excellent catalytic properties."]
+			description: ["The Platinum Group metals are Platinum, Palladium, Rhodium, Ruthenium, Iridium and Osmium. They all have good corrosion resistance, high melting points and excellent catalytic properties."]
 			hide_dependent_lines: true
 			icon: "gtceu:platinum_group_sludge_dust"
 			id: "01A1A06A3963D3BE"
@@ -1172,7 +1172,7 @@
 			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:platinum_sludge_residue_dust"
 			id: "4BD741311E61665C"
-			subtitle: "Centrifuge to Obtain Silicon Dioxide and Gold Dust"
+			subtitle: "Centrifuge to Get Silicon Dioxide and Gold Dust"
 			tasks: [
 				{
 					id: "17772738EAECA5DD"
@@ -1192,7 +1192,7 @@
 			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:inert_metal_mixture_dust"
 			id: "46435121E3AE44EF"
-			subtitle: "Package the Tiny Pile of Mixture"
+			subtitle: "Pack the Tiny Piles of Mixture"
 			tasks: [
 				{
 					id: "077A2ADE5E3735A3"
@@ -1218,7 +1218,7 @@
 			icon: "gtceu:rarest_metal_mixture_dust"
 			id: "56105EBA9D073902"
 			min_required_dependencies: 2
-			subtitle: "You Can Also Package the Tiny Pile of Mixture"
+			subtitle: "You Can Also Pack the Tiny Piles of Mixture"
 			tasks: [
 				{
 					id: "4727481B8F45C4E1"
@@ -1401,7 +1401,7 @@
 			dependencies: ["1E69FCB460019502"]
 			icon: "gtceu:osmium_tetroxide_dust"
 			id: "7B57E5FA2FD62C15"
-			subtitle: "Remember to keep a few; this stuff is also a catalyst for later chemical processing"
+			subtitle: "Keep a few; this is also a catalyst for later chemistry"
 			tasks: [
 				{
 					id: "630A0AD9877F9200"
@@ -1585,7 +1585,7 @@
 			icon_scale: 2.0d
 			id: "51AA4887F2DC9747"
 			shape: "diamond"
-			subtitle: "This Step Also Produces Ammonium Chloride"
+			subtitle: "This Step Produces Ammonium Chloride"
 			tasks: [
 				{
 					id: "1530C7BBA1C03A74"
@@ -1780,7 +1780,7 @@
 		}
 		{
 			dependencies: ["1E4CFA4ED7E43E80"]
-			description: ["Nuclear Waste and Red Granite also produce Uranium-238"]
+			description: ["Nuclear Waste and Red Granite also yield Uranium-238"]
 			icon: "gtceu:uranium_dust"
 			icon_scale: 2.0d
 			id: "5268CBA4AB789BDA"
@@ -1790,7 +1790,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Used Starting at EV"
+			subtitle: "Used from EV Onward"
 			tasks: [
 				{
 					id: "1F2EDCFFB9BEB463"
@@ -1964,7 +1964,7 @@
 			icon_scale: 2.0d
 			id: "3F5618A925DFA300"
 			shape: "diamond"
-			subtitle: "Only Used at UV"
+			subtitle: "Not Used Until UV"
 			tasks: [
 				{
 					id: "5F7B3AED2B6CAEC6"
@@ -2092,7 +2092,7 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["Trinium Compound processing also produces Protactinium Dust"]
+			description: ["Trinium Compound processing also yields Protactinium Dust"]
 			icon: "gtceu:protactinium_dust"
 			icon_scale: 2.0d
 			id: "35897D7A428FCED0"
@@ -2120,7 +2120,7 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["Until the Element Copier, Neptunium &6Dust&r can only be obtained from Nuclear Waste"]
+			description: ["Until the Element Copier, Neptunium &6Dust&r can only come from Nuclear Waste"]
 			icon: "gtceu:neptunium_dust"
 			icon_scale: 2.0d
 			id: "37B172AA6C7DD6BB"
@@ -2148,13 +2148,13 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["Centrifuge Nuclear Waste to get a Tiny Pile of Polonium"]
+			description: ["Centrifuge Nuclear Waste to get Tiny Piles of Polonium Dust"]
 			hide_dependent_lines: true
 			icon: "gtceu:polonium_dust"
 			icon_scale: 2.0d
 			id: "7B412E455E2C321B"
 			shape: "diamond"
-			subtitle: "Check the Tiny Pile of Dust Recipe"
+			subtitle: "See the Tiny Pile of Dust Recipe"
 			tasks: [
 				{
 					id: "146DB1101ED83C52"
@@ -2179,9 +2179,9 @@
 		{
 			dependencies: ["150F3113E9012C2F"]
 			description: [
-				"For now, obtain it from Indium Concentrate"
+				"For now, get it from Indium Concentrate"
 				""
-				"{ \"text\": \"Later you can obtain it during Enriched Naquadah processing\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
+				"{ \"text\": \"Later you can get it while processing Enriched Naquadah\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
 			]
 			icon: "gtceu:indium_dust"
 			icon_scale: 2.0d
@@ -2358,11 +2358,11 @@
 		{
 			dependencies: ["0E6B85A8E9CE4CA6"]
 			description: [
-				"Here you have Group IIIB: element 21 Scandium, element 39 Yttrium, and the fourteen lanthanides other than element 61 Promethium"
+				"This covers the Group IIIB elements: 21 Scandium, 39 Yttrium, and the fourteen lanthanides other than 61 Promethium"
 				""
 				"16 in total"
 				""
-				"Promethium only comes out of the Rare Earth Centrifuge"
+				"Promethium only comes from the Rare Earth Centrifuge"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:samarium_oxide_dust"
@@ -2484,7 +2484,7 @@
 			description: ["{ \"text\": \"Once you have the Space Drone MKIV, you can mine it\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"670D8EB2CE915FD5\" } }"]
 			icon: "gtceu:rare_earth_metal_dust"
 			id: "7570243EDE6F35B1"
-			subtitle: "Can Also Be Mined Directly Later"
+			subtitle: "Can Be Mined Directly Later"
 			tasks: [
 				{
 					id: "6BCA75161304244F"
@@ -2503,11 +2503,11 @@
 		{
 			dependencies: ["7570243EDE6F35B1"]
 			dependency_requirement: "one_completed"
-			description: ["{ \"text\": \"By then the nano resin extraction line will also produce Promethium Dust\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72DFAC3212692136\" } }"]
+			description: ["{ \"text\": \"By this point the Nano Resin extraction line also yields Promethium Dust\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72DFAC3212692136\" } }"]
 			icon: "gtceu:promethium_dust"
 			id: "5E03D3F795BD0F55"
 			min_required_dependencies: 1
-			subtitle: "One of the Base Materials Stewed Into UEV"
+			subtitle: "One of the Base Materials Cooked into UEV"
 			tasks: [
 				{
 					id: "5107DC687C7A012F"
@@ -2528,10 +2528,10 @@
 				"7979C5ACF9A0C8D2"
 				"29D4D49428BF7FF4"
 			]
-			description: ["Nitric Acid, Hydrochloric Acid, Hydrofluoric Acid... are used"]
+			description: ["Uses Nitric Acid, Hydrochloric Acid, Hydrofluoric Acid..."]
 			hide_dependent_lines: true
 			id: "1223D839C224777B"
-			subtitle: "Extra-Large Lanthanide Processing"
+			subtitle: "An Extra-Large Serving of Lanthanide Processing"
 			tasks: [{
 				id: "00F08CD4279B1525"
 				title: "Group IIIB Processing (Excluding the Actinides)"
@@ -2559,7 +2559,7 @@
 			icon_scale: 2.0d
 			id: "1534BC8521461BC8"
 			shape: "diamond"
-			subtitle: "Another Way to Obtain Indium"
+			subtitle: "Another Way to Get Indium"
 			tasks: [
 				{
 					id: "7FEE777235FA0998"
@@ -2601,7 +2601,7 @@
 			icon: "gtceu:monazite_dust"
 			id: "71C977A601F879AE"
 			shape: "pentagon"
-			subtitle: "Socialite"
+			subtitle: "Not So Solitary After All"
 			tasks: [
 				{
 					id: "222E9D1D4F6F71F9"
@@ -2650,7 +2650,7 @@
 			]
 			icon: "gtceu:monazite_rare_earth_turbid_liquid_bucket"
 			id: "218DF03160595A6F"
-			subtitle: "Immediately Recycle a Small Portion of Monazite"
+			subtitle: "Immediately Recovers a Small Share of the Monazite"
 			tasks: [
 				{
 					id: "0F421B066A2BAB87"
@@ -2792,7 +2792,7 @@
 			description: ["It can also be obtained from Samarium Refined Powder"]
 			icon: "gtceu:thorium_phosphate_refined_powder_dust"
 			id: "7ACA4ED39A1119FD"
-			subtitle: "Recycle Monazite"
+			subtitle: "Recycles Monazite"
 			tasks: [
 				{
 					id: "14AB746C12D36A98"
@@ -2857,7 +2857,7 @@
 			hide_dependent_lines: true
 			icon: "gtceu:neutralized_uranium_filter_residue_powder_dust"
 			id: "05496BBB8ABFAA30"
-			subtitle: "Another Means of Obtaining Uranium-235"
+			subtitle: "Another Way to Get Uranium 235"
 			tasks: [
 				{
 					id: "41D403E0EC536840"
@@ -3125,7 +3125,7 @@
 			icon: "gtceu:saturated_monazite_rare_earth_powder_dust"
 			id: "317B25B778FAF317"
 			min_required_dependencies: 2
-			subtitle: "Produces Rare Earth"
+			subtitle: "Yields Rare Earths"
 			tasks: [
 				{
 					id: "38FE2CDD66FB661A"
@@ -3824,7 +3824,7 @@
 			]
 			icon: "gtceu:fluoro_carbon_lanthanide_cerium_rare_earth_suspension_bucket"
 			id: "15A2F5EFFBB91EDA"
-			subtitle: "Processing this liquid recovers some Acetone"
+			subtitle: "Processing This Liquid Recovers Some Acetone"
 			tasks: [
 				{
 					id: "7A625C923290EEA2"
@@ -3845,7 +3845,7 @@
 			dependencies: ["15A2F5EFFBB91EDA"]
 			icon: "gtceu:samarium_rare_earth_concentrate_powder_dust"
 			id: "0611E972C84FDC4B"
-			subtitle: "Produces Rare Earth"
+			subtitle: "Yields Rare Earths"
 			tasks: [
 				{
 					id: "09012F5B518D32A5"
@@ -4060,10 +4060,10 @@
 			y: 13.0d
 		}
 		{
-			description: ["If you are really short on a particular rare earth element, you can try extraction"]
+			description: ["If you are badly short of one particular rare earth element, try extraction"]
 			icon: "gtceu:p507_bucket"
 			id: "72DFAC3212692136"
-			subtitle: "Nano Resin Rare Earth Element Extraction Line"
+			subtitle: "Nano Resin Rare Earth Extraction Line"
 			tasks: [
 				{
 					id: "64516808A90E9FB3"
@@ -4085,11 +4085,11 @@
 				"72DFAC3212692136"
 				"02F523E003E1C93D"
 			]
-			description: ["The extraction resin can be recycled"]
+			description: ["The extraction resin can be reused"]
 			id: "45B6AB3615FF2228"
 			tasks: [{
 				id: "435E547C20569366"
-				title: "17 Types of Nano Extraction Resin"
+				title: "17 Nano Extraction Resins"
 				type: "checkmark"
 			}]
 			x: 30.0d
@@ -4100,7 +4100,7 @@
 			id: "5FE4742B6A5FFABA"
 			tasks: [{
 				id: "5A310F6717B18752"
-				title: "17 Types of Saturated Nano Extraction Resin"
+				title: "17 Saturated Nano Extraction Resins"
 				type: "checkmark"
 			}]
 			x: 34.0d
@@ -4117,7 +4117,7 @@
 			id: "7DB48A5766BD91E6"
 			tasks: [{
 				id: "5DE3CE19B98A1D05"
-				title: "These Are the Petrochemical Outputs"
+				title: "Petrochemical Outputs"
 				type: "checkmark"
 			}]
 			x: 40.5d
@@ -4149,7 +4149,7 @@
 				title: "Biomass Outputs"
 				type: "checkmark"
 			}]
-			title: "Biochemical Line Outputs"
+			title: "Biochem Line Outputs"
 			x: 40.5d
 			y: 4.0d
 		}
@@ -4171,7 +4171,7 @@
 			icon: "gtceu:raw_naquadah"
 			id: "5D1037E8365CC910"
 			shape: "pentagon"
-			subtitle: "Dig It Up"
+			subtitle: "Dig it up"
 			tasks: [
 				{
 					id: "11D65D25476CBE44"
@@ -4208,7 +4208,7 @@
 		}
 		{
 			dependencies: ["5D1037E8365CC910"]
-			description: ["Grind Refined Naquadah Ore, or electromagnetically separate Pure Naquadah Dust"]
+			description: ["Macerate Refined Naquadah Ore, or run Purified Naquadah Dust through the Electromagnetic Separator"]
 			icon: "gtceu:enriched_naquadah_dust"
 			id: "36E8964CD1BE7569"
 			tasks: [
@@ -4266,7 +4266,7 @@
 			description: [
 				"{ \"text\": \"A long production line\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E926F9B91EECD78\" } }"
 				""
-				"Once you have a UEV Energy Hatch, you can electrolyse it directly to obtain Trinium Dust"
+				"Once you have a UEV Energy Hatch, you can electrolyze it directly for Trinium Dust"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:trinium_compound_ore"
@@ -4397,7 +4397,7 @@
 			dependencies: ["36FB56BD8B6415D7"]
 			icon: "gtceu:enriched_naquadah_sulfate_dust"
 			id: "1CD2A15A1C5B1395"
-			subtitle: "In fact, processing Naquadah Ore produces Enriched Naquadah"
+			subtitle: "In Fact, Processing Naquadah Ore Already Yields Enriched Naquadah"
 			tasks: [
 				{
 					id: "4838581B78418606"
@@ -4417,7 +4417,7 @@
 			dependencies: ["36FB56BD8B6415D7"]
 			icon: "gtceu:enriched_naquadah_waste_bucket"
 			id: "3868B8E8021CC035"
-			subtitle: "Distil to Obtain Enriched Naquadah and Naquadria Solution"
+			subtitle: "Distill It for Enriched Naquadah and Naquadria Solution"
 			tasks: [
 				{
 					id: "5062B0E2FE1808C7"
@@ -4643,7 +4643,7 @@
 			dependencies: ["3F165F658B061FB8"]
 			icon: "gtceu:naquadria_waste_bucket"
 			id: "6E2187ECE4FD9684"
-			subtitle: "Also Obtain Enriched Naquadah and Naquadria Solution"
+			subtitle: "Also Yields Enriched Naquadah and Naquadria Solution"
 			tasks: [
 				{
 					id: "0BA49C7857B6C915"
@@ -4710,7 +4710,7 @@
 		}
 		{
 			dependencies: ["40823ABFBBE43496"]
-			description: ["A small amount of Naquadria Waste is also produced"]
+			description: ["Also produces a small amount of Naquadria Waste"]
 			icon: "gtceu:enriched_naquadah_fuel_bucket"
 			id: "7248EC9288C91A33"
 			tasks: [
@@ -4775,7 +4775,7 @@
 		}
 		{
 			dependencies: ["7D1E1EB10A6FFE98"]
-			description: ["A small amount of Enriched Naquadah Waste is also produced"]
+			description: ["Also produces a small amount of Enriched Naquadah Waste"]
 			icon: "gtceu:naquadah_fuel_bucket"
 			id: "75D953244E729FEC"
 			subtitle: "Recovers 20% of the Ammonium Nitrate and Fluorine"
@@ -4849,7 +4849,7 @@
 			]
 			icon: "gtceu:enriched_naquadah_front_bucket"
 			id: "6A5AB82C3E14D091"
-			subtitle: "Material for Making Adamantine"
+			subtitle: "A Material for Making Adamantium"
 			tasks: [
 				{
 					id: "4666200C2877EED6"
@@ -4867,15 +4867,15 @@
 			y: 26.0d
 		}
 		{
-			description: ["Actually, this only covers part of the content up to UHV"]
+			description: ["This actually only covers part of the content up to UHV"]
 			icon: "minecraft:totem_of_undying"
 			id: "430303070695D7D3"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "You Need to Check JEI Yourself to Know What You Need"
+			subtitle: "Check JEI Yourself to Find What You Need"
 			tasks: [{
 				id: "19CF50A809E4A437"
-				title: "You Are a Mature Employee Now"
+				title: "You Are a Seasoned Employee Now"
 				type: "checkmark"
 			}]
 			x: 48.0d
@@ -4906,15 +4906,15 @@
 		{
 			dependencies: ["2AA1609DA42EA84F"]
 			description: [
-				"Check the Tiny Pile of Radium Dust Recipe"
+				"See the Tiny Pile of Radium Dust recipe"
 				""
-				"Later Trinium Compound processing will also produce Radium Dust"
+				"Trinium Compound processing later also yields Radium Dust"
 			]
 			icon: "gtceu:radium_dust"
 			icon_scale: 2.0d
 			id: "65BA1075B4BA1C0A"
 			shape: "diamond"
-			subtitle: "Useful Starting at UV"
+			subtitle: "Useful from UV Onward"
 			tasks: [
 				{
 					id: "7BC139E963716816"
@@ -5140,7 +5140,7 @@
 			icon_scale: 2.0d
 			id: "3E12F92D695A7CF8"
 			shape: "diamond"
-			subtitle: "Extracting from Kelp Is Simpler"
+			subtitle: "Extracting It from Kelp Is Simpler"
 			tasks: [
 				{
 					id: "64D41D2845646560"
@@ -5341,7 +5341,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Brominated Chlorine Vapor"
+			title: "Bromine Chloride Vapor"
 			x: 43.5d
 			y: 8.0d
 		}
@@ -5488,7 +5488,7 @@
 		}
 		{
 			dependencies: ["5228EAD34AF13835"]
-			description: ["Electrolyse Rock Salt to Recover Chlorine"]
+			description: ["Electrolyze Rock Salt to recover Chlorine"]
 			icon: "gtceu:iodine_containing_slurry_bucket"
 			id: "5B0DC99796FE65DF"
 			tasks: [
@@ -5645,7 +5645,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Tannic"
+			title: "Tannin"
 			x: 42.0d
 			y: 17.0d
 		}
@@ -5773,7 +5773,7 @@
 		}
 		{
 			dependencies: ["64706BF0EC96AB4F"]
-			description: ["Electrolyse to Obtain Silicon Dust; also recovers some Gaseous Chlorine"]
+			description: ["Electrolyze it for Silicon Dust; this also recovers some Gaseous Chlorine"]
 			icon: "gtceu:zircon_chlorinating_residue_bucket"
 			id: "7A96027096126976"
 			tasks: [
@@ -6108,7 +6108,7 @@
 			dependencies: ["20AF1DB9161AF24F"]
 			icon: "gtceu:gold_cyanide_bucket"
 			id: "51A893594B30F3F1"
-			subtitle: "Used to Recover Sodium Cyanide; also extracts Gold Dust"
+			subtitle: "Used to Recover Sodium Cyanide; Also Extracts Gold Dust"
 			tasks: [
 				{
 					id: "062655E09CFDD3DE"
@@ -6149,7 +6149,7 @@
 			dependencies: ["2AB3893648555B8C"]
 			icon: "gtceu:molybdenum_trioxide_dust"
 			id: "23A05AC4EADC9FDA"
-			subtitle: "Will Be Useful Later"
+			subtitle: "Will Have Another Use Later"
 			tasks: [
 				{
 					id: "473700F9AB008A98"
@@ -6167,7 +6167,7 @@
 		}
 		{
 			dependencies: ["7DB48A5766BD91E6"]
-			description: ["The former is a special chemical feedstock; the latter is used in the ISA Mill line"]
+			description: ["The former is a special chemical feedstock; the latter is used in the IsaMill line"]
 			icon: "gtceu:cyclopentadiene_bucket"
 			icon_scale: 2.0d
 			id: "4402C84CF27479A9"
@@ -6196,9 +6196,9 @@
 		}
 		{
 			description: [
-				"The Potassium Hydroxide-Potassium electrolysis loop is more efficient than electrolysing Water in the early game"
+				"Early on, the Potassium Hydroxide-Potassium electrolysis loop is more efficient than electrolyzing Water"
 				""
-				"Calcium Hydroxide and Potassium Hydroxide are equally efficient; Sodium Hydroxide is a little less efficient"
+				"Calcium Hydroxide is as efficient as Potassium Hydroxide; Sodium Hydroxide is a little less efficient"
 			]
 			icon: "gtceu:hydrogen_bucket"
 			icon_scale: 2.0d
@@ -6221,7 +6221,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["Electrolyse Salt Water; you can also electrolyse Salt or Rock Salt"]
+			description: ["Electrolyze Salt Water; you can also electrolyze Salt or Rock Salt"]
 			icon: "gtceu:chlorine_bucket"
 			icon_scale: 2.0d
 			id: "2CDB693780B9BE2E"
@@ -6244,9 +6244,9 @@
 		}
 		{
 			description: [
-				"In the early game, Fluorine comes from electrolysing Topaz-type or Mica-type dusts"
+				"Early on, Fluorine comes from electrolyzing Topaz-type or Mica-type dusts"
 				""
-				"Deepslate Dust can be centrifuged to obtain Biotite Dust"
+				"Deepslate Dust can be centrifuged for Biotite Dust"
 			]
 			icon: "gtceu:fluorine_bucket"
 			icon_scale: 2.0d
@@ -6291,7 +6291,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["Centrifuge Air or Electrolyse Saltpeter"]
+			description: ["Centrifuge Air or electrolyze Saltpeter"]
 			icon: "gtceu:nitrogen_bucket"
 			icon_scale: 2.0d
 			id: "072DF7AC0E91D955"
@@ -6324,7 +6324,7 @@
 		}
 		{
 			dependencies: ["68765386EA084EC0"]
-			description: ["Automatically mine ores"]
+			description: ["Mines ores automatically"]
 			id: "411628D717089480"
 			optional: true
 			tasks: [
@@ -6521,7 +6521,7 @@
 			y: 21.0d
 		}
 		{
-			description: ["{ \"text\": \"Source of bromine\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AB780C51F3F021A\" } }"]
+			description: ["{ \"text\": \"Source of Bromine\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AB780C51F3F021A\" } }"]
 			icon: "gtceu:bromine_trifluoride_bucket"
 			id: "5ABE1C11479A0229"
 			shape: "pentagon"
@@ -6556,7 +6556,7 @@
 		}
 		{
 			dependencies: ["6B8E242FD397D8B4"]
-			description: ["First obtained by centrifuging Plutonium 239; later it can be produced steadily with fusion"]
+			description: ["First obtained by centrifuging Plutonium-239; later fusion can produce it steadily"]
 			hide_dependency_lines: true
 			icon: "gtceu:plutonium_241_dust"
 			icon_scale: 2.0d
@@ -6598,7 +6598,7 @@
 			id: "6DB1B7A9173E2C78"
 			tasks: [{
 				id: "182BB2FF62D525C5"
-				title: "Enriched Naquadah Processing (ISA)"
+				title: "Enriched Naquadah Processing (IsaMill)"
 				type: "checkmark"
 			}]
 			x: 20.0d
@@ -6606,15 +6606,15 @@
 		}
 		{
 			description: [
-				"Non-Entity Spawning Mode:"
+				"Non-entity spawning mode:"
 				"Circuit 1: Iron Ingot, Leather, Bamboo, Feather, String, Poppy, Raw Porkchop, Raw Beef, Raw Rabbit, Raw Mutton, Bone, Raw Cod, Raw Salmon, Rabbit Hide"
 				""
 				"Circuit 2: Ghast Tear, Stick, &dEnder Pearl&r, Gunpowder, Coal, Glass Bottle, &dGlowstone&r, Rotten Flesh, String, Bone, Gold Nugget, Spider Eye, Arrow, Sugar, Redstone"
 				""
-				"Extra Outputs in Entity Spawning Mode:"
-				"Circuit 1: Various Dyed Wool, Emerald, Wheat, Rabbit's Foot, Egg"
+				"Extra outputs in entity spawning mode:"
+				"Circuit 1: Dyed Wool of all colors, Emerald, Wheat, Rabbit's Foot, Egg"
 				""
-				"Circuit 2: Various Weapons and Armor, &dBlaze Rod&r, Ominous Banner, Gold Ingot, Iron Ingot, Copper Ingot, Carrot, Potato, &dWither Skeleton Skull&r, Slimeball, Nautilus Shell"
+				"Circuit 2: Various weapons and armor, &dBlaze Rod&r, Ominous Banner, Gold Ingot, Iron Ingot, Copper Ingot, Carrot, Potato, &dWither Skeleton Skull&r, Slimeball, Nautilus Shell"
 			]
 			icon: "gtceu:slaughterhouse"
 			id: "19D339F25E824A2C"
@@ -6822,7 +6822,7 @@
 			icon_scale: 2.0d
 			id: "6C963FE46ADB8248"
 			shape: "diamond"
-			subtitle: "Used in Large Amounts at UHV"
+			subtitle: "Used Heavily at UHV"
 			tasks: [
 				{
 					id: "10B94E07D196E75E"
@@ -6840,7 +6840,7 @@
 		}
 		{
 			dependencies: ["68765386EA084EC0"]
-			description: ["Something out of nothing"]
+			description: ["Something from nothing"]
 			id: "5BC3D0488341F862"
 			optional: true
 			tasks: [
@@ -6925,7 +6925,7 @@
 					type: "item"
 				}
 			]
-			title: "Rock Crusher"
+			title: "Rock Breaker"
 			x: 4.5d
 			y: -1.0d
 		}
@@ -6968,7 +6968,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Rock Crusher"
+			title: "Rock Breaker"
 			x: 15.0d
 			y: 15.0d
 		}
@@ -7271,7 +7271,7 @@
 			]
 			icon: "gtceu:thorite_powder_dust"
 			id: "5DECAB3C913C31FE"
-			subtitle: "Produces Thorium Dust"
+			subtitle: "Yields Thorium Dust"
 			tasks: [
 				{
 					id: "4AB9A987C16B775E"
@@ -7292,7 +7292,7 @@
 			id: "324D979A0D38E7D1"
 			tasks: [{
 				id: "31F6875681F15099"
-				title: "The Stones Have Outputs Too"
+				title: "Stones Have Outputs Too"
 				type: "checkmark"
 			}]
 			x: 12.5d
@@ -7401,7 +7401,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["You will see many kinds of oil spouting in the Overworld; the Ad Astra oil that spouts in the ocean is completely useless"]
+			description: ["You will see many kinds of oil spouts in the Overworld; the Ad Astra Oil spouting in the ocean is completely useless"]
 			icon: "ad_astra:oil_bucket"
 			id: "113D8AE67948F32E"
 			optional: true
@@ -7414,7 +7414,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["Like Oil, Ad Astra's Fuel has no use whatsoever"]
+			description: ["Like its Oil, Ad Astra's Fuel has no use whatsoever"]
 			icon: "ad_astra:fuel_bucket"
 			id: "29C1F160ECAA561A"
 			optional: true
@@ -7433,7 +7433,7 @@
 		}
 		{
 			description: [
-				"Structures on the Moon may contain chests containing Desh, as well as Desh Raw Ore"
+				"Structures on the Moon may have chests containing Desh, as well as Raw Desh ore"
 				""
 				"Structures on Venus contain Netherrack and Ancient Debris"
 				""

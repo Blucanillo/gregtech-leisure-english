@@ -233,7 +233,7 @@
 					type: "item"
 				}
 			]
-			title: "EV Sensor and Emitter"
+			title: "EV Sensors and Emitters"
 			x: 4.0d
 			y: 6.0d
 		}
@@ -417,7 +417,7 @@
 		{
 			dependencies: ["759F26B57097602E"]
 			description: [
-				"If you see this dust and it can be obtained from ore, do not go looking for it"
+				"If you see that this dust can be obtained from ores, do not go looking for it"
 				"This ore is obtained later through the Large Void Miner or the Space Elevator"
 			]
 			id: "3A8A37094C997BF8"
@@ -790,7 +790,7 @@
 		{
 			dependencies: ["4DDFAAF4A8E0622A"]
 			description: [
-				"A very handy Void Miner with high efficiency, but it requires a gem slurry production line. It can greatly reduce the time you spend mining (with super chain mining you do not actually spend much time mining anyway)"
+				"A very handy Void Miner with high efficiency, but it needs a gem slurry production line. It can greatly cut the time you spend mining (though with FTB Ultimine you do not spend much time mining anyway)"
 				"You can put it off until the next voltage tier or even later"
 			]
 			icon_scale: 1.3d
@@ -905,7 +905,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Platinum Group Ore Processing"
+			title: "Raw Ores for Platinum Group Processing"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -975,7 +975,7 @@
 				""
 				"The Earth Space Station is a good choice"
 				""
-				"The materials to make a Space Station are 1 Steel Engine, 16 &eMicroprocessor Supercomputers&r, 16 Iron Plates and 64 Steel Ingots"
+				"Building a Space Station takes 1 Steel Engine, 16 &eMicroprocessor Supercomputers&r, 16 Space-Grade Iron Plates and 64 Steel Ingots"
 			]
 			icon: {
 				Count: 1
@@ -1016,7 +1016,7 @@
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
 			description: [
-				"You can assemble it from Wither Skeleton Skulls and Soul Sand (if you have not been to the Nether yet, go grab a few Soul Sand from the Warden's home)"
+				"You can assemble it from Wither Skeleton Skulls and Soul Sand (if you have not been to the Nether yet, grab some Soul Sand from an Ancient City, the Warden's home)"
 				""
 				"Though it mainly still has to rely on Lightning Processing - Implosion"
 			]
@@ -1078,7 +1078,7 @@
 		}
 		{
 			dependencies: ["27A9D4E765101CB9"]
-			description: ["There is actually Phosphoric Acid and Hydrofluoric Acid too"]
+			description: ["There are actually also Phosphoric Acid and Hydrofluoric Acid"]
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "4D14C432E11EC9AB"
 			subtitle: "Hydrochloric Acid, Sulfuric Acid, Nitric Acid, Aqua Regia, Nitration Mixture"
@@ -1153,16 +1153,16 @@
 					type: "item"
 				}
 			]
-			title: "Space Fermium Suit"
+			title: "Fermium Space Suit"
 			x: 18.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
 			description: [
-				"It is recommended to package the various commonly used circuits as Universal Circuit Boards, to make editing patterns easier later on"
+				"It is recommended to package your commonly used circuits as Universal Circuits, to make editing patterns easier later on"
 				""
-				"When encoding a pattern, &bUniversal Circuit Boards&r will be given &6priority&r and written into the pattern"
+				"When encoding a pattern, &bUniversal Circuits&r are written into the pattern with &6priority&r"
 			]
 			icon_scale: 1.5d
 			id: "5CC41E8E3F814DE9"
@@ -1198,7 +1198,7 @@
 				""
 				"All three types of ME Output Hatch have long-level capacity and unlimited slots (they output once per second, and the maximum amount of machine output accepted in a single transfer is &bint&r)"
 				""
-				"The ME Output Assembly has been optimised for better performance, and can &6manually&r eject items/fluids stranded inside the assembly into the ME Network"
+				"The ME Dual Output Hatch has been optimised for better performance, and can &6manually&r eject items/fluids stuck inside it into the ME network"
 			]
 			icon_scale: 1.5d
 			id: "733741C26C6BF5C3"
@@ -1239,7 +1239,7 @@
 					type: "item"
 				}
 			]
-			title: "ME Hatch"
+			title: "ME Hatches"
 			x: 8.0d
 			y: 4.0d
 		}

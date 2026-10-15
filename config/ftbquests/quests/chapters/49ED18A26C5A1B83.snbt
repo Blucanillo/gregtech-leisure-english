@@ -23,7 +23,7 @@
 				"Hold Shift and click \"P\" and \"ALL\" to reset the settings; hold Ctrl and click \"P\" to set the repeated structure count or machine tier to the maximum"
 				"The image in the middle supports &eclick interaction&r: after clicking a block, that block is highlighted, and the left side of the page lists every optional block type allowed in that position"
 				"Clicking \"M\" shows the multiblock with &eall modules installed&r; click \"M\" again to close it"
-				"Note: the block types shown at the bottom only display the currently selected type; for the exact types, refer to the optional blocks listed on the left (Input/Output Hatches, Energy/Dynamo/Laser Hatches, Maintenance Hatch, Muffler Hatch, Steam Input Hatch and so on)"
+				"Note: the block types shown at the bottom only reflect the currently selected type; the optional blocks listed on the left are authoritative (Input/Output Hatches, Energy/Dynamo/Laser Hatches, Maintenance Hatch, Muffler Hatch, Steam Input Hatch and so on)"
 				""
 				"&d&oStructure Detection Tool&r&r"
 				"Helps you check a structure for wrong blocks so you can build it"
@@ -60,13 +60,13 @@
 		{
 			description: [
 				"There is a wide variety"
-				"Energy Hatch, Dynamo Hatch, Input Bus, Giant Input Bus, Input Hatch, Input Assembly, Output Bus, Giant Output Bus, Output Hatch, Output Assembly, Maintenance Hatch, Muffler Hatch, Data Hatch, Laser Hatch, Giant Input Assembly, Computation Data Hatch"
+				"Energy Hatch, Dynamo Hatch, Input Bus, Huge Input Bus, Input Hatch, Dual Input Hatch, Output Bus, Huge Output Bus, Output Hatch, Dual Output Hatch, Maintenance Hatch, Muffler Hatch, Data Access Hatch, Laser Hatch, Huge Input Dual Hatch, Computation Hatch"
 				"In JEI you can see the position and count requirements for each kind of hatch"
 				""
 				"&l&cPlease Note&r&r"
 				"&o&bThe Muffler Hatch must face an air block,"
-				"&o&byou can swap a Bus for an Assembly,"
-				"&o&bbut you cannot swap a Hatch for an Assembly."
+				"&o&byou can replace a Bus with a Dual Hatch,"
+				"&o&bbut you cannot replace a Hatch with a Dual Hatch."
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:max_dual_input_hatch"
@@ -1036,7 +1036,7 @@
 			dependencies: ["32BD532132423050"]
 			description: [
 				"Apart from the bottom layer, each layer of the Distillation Tower &o&6can and must&r have exactly one &bSmall&r Output Hatch, and each Output Hatch corresponds to one product (you can stack it higher yourself; the height gives no additional bonus whatsoever)"
-				"&6Only the bottom layer&r can use an &bOutput Assembly&r, which reduces the height; if you use the &dME Output Assembly&r you can even build just three layers"
+				"&6Only the bottom layer&r can use a &bDual Output Hatch&r, which reduces the height; with an &dME Dual Output Hatch&r you can even build just three layers"
 			]
 			icon_scale: 1.3d
 			id: "17A797C2D7167222"
@@ -1220,7 +1220,7 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
-			description: ["You need two Input Hatches/Assemblies to supply Water and Lava separately"]
+			description: ["You need two Input Hatches/Dual Input Hatches to supply Water and Lava separately"]
 			icon_scale: 1.3d
 			id: "68231575D1C914D3"
 			rewards: [{
@@ -1277,7 +1277,7 @@
 			dependencies: ["1443E064A0AB0B8B"]
 			description: [
 				"From the third layer onwards &o&6you can and must&r place exactly one &bSmall&r Output Hatch"
-				"&6Only the bottom layer and the second layer&r can use an &bOutput Assembly&r, and they can also use the &dME Output Assembly&r"
+				"&6Only the bottom and second layers&r can use a &bDual Output Hatch&r, and they can also use an &dME Dual Output Hatch&r"
 				"Likewise, the height gives no additional bonus whatsoever"
 			]
 			icon_scale: 1.3d
@@ -1825,7 +1825,7 @@
 		{
 			dependencies: ["32BD532132423050"]
 			description: [
-				"The Evaporation Tower is similar to the Distillation Tower: from the third layer up to the second-to-last layer, each layer must and only can have one &bSmall&r Output Hatch, and an &dOutput Assembly&r can be placed on the bottom and second layers"
+				"The Evaporation Tower is similar to the Distillation Tower: from the third layer up to the second-to-last layer, each layer must have exactly one &bSmall&r Output Hatch, and a &dDual Output Hatch&r can be placed on the bottom and second layers"
 				"Likewise, the height gives no additional bonus whatsoever"
 			]
 			icon_scale: 1.3d

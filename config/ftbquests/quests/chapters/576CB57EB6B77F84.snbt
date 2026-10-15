@@ -35,7 +35,7 @@
 				""
 				"Insufficient input, insufficient output space, or too small a Dynamo Hatch will all hold back power generation"
 				"{@pagebreak}"
-				"You can \"borrow\" some crystals and an Ultra Low Voltage Primitive Magic Energy Absorber from the villagers"
+				"You can \"borrow\" some crystals and an Ultra Low Voltage Magic Energy Absorber from the villagers"
 			]
 			hide_dependent_lines: true
 			id: "4C591AA4F1D907C1"
@@ -1495,7 +1495,7 @@
 			description: ["Oilsands produce a very large amount of Heavy Oil"]
 			icon: "gtceu:oil_heavy_bucket"
 			id: "1D8A7D7FB1810C98"
-			subtitle: "Heavy, Oil"
+			subtitle: "Heavy Oil and Oil"
 			tasks: [
 				{
 					id: "5BB6F24F46BACEDD"
@@ -1526,7 +1526,7 @@
 			dependency_requirement: "one_completed"
 			icon: "gtceu:oil_light_bucket"
 			id: "18067F02EC9451C6"
-			subtitle: "Light, Raw"
+			subtitle: "Light Oil and Raw Oil"
 			tasks: [
 				{
 					id: "750E90F673CE8833"
@@ -1672,7 +1672,7 @@
 			dependencies: ["2E401B78E52B9BBC"]
 			icon: "gtceu:methanol_bucket"
 			id: "0BAF673775810FDA"
-			subtitle: "Methanol, Ethanol"
+			subtitle: "Methanol and Ethanol"
 			tasks: [
 				{
 					id: "2822B22BD83FFB2D"
@@ -1759,7 +1759,7 @@
 			dependencies: ["351B9D097EC493C5"]
 			icon: "gtceu:ethylene_bucket"
 			id: "552C19BEDDAF85A9"
-			subtitle: "Ethylene, Propene, Butene, Butadiene"
+			subtitle: "Ethylene, Propene, Butene and Butadiene"
 			tasks: [
 				{
 					id: "1B0068DFEC0BD555"
@@ -1818,7 +1818,7 @@
 			dependencies: ["351B9D097EC493C5"]
 			icon: "gtceu:methane_bucket"
 			id: "3233B8B40DCAA08D"
-			subtitle: "Methane, Ethane, Propane, Butane"
+			subtitle: "Methane, Ethane, Propane and Butane"
 			tasks: [
 				{
 					id: "5B0A118BE6D9FEAE"

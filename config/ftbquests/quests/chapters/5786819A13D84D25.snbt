@@ -29,7 +29,7 @@
 			id: "433793B7470FAA09"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "It is yang, not chang!"
+			subtitle: "It Is yáng, Not chǎng!"
 			tasks: [{
 				id: "02412DC87B9DA266"
 				item: "gtceu:stellar_forge"
@@ -218,7 +218,7 @@
 			description: [
 				"&aUEV&r Superconductor"
 				""
-				"You can now make the &6Configurable Gravity Cleaning Maintenance Hatch&r"
+				"You can now make the &6Configurable Gravity Sterile Maintenance Hatch&r"
 			]
 			id: "6B990D7D964DF559"
 			tasks: [{
@@ -457,9 +457,9 @@
 				"39380262677612A9"
 			]
 			description: [
-				"Precision combined laser engraving requires Photoresist and crafting power"
+				"Precision combined laser engraving requires Photoresist and computation"
 				""
-				"The precision laser engraving mode has a &cfixed parallel of 1&r"
+				"The Precision Laser Engraver mode has a &cfixed parallel of 1&r"
 				""
 				"Forming the multiblock only needs the &b&lFilter Casing"
 			]
@@ -550,11 +550,11 @@
 			description: [
 				"It is also the laser version of the Assembly Line and the Circuit Assembly Line, with a time multiplier of 0.4 and lossless overclocking (the extension modules &cdo not&r have lossless overclocking)"
 				""
-				"&c&lNote that you must connect the Data Bank whether or not research is needed!!&r&r&r"
+				"&c&lNote: the Data Bank must be connected whether or not research is needed!!!&r&r&r"
 				"Forming the multiblock only needs the &b&lFilter Casing"
 				"The extension module controller only recognises the 8 functional blocks around itself"
 				""
-				"Note: if you use the Circuit Assembly Line mode, while using a Pattern Hatch you must clear the recipe cache at the same time as you change the robot (take the pattern out and put it back, break the Pattern Hatch and place it again, etc.), otherwise after the change the Pattern Hatch will not recognise the new robot and crafting will fail"
+				"Note: in Circuit Assembly Line mode with a Pattern Buffer, clear the recipe cache whenever you swap the robot (take the pattern out and put it back, break and replace the Pattern Buffer, etc.); otherwise the Pattern Buffer will not recognise the new robot and crafting will fail"
 				""
 				"In JEI's multiblock structure preview screen, clicking \"M\" shows the multiblock structure with &eall modules installed&r"
 				""
@@ -602,13 +602,13 @@
 				"&c&lNote that you must connect the Data Bank whether or not research is needed!!!"
 				"&c&lNote that you must connect the Data Bank whether or not research is needed!!!"
 				""
-				"&r The laser version of the Engraving Laser Plant, with lossless overclocking; it uses the temperature parallel mechanic, where every 900K of temperature raises the parallel count ×2"
+				"&rThe laser version of the Engraving Laser Plant, with lossless overclocking; it uses the temperature parallel mechanic: every 900K of temperature doubles the parallel count"
 				""
 				"Some recipes that require research need to be made first in the &bEngraving Laser Plant&r for &dscanning&r"
 				""
-				"As the parallel count increases, the crafting power requirement increases as well (if there is one); the exact formula is: minimum crafting power requirement multiplied by the parallel count"
+				"As the parallel count rises, the computation requirement rises too (if there is one); the formula is: minimum computation requirement multiplied by the parallel count"
 				""
-				"When the crafting power is &6not enough to consume all input materials in one go&r, &cthe machine will not work&r"
+				"When the computation is &6not enough to consume all input materials at once&r, &cthe machine will not work&r"
 			]
 			icon_scale: 2.0d
 			id: "1BDEBBAF5BA9854E"
@@ -749,7 +749,7 @@
 		}
 		{
 			dependencies: ["7AE40ADC74AAA54B"]
-			description: ["The new monocrystalline silicon"]
+			description: ["The new Monocrystalline Silicon Boule"]
 			icon_scale: 2.0d
 			id: "01433D78C43AD215"
 			tasks: [{
@@ -912,7 +912,7 @@
 		}
 		{
 			dependencies: ["1B462F1DBFC5F77B"]
-			description: ["You can go and make drone MK3 first, and come back to make Fullerene after mining Bromine"]
+			description: ["You can make Drone MK3 first, mine Bromine with it, and then come back to make Fullerene"]
 			id: "4F945AA31D61A74D"
 			subtitle: "Advanced Materials"
 			tasks: [{
@@ -1110,5 +1110,5 @@
 		}
 	]
 	subtitle: ["Tier9-UHV"]
-	title: "Ultra High Voltage"
+	title: "Highly Ultimate Voltage"
 }

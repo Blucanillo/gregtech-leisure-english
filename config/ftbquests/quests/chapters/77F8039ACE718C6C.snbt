@@ -16,8 +16,8 @@
 		{
 			dependencies: ["46F82A0A3D57C225"]
 			description: [
-				"Once you have a Bronze Ingot, you can begin the Steam Age"
-				"Summon your courage and step into GregTech's first voltage tier!"
+				"Once you have a Bronze Ingot, you can start the Steam Age"
+				"Gather your courage and step into GregTech's first voltage tier!"
 			]
 			id: "5F5F348E3A34827E"
 			rewards: [{
@@ -39,11 +39,11 @@
 		{
 			dependencies: ["12E605EC5CFDE71A"]
 			description: [
-				"So where does the water come from? Right now you need some water"
+				"And where does water come from? Right now you need some water"
 				""
 				"Water output varies by biome; the wetter the biome, the more it produces"
 				""
-				"In addition, the LV Output Hatch and MV Output Hatch multiply the output by 400%, and rain multiplies it by a further 150%"
+				"In addition, an LV or MV Output Hatch multiplies the output by 400%, and rain multiplies it by another 150%"
 			]
 			id: "4E96A08CF12D496A"
 			rewards: [{
@@ -70,11 +70,11 @@
 		{
 			dependencies: ["2B9D62FB6BF39201"]
 			description: [
-				"Diamond is the best fuel to burn, so burning diamond is recommended"
+				"Diamond burns the longest, so it's the recommended fuel"
 				""
-				"Feeding water into a dry-fired boiler will make it &4explode&r"
+				"Feeding water into a boiler that has run dry makes it &4explode&r"
 				""
-				"Liquid Fuel Boilers use lava as fuel; Solar Boilers heat up naturally during the day, and cool down at night or when obstructed"
+				"Liquid Fuel Boilers burn lava; Solar Boilers heat up on their own during the day and cool down at night or when covered"
 			]
 			id: "4BFC342697BDE75A"
 			rewards: [{
@@ -103,13 +103,13 @@
 			can_repeat: true
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-				"Remember to sneak-right-click with a wrench to lock the flow direction while using it (keep your off-hand empty)"
+				"Remember to sneak-right-click with a wrench to lock the flow direction when using it (keep your off hand empty)"
 				""
 				"It can also be crafted into larger pipes and used as a big storage tank"
 				""
-				"If you do not want to be scalded by steam or other hot fluids, you can cover the pipes with frames (the blocks made from rods)"
+				"If you don't want to get scalded by steam or other hot fluids, cover the pipes with frames (the blocks made from rods)"
 				""
-				"You can change the capacity of spacetime pipes in the gtlcore config file"
+				"You can change the capacity of Spacetime Pipes in the gtlcore config file"
 			]
 			icon: "gtceu:spacetime_tiny_fluid_pipe"
 			id: "781417A4FA36101D"
@@ -133,7 +133,7 @@
 			description: [
 				"You can start making steel now"
 				""
-				"You can also just make the &5Dimensionally Transcendent Dirt Forge&r"
+				"You can also go straight to the &5Dimensionally Transcendent Dirt Forge&r"
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			icon_scale: 2.0d
@@ -170,7 +170,7 @@
 		}
 		{
 			dependencies: ["2B9D62FB6BF39201"]
-			description: ["It is used to compress things"]
+			description: ["It's used to compress things"]
 			id: "5C936EF307594737"
 			rewards: [{
 				id: "704DF16EECC15BD8"
@@ -218,7 +218,7 @@
 		}
 		{
 			dependencies: ["5C936EF307594737"]
-			description: ["Early on, using the Compressor directly is recommended"]
+			description: ["Early on, just make it in a Compressor"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "79E81CC078F246C0"
@@ -260,9 +260,9 @@
 				"43DE0784E5D32B46"
 			]
 			description: [
-				"Used to craft power machines, and to craft hatches too"
+				"Used to craft electric machines, and hatches too"
 				""
-				"It can even be used to &cst&r&eore&r&apow&ber&r&r and &3conn&r&9ect&r&1ME&r&5 net&r&dworks&r!"
+				"It can even &cst&r&eore&r &apo&bwer&r&r and &3con&r&9nect&r &1ME&r&5 net&r&dworks&r!"
 			]
 			icon_scale: 1.3d
 			id: "7CB85061F0822830"
@@ -273,7 +273,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "You absolutely need a wild imagination to use it"
+			subtitle: "You'll need a wild imagination to use this one"
 			tasks: [{
 				id: "6500863B6A64DE2F"
 				item: "gtceu:lv_machine_hull"
@@ -305,7 +305,7 @@
 			description: [
 				"{ \"text\": \"The Ancient World has some useful ores\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FFD20E53A9DF62A\" } }"
 				""
-				"If a recipe in JEI has a block named after some dimension in its bottom right corner, it means that recipe &bcan only be made in the corresponding dimension&r (for example, Damascus Steel Dust can only be made in the Ancient World)"
+				"If a recipe in JEI shows a block named after a dimension in its bottom-right corner, that recipe &bcan only be made in that dimension&r (for example, Damascus Steel Dust can only be made in the Ancient World)"
 			]
 			icon: "kubejs:reactor_core"
 			icon_scale: 2.0d
@@ -363,7 +363,7 @@
 		}
 		{
 			dependencies: ["30F031CD02425ED7"]
-			description: ["ULV superconducting material, but for now use it to make the Ancient Reactor Core"]
+			description: ["A ULV superconductor material, but for now use it to make the Ancient Reactor Core"]
 			id: "3D65D9712DFB63D9"
 			rewards: [{
 				id: "7FAA57A862B018AE"
@@ -383,10 +383,10 @@
 			description: [
 				"Now you can use it to travel to the Ancient World"
 				""
-				"About the structure: place the core in the centre, the 4 adjacent blocks are Steel Blocks, the 4 corner blocks are Diamond Blocks, laid flat"
+				"The structure: core in the center, Steel Blocks on the 4 adjacent sides, Diamond Blocks in the 4 corners, laid flat"
 				"Right-click the core to travel to the Ancient World"
 				""
-				"Once you have made the Tier 3 Rocket at &5EV&r, you will also need it to travel to the Nether"
+				"Once you make the Tier 3 Rocket in &5EV&r, you will also need it to travel to the Nether"
 			]
 			icon: "kubejs:reactor_core"
 			id: "00579BDA1FA1BEC6"
@@ -427,7 +427,7 @@
 		{
 			dependencies: ["2B9D62FB6BF39201"]
 			description: [
-				"It can hammer three ingots into two plates, giving better yield than crafting by hand"
+				"It hammers three ingots into two plates, a better yield than crafting by hand"
 				""
 				"{ \"text\": \"There is also a multiblock called the Steam Piston Hammer, which is even more efficient\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4877DB6020D6BFBC\" } }"
 			]
@@ -504,7 +504,7 @@
 				"707E5114B7979898"
 				"388BD32463FA905D"
 			]
-			description: ["Your first ULV circuit; you need it to help make cheaper ones, so a few is enough"]
+			description: ["Your first ULV circuit; you need it to help make cheaper ones, so a few are enough"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "5CD26DECB937FC71"
@@ -523,7 +523,7 @@
 		}
 		{
 			dependencies: ["30F031CD02425ED7"]
-			description: ["You cannot mix this by hand like bronze; you can only make it with the help of machines"]
+			description: ["You can't mix this by hand like bronze; it can only be made with machines"]
 			id: "3C91E284A9A03B1B"
 			rewards: [{
 				id: "08462119775B14A3"
@@ -560,7 +560,7 @@
 			dependencies: ["335ED39019FC62E7"]
 			description: [
 				"Sneak-right-click while holding the Crystal Pickaxe to switch between Fortune III and Silk Touch"
-				"&m(you can even use this feature to farm experience)&r"
+				"&m(you can even use this to farm experience)&r"
 			]
 			id: "12FE2B59FA86381C"
 			rewards: [
@@ -581,7 +581,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This is far more efficient than the parent rock"
+			subtitle: "Much more efficient than the base stone"
 			tasks: [
 				{
 					id: "456D397A52A6D291"
@@ -594,7 +594,7 @@
 					type: "item"
 				}
 			]
-			title: "Ore from the Ancient World"
+			title: "Ores from the Ancient World"
 			x: 12.0d
 			y: 4.0d
 		}
@@ -604,7 +604,7 @@
 				"664C46D5C12E7255"
 				"5CD26DECB937FC71"
 			]
-			description: ["An automated crafting table/smithing table/stonecutter, but you have to make patterns before you can use it; for now it is just a crafting material"]
+			description: ["An automated crafting table/smithing table/stonecutter, but it needs patterns to work; for now it's just a crafting material"]
 			id: "3C071C0542CF935D"
 			rewards: [{
 				id: "4304D0C677F66D9B"
@@ -641,9 +641,9 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-				"With it you can make some seriously powerful steam multiblocks"
+				"With it you can build some very powerful steam multiblocks"
 				""
-				"They have very high parallel processing, and once you have Stainless Steel they can also overclock and be tiered up (MV)"
+				"They have very high parallels, and once you have Stainless Steel they can also overclock and be upgraded (MV)"
 				""
 				"{ \"text\": \"Head to the Multiblocks chapter to learn more\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40405034AE9D9945\" } }"
 			]
@@ -667,7 +667,7 @@
 				"5276CA8FA5262C9B"
 				"38CC43F7A6A39BB4"
 			]
-			description: ["Do not forget to place the Output Hatch"]
+			description: ["Don't forget to place the Output Hatch"]
 			icon_scale: 2.0d
 			id: "2585418910B6798A"
 			rewards: [{
@@ -689,9 +689,9 @@
 			description: [
 				"They can be shared"
 				""
-				"In practice, apart from a few exceptions, every multiblock machine that needs a Muffler Hatch can use an LV Muffler Hatch; higher-tier Muffler Hatches are not much use"
+				"In practice, with a few exceptions, every multiblock that needs a Muffler Hatch can use an LV Muffler Hatch; higher-tier Muffler Hatches are of little use"
 				""
-				"Even when a Muffler Hatch is completely full of ash, it still does not affect the machine's operation"
+				"A Muffler Hatch full of ash still doesn't stop the machine from working"
 			]
 			hide_dependent_lines: true
 			id: "38CC43F7A6A39BB4"
@@ -700,7 +700,7 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "Never Block the Exhaust Vent"
+			subtitle: "Never Block the Exhaust"
 			tasks: [{
 				id: "6FF18125E551DB42"
 				item: "gtceu:lv_muffler_hatch"
@@ -718,9 +718,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You do not need to make many, a few will do"
+				"You don't need many; a few will do"
 				""
-				"Later on you can make them with the Large Steam Circuit Assembler"
+				"Later you can make them with the Large Steam Circuit Assembler"
 			]
 			icon_scale: 2.0d
 			id: "5065BEDC95AE564E"
@@ -741,7 +741,7 @@
 		}
 		{
 			dependencies: ["79D4AD9908A4578A"]
-			description: ["A little more troublesome than vanilla"]
+			description: ["A bit more involved than in vanilla"]
 			id: "77A1011F608079C9"
 			rewards: [{
 				id: "11D6ADD9CE28FA57"
@@ -758,7 +758,7 @@
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
-			description: ["Resistors have many recipes; Fine Wire has the better value"]
+			description: ["Resistors have many recipes; the Fine Wire one is the best value"]
 			id: "6D729450ED86BDAF"
 			rewards: [{
 				id: "108CAF7D675F876A"
@@ -829,7 +829,7 @@
 				"34FCFA114E75D770"
 				"06285BE2396AB639"
 			]
-			description: ["A very cheap circuit; this series goes all the way up to EV circuits"]
+			description: ["A very cheap circuit; this line goes all the way up to EV circuits"]
 			icon_scale: 2.0d
 			id: "08B7D8F835DFE214"
 			size: 1.0d
@@ -862,15 +862,15 @@
 		{
 			dependencies: ["12FE2B59FA86381C"]
 			description: [
-				"AE2 is an extremely useful automation mod"
+				"AE2 is a very handy automation mod"
 				""
 				"See the changes to AE2 in the &dAE2 Tweaks&r chapter"
 				""
-				"The guide contains a detailed introduction to AE2; it is worth reading"
+				"The guide has a detailed introduction to AE2; it's worth reading"
 				""
-				"Hold G on an AE2 item to see its corresponding guide entry directly (provided you have already changed the keybind that toggles the accessory slots)"
+				"Hold G over an AE2 item to open its guide entry directly (provided you've rebound the key that toggles the accessory slots)"
 				""
-				"Using ME Import/Export Buses is not recommended; the ME Interface has better performance and efficiency (GregTech machines all have &bauto-output&r, and together with &dcovers&r they can &6actively pull&r from the ME Interface, while hatches have &bactive input/output&r, and the ME Interface's storage space has been massively increased)"
+				"ME Import/Export Buses are not recommended; the ME Interface performs better and is more efficient (all GregTech machines have &bauto-output&r, and with &dcovers&r they can &6actively pull&r from an ME Interface, hatches have &bactive input/output&r, and the ME Interface's storage has been greatly expanded)"
 			]
 			icon: "ae2:guide"
 			id: "6E69F45AEA66D5ED"
@@ -918,17 +918,17 @@
 		{
 			dependencies: ["553B2D61416792DC"]
 			description: [
-				"The Large Steam Boilers have received an epic buff, so you can steam-power your way to HV without a second thought (HV needs several of them, as higher-tier boilers burn fuel faster)"
+				"The Large Steam Boilers have been massively buffed, so you can run on steam power all the way to HV without a second thought (HV needs several of them, and higher-tier boilers burn fuel faster)"
 				""
 				"Later there are also Large Steel, Titanium and Tungstensteel Steam Boilers"
 				""
 				"The Maintenance Hatch needs manual maintenance early on"
 				""
-				"Place the Input Hatch/Bus/Assembly, Maintenance Hatch and Muffler Hatch on the bottom layer, and Output Hatches on the second to fourth layers"
+				"Put the Input Hatches/Buses/Assemblies, Maintenance Hatch and Muffler Hatch on the bottom layer, and the Output Hatches on layers two to four"
 				""
 				"This is not a steam machine; steam buses cannot be used"
 				""
-				"Be careful not to use a Giant Input Assembly in the boiler; it may cause a &4crash&r"
+				"Do not use a Huge Input Dual Hatch in the boiler; it can cause a &4crash&r"
 			]
 			icon_scale: 2.0d
 			id: "328D5CF265FCCCA3"
@@ -956,11 +956,11 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-				"Steam machines need you to &a&dset an exhaust vent&r; after running once they need to vent, and the exhaust vent must face air, otherwise they cannot work"
+				"Steam machines need an &a&dexhaust vent set&r; they need to vent after each run, and the vent must face air or they cannot work"
 				""
-				"Use a wrench right-click to set the exhaust vent"
+				"Right-click with a wrench to set the exhaust vent"
 				""
-				"The vented gas deals damage"
+				"The vented steam deals damage"
 			]
 			icon: "gtceu:lp_steam_rock_crusher"
 			id: "7736F74AEBCB914E"
@@ -971,7 +971,7 @@
 			}]
 			tasks: [{
 				id: "1FF020A8688728E6"
-				title: "Why Does My Steam Machine Stop After Running Once?"
+				title: "Why Does My Steam Machine Stop After One Run?"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -982,11 +982,11 @@
 			description: [
 				"Only the firebricks on the bottom layer can be replaced with input/output buses"
 				""
-				"Please make sure the Input Bus and Output Bus have enough space for the forge to operate"
+				"Make sure the Input Bus and Output Bus have enough space for the forge to run"
 				""
-				"This is not a steam machine, &c&ldoes not need a Steam Input Hatch&r, &c&land cannot use steam buses&r"
+				"This is not a steam machine: it &c&ldoes not need a Steam Input Hatch&r &c&land cannot use steam buses&r"
 				""
-				"Lush caves contain a lot of clay; the area below where azalea trees grow is a lush cave"
+				"Lush caves have plenty of clay; there is a lush cave below where azalea trees grow"
 			]
 			icon_scale: 1.3d
 			id: "0662E205D1783D31"
@@ -1023,7 +1023,7 @@
 		{
 			dependencies: ["1AB03D24332B722E"]
 			description: [
-				"A powerful furnace, and it uses little steam"
+				"A powerful furnace that uses little steam"
 				""
 				"&b&lCan&r use steam buses"
 				""
@@ -1048,7 +1048,7 @@
 		}
 		{
 			dependencies: ["5F5F348E3A34827E"]
-			description: ["The Steam Age's furnace; it is actually slower than an ordinary furnace"]
+			description: ["The Steam Age furnace; it's actually slower than a regular furnace"]
 			hide_dependency_lines: true
 			id: "10750DEB64B4BF89"
 			rewards: [{
@@ -1066,7 +1066,7 @@
 		}
 		{
 			dependencies: ["10750DEB64B4BF89"]
-			description: ["8 parallels, and it can be upgraded further"]
+			description: ["256 parallels, and it can be upgraded further"]
 			id: "1AB03D24332B722E"
 			rewards: [{
 				id: "26F40D0C80FD0D34"
@@ -1109,17 +1109,17 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-				"Steam multiblocks need a &bSteam Input Hatch&r to supply steam (the Large Steam Input Hatch is a &cMV late&r item that you cannot make yet, so just use a regular Steam Input Hatch)"
+				"Steam multiblocks need a &bSteam Input Hatch&r to supply steam (the Large Steam Input Hatch is a &cLate MV&r item you can't make yet, so just use a regular Steam Input Hatch)"
 				""
-				"The &bSteam Input Bus&r and &bSteam Output Bus&r (buffed to 16 slots!) can input and output items for steam multiblocks (the Steam Input Bus &ccannot have a programmed circuit set&r; if you need that, use a different input bus/assembly)"
+				"The &bSteam Input Bus&r and &bSteam Output Bus&r (buffed to 16 slots!) handle item input and output for steam multiblocks (the Steam Input Bus &ccannot hold a programmed circuit&r; if you need one, use another input bus or Dual Input Hatch)"
 				""
-				"For fluids, use Input Hatches and Output Hatches; ordinary input/output hatches can only hold &cone fluid&r; ordinary Output Hatches and the LV Giant Output Hatch can lock their fluid output by marking the second slot from the top down (drag from JEI, mark with a bucket containing the fluid, etc.)"
+				"For fluids, use Input Hatches and Output Hatches; regular input/output hatches can only hold &cone fluid&r; regular Output Hatches and the LV Huge Output Hatch can lock their fluid output by marking the second slot from the top (drag from JEI, mark with a filled bucket, etc.)"
 				""
-				"Large steam multiblocks all have &664&r parallels, &bcan run LV recipes&r, and process twice as fast as LV machines; non-large steam multiblocks have &68&r parallels and &bcan also run LV recipes&r"
+				"Large steam multiblocks all have &664&r parallels, &bcan run LV recipes&r, and process twice as fast as LV machines; the other non-large steam multiblocks have &68&r parallels and &bcan run LV recipes&r too. The Steam Oven is an exception, with 256 parallels."
 				""
-				"{ \"text\": \"The casings for steam multiblocks can be bought at the Small Market\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E6BC2F76ED6F531\" } }"
+				"{ \"text\": \"Steam multiblock casings can be bought at the Small Market\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E6BC2F76ED6F531\" } }"
 				""
-				"When a large steam multiblock runs at full parallel its steam consumption is extremely high; you need high-speed fluid transfer such as spacetime pipes or laser nodes to supply steam, otherwise it will stutter on steam"
+				"A large steam multiblock running at full parallel uses a huge amount of steam; supply it with high-throughput fluid transport such as Spacetime Pipes or laser nodes, or it will run short of steam"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:steam_piston_hammer"
@@ -1159,7 +1159,7 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Steam grinding produces no byproducts; you have to wait until HV for byproducts"
+			subtitle: "Steam grinding has no byproducts; those wait until HV"
 			tasks: [{
 				id: "6ACDB1E4B636D7F0"
 				title: "Steam Multiblocks"
@@ -1171,21 +1171,21 @@
 		{
 			dependencies: ["12FE2B59FA86381C"]
 			description: [
-				"The recipes for LaserIO have all been buffed (64x output from the void), so you can use this mod for logistics before you have AE"
+				"LaserIO recipes have all been buffed (64x output from the void), so you can use this mod for logistics before you have AE"
 				""
-				"Sneak-right-click with a wrench to bind a node or connector, right-click other nodes or connectors to establish a connection, and sneak-right-click a non-node/non-connector block or air to clear the binding"
+				"Sneak-right-click a node or connector with a wrench to bind it, right-click other nodes or connectors to link them, and sneak-right-click any other block or the air to clear the binding"
 				""
 				"The Advanced Laser Connector can &bconnect across dimensions&r"
 				""
-				"Card Overclockers are installed in laser cards, up to 4; Node Overclockers are installed in laser nodes, up to 8"
+				"Logistic Overclockers go in laser cards, up to 4; Node Overclockers go in laser nodes, up to 8"
 				""
-				"Overclockers and filters cannot be installed in cards stacked higher than 1"
+				"Overclockers and filters cannot be installed in cards stacked to more than 1"
 				""
 				"Energy Cards cannot transfer EU"
 				""
-				"The Card Cloner can quickly copy and paste card configurations (left-click the card to copy, then right-click to paste the configuration; this must be done in a laser node's GUI), and the Card Holder can store cards and overclockers"
+				"The Card Cloner quickly copies and pastes card settings (left-click the card to copy, then right-click to paste; this has to be done in a laser node's GUI), and the Card Holder stores cards and overclockers"
 				""
-				"By default Shift, Crtl and Crtl+Shift let you quickly adjust numeric settings (speed increases from left to right)"
+				"By default, Shift, Ctrl and Ctrl+Shift adjust numeric settings quickly (faster from left to right)"
 			]
 			icon: "laserio:laser_wrench"
 			id: "7B38A7C2643C6766"
@@ -1219,7 +1219,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "It can even cross dimensions"
+			subtitle: "It Can Even Cross Dimensions"
 			tasks: [
 				{
 					id: "1B1773B40FB9AB2F"
@@ -1250,11 +1250,11 @@
 		{
 			dependencies: ["2C6F506ADD78F277"]
 			description: [
-				"When you have no power you can first use a hand crank to supply energy, or make a Vibration Chamber and burn diamonds"
+				"Before you have power, you can use a hand crank for energy, or build a Vibration Chamber and burn diamonds"
 				""
-				"Inscriber Templates are obtained by breaking Mysterious Cubes"
+				"Inscriber Presses are obtained by breaking Mysterious Cubes"
 				""
-				"Later you can replace the Inscriber with the &6Forming Press&r to make processors more efficiently"
+				"Later the &6Forming Press&r can replace the Inscriber to make processors more efficiently"
 			]
 			id: "664C46D5C12E7255"
 			rewards: [
@@ -1281,13 +1281,13 @@
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
 			description: [
-				"The Energy Acceptor can convert EU into AE/FE for the ME Network to use"
+				"The Energy Acceptor converts EU into AE/FE for the ME Network"
 				""
-				"Connecting a generator to the Energy Acceptor with GT cables easily burns the cable out; it is recommended to attach the generator directly onto the Energy Acceptor"
+				"Connecting a generator to the Energy Acceptor with GT cables can easily burn out the cable; it's better to place the generator directly against the Energy Acceptor"
 				""
-				"The CRG can only connect to the ME Network through its bottom face, and the entire network (including other networks connected via Quartz Fiber) can only have one"
+				"The CRG can only connect to the ME Network through its bottom face, and the whole network (including other networks linked through Quartz Fiber) can only have one"
 				""
-				"The Extended Crafting Terminal can perform stonecutter, smithing table and anvil recipes"
+				"The Extended Crafting Terminal can run stonecutter, smithing table and anvil recipes"
 			]
 			icon: "ae2:drive"
 			id: "007BBB3D4E349869"
@@ -1387,7 +1387,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "Buy Some If You Cannot Be Bothered 1"
+			title: "Can't Be Bothered? Buy Some 1"
 			x: 13.75d
 			y: 2.75d
 		}
@@ -1412,7 +1412,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "Buy Some If You Cannot Be Bothered 2"
+			title: "Can't Be Bothered? Buy Some 2"
 			x: 14.25d
 			y: 2.75d
 		}
@@ -1437,7 +1437,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "Buy Some If You Cannot Be Bothered 3"
+			title: "Can't Be Bothered? Buy Some 3"
 			x: 13.75d
 			y: 3.25d
 		}
@@ -1462,7 +1462,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "Buy Some If You Cannot Be Bothered 4"
+			title: "Can't Be Bothered? Buy Some 4"
 			x: 14.25d
 			y: 3.25d
 		}
@@ -1500,7 +1500,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "Primitive Tech, Awe-Inspiring"
+			subtitle: "Primitive Tech, Truly Stunning"
 			tasks: [
 				{
 					id: "08A0A7ABDCC61BFB"
@@ -1557,7 +1557,7 @@
 			description: [
 				"It can also be copied with the Forming Press"
 				""
-				"When writing a pattern, casting molds and extruder shapes are &dnot written into the pattern&r by default"
+				"When writing a pattern, molds and extruder shapes are &dnot written into the pattern&r by default"
 			]
 			icon: "gtceu:credit_casting_mold"
 			id: "7AAC7AB5F406C812"
@@ -1729,10 +1729,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "A whole set of casting molds and extruder shapes for you"
+			subtitle: "A full set of molds and extruder shapes for you"
 			tasks: [{
 				id: "7BE713D4B18B2691"
-				title: "Casting Mold and Extruder Shape Care Package"
+				title: "Mold and Extruder Shape Care Package"
 				type: "checkmark"
 			}]
 			x: 13.0d

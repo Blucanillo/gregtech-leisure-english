@@ -32,7 +32,7 @@
 	quests: [
 		{
 			dependencies: ["73613E3EBEFFB326"]
-			description: ["{ \"text\": \"Go mine on Io\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
+			description: ["{ \"text\": \"Go mine it on Io\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
 			id: "7F92A8EE58AD5BA2"
 			tasks: [{
 				id: "7247977F19E25C6A"
@@ -665,7 +665,7 @@
 			description: [
 				"The ISA Mill line, a new ore processing line; its efficiency is average, but it must be used in the late game."
 				""
-				"It can directly produce &bRhodium, Ruthenium, Iridium and Osmium&r (at the platinum stage), &dLanthanum, Erbium, Europium, Lutetium, Yttrium and Ytterbium&r (at the lanthanum stage), &aIndium and Naquadria&r and &aTrinium&r (naquadah processing), plus &6Thallium"
+				"It can directly produce &bRhodium, Ruthenium, Iridium and Osmium&r (platinum processing), &dLanthanum, Erbium, Europium, Lutetium, Yttrium and Ytterbium&r (lanthanum processing), &aIndium, Naquadria&r and &aTrinium&r (naquadah processing), plus &6Thallium"
 				""
 				"{ \"text\": \"You can actually put this off until UEV\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61B5CBFAACE6010D\" } }"
 				""
@@ -849,11 +849,11 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"Equivalent to a higher-power Energy Hatch (target hatch) and Dynamo Hatch (source hatch); they can only be used on machines or generators whose description says &eAllows using laser hatches&r, and they can likewise &bdouble-hatch boost&r (if two laser hatches are allowed)"
+				"Equivalent to higher-power Energy Hatches (target hatches) and Dynamo Hatches (source hatches); they can only be used on machines or generators whose description says &eAllows using laser hatches&r, and they also support &bdual-hatch voltage boosting&r (if two laser hatches are allowed)"
 				""
 				"Normal Laser Hatches are connected with normal Laser Cables (no energy loss), and the cables cannot turn, so use an Active Transformer to turn the laser; Wireless Laser Hatches interact directly with the wireless energy network once placed, with no extra operations needed."
 				""
-				"Maximum power can reach 4194304A/hatch voltage"
+				"Maximum power can reach 4194304A at the hatch's voltage"
 				""
 				"Note: even if a machine's description contains the words &oAllows using laser hatches&r, in most cases &l&cLaser Target Hatches still cannot replace Energy Hatches in multiblock structures&r&r&r (a few exceptions, such as the Deep Chemical Distorter and the Nano Forge, can only use Laser Target Hatches and cannot use Energy Hatches; while the Compressed Fusion Reactor can have its Energy Hatches replaced with Laser Target Hatches; please refer to the multiblock JEI page and the machine controller's description)"
 			]
@@ -910,21 +910,21 @@
 			description: [
 				"The ME Pattern Buffer's relationship with the other hatches is &calways&r &bcompletely isolated"
 				""
-				"\"Recipe Cached\" is a kind of &blocked recipe&r; only when the ME Pattern Buffer matches the previously cached operating conditions (including the &bcatalyst&r, &bprogrammed circuit&r, etc.) will the machine run the recipe, and it also reduces the machine's performance cost for searching recipes"
+				"\"Recipe Cached\" is a kind of &blocked recipe&r: the machine only runs the recipe when the ME Pattern Buffer matches the previously cached conditions (including the &bcatalyst&r, &bprogrammed circuit&r, etc.), and it also reduces the performance cost of the machine's recipe search"
 				""
 				"Supports caching multiple recipes in the same pattern (the actual recipe count must be set in the GUI of the dedicated catalyst slot)"
 				""
 				"In the ME Pattern Access Terminal, an ME Pattern Buffer's default name is the name of the multiblock controller it is on plus the programmed circuit setting (e.g. Super Blast Smelter-3)"
 				""
-				"The dedicated catalyst slot's GUI can be dragged around (there may be strange overlay display issues)"
+				"The dedicated catalyst slot's GUI can be dragged around (there may be odd overlapping display issues)"
 				""
 				"If the middle mouse button cannot open the dedicated catalyst slot, check whether the middle button is bound to another function that could conflict, such as inventory sorting"
 				""
-				"The ME Pattern Buffer forces AE to &bignore&r the &cbyproducts&r in the pattern while crafting, which can be turned off in the bottom-left corner of the GUI"
+				"The ME Pattern Buffer makes AE &bignore&r the &cbyproducts&r in the pattern when crafting; this can be turned off in the bottom-left corner of the GUI"
 				""
 				"The Copy Tool &6cannot&r copy catalyst settings; when pasting a configuration, make sure you have enough &dBlank Patterns&r in your inventory"
 				""
-				"The Cut Tool &6can&r carry catalyst settings"
+				"The Cut Tool &6can&r move catalyst settings"
 			]
 			icon: "gtceu:me_mini_pattern_buffer"
 			icon_scale: 1.5d

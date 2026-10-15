@@ -59,7 +59,7 @@
 			id: "035C470213E8B4DB"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "The demand is a little large"
+			subtitle: "Needed in Large Quantities"
 			tasks: [{
 				id: "39B8A1A88BE55729"
 				item: "gtceu:neutronium_ingot"
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["A more advanced Monocrystalline Silicon"]
+			description: ["A more advanced Monocrystalline Silicon Boule"]
 			icon_scale: 2.0d
 			id: "264EA49453E188C4"
 			tasks: [{
@@ -382,7 +382,7 @@
 		{
 			dependencies: ["31EDE3D976DE5A33"]
 			description: [
-				"The &dME Stocking Bus/Assembly&r can be used to share one across several collection modules"
+				"An &dME Stocking Bus/Buffer&r can share it between several collection modules"
 				""
 				"Once you have Infused Gold Dust, remember to upgrade the Power Module to MK2!"
 			]
@@ -670,7 +670,7 @@
 			icon_scale: 2.0d
 			id: "7597D3F42E7E8515"
 			shape: "rsquare"
-			subtitle: "No wear"
+			subtitle: "No Loss"
 			tasks: [{
 				id: "798CD0CCB2B791EF"
 				item: "gtceu:zpm_fluid_drilling_rig"
@@ -821,7 +821,7 @@
 				""
 				"The Assembly Line Casing tier must be greater than or equal to the recipe tier (&6backwards compatible&r)"
 				""
-				"All eight blocks directly below the controller can be replaced with input assemblies and Pattern Buffers (including the &bTungstensteel Frame&r)"
+				"All eight blocks directly below the controller can be replaced with Dual Input Hatches and Pattern Buffers (including the &bTungstensteel Frame&r)"
 				""
 				"The positions of the energy/laser hatches are shown below; the diagrams are for reference only, and in practice at most two Energy Hatches and one Laser Hatch can be placed at the same time"
 				"(Front)"
@@ -908,9 +908,9 @@
 				"5F0A175D6704A8D0"
 			]
 			description: [
-				"Longer and faster, it can take a Parallel Hatch, and it can even use the &bGiant Input Assembly&r and &bPattern Buffers&r!"
+				"Longer and faster, it can take a Parallel Control Hatch, and it can use &bHuge Input Dual Hatches&r and even &bPattern Buffers&r!"
 				""
-				"Input Hatches can be replaced with Giant Input Assemblies and Pattern Buffers, while Input Buses cannot"
+				"Input Hatches can be replaced with Huge Input Dual Hatches and Pattern Buffers, but Input Buses cannot"
 				""
 				"The Parallel Hatch can be placed next to the Input Bus"
 				""
@@ -973,7 +973,7 @@
 					type: "item"
 				}
 			]
-			title: "Extended Export Buffer"
+			title: "Extended ME Export Buffer"
 			x: 0.0d
 			y: 6.0d
 		}

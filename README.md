@@ -2,19 +2,14 @@
 
 For GTL1450 and for [GregTech Leisure 1.4.5.2 from CurseForge](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure/files/8903963) (GTL1452).
 
-> **IMPORTANT COMPATIBILITY NOTICE**
->
-> **This translation ONLY works with modpack versions from [this Google Drive folder](https://drive.google.com/drive/folders/1Ga_w-TmDKNru0me1kAM_gXyedz_Ne4-x).**
->
-> **Compatibility with the latest GTLCore and GTLAdditions versions is NOT guaranteed.**
->
-> **The `GTL1452/` folder is the one exception: it contains the quest book for GregTech Leisure 1.4.5.2 from CurseForge. Use it only with that version.**
+## Supported versions
 
-An English translation package for an existing GregTech Leisure GTL1450 instance. It includes translated FTB Quests content, KubeJS item names and tooltips, and a companion resource pack.
+- **GTL1450 custom:** the older pack from [this Google Drive folder](https://drive.google.com/drive/folders/1Ga_w-TmDKNru0me1kAM_gXyedz_Ne4-x). Install the root `config` folder.
+- **GTL1452:** [GregTech Leisure 1.4.5.2 from CurseForge](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure/files/8903963). Install `GTL1452/config` instead.
 
-This is an add-on package. Install the GTL1450 modpack separately before using it. Use a matching GTL1450 instance; compatibility with other modpack versions has not been established.
+The two versions have different quest books. Keep them separate; do not install the GTL1452 quests over GTL1450. The root `kubejs` scripts and English resource pack are shared by these two supported versions. Compatibility with other pack versions or newer GTLCore/GTLAdditions builds has not been established.
 
-GregTech Leisure 1.4.5.2 from CurseForge (GTL1452) ships different quests, so it has its own quest book in `GTL1452/config/ftbquests/quests/`. Its KubeJS scripts are the same as GTL1450's, so the KubeJS files and the resource pack in this package work for both versions.
+This is an add-on translation package: install the matching modpack separately first. It includes translated FTB Quests, KubeJS item names and tooltips, and a companion resource pack. The resource pack also supplies missing GTMThings names and corrects misspelled Dynamo Hatch names.
 
 ## Contents
 
@@ -36,7 +31,7 @@ resourcepacks/
 1. Fully close Minecraft and back up the instance, including any worlds. Keep copies of the existing `config/ftbquests/quests/` directory and the three KubeJS files listed above so you can restore them later.
 2. Locate the GTL1450 or GTL1452 instance folder using your launcher's instance-folder option. This is the folder containing the instance's `config`, `kubejs`, and `resourcepacks` directories.
 3. Copy this package's `kubejs` and `resourcepacks` folders into that instance folder. Then copy the `config` folder for your version: `config` for GTL1450, or `GTL1452/config` for CurseForge 1.4.5.2. Merge the folders and replace the matching files when prompted. Keep unrelated instance files. Do not copy the outer `AIO` folder or the `GTL1452` folder itself into the instance.
-4. Keep `GTL1450-English-resourcepack.zip` zipped inside `resourcepacks/`.
+4. Keep `GTL1450-English-resourcepack.zip` zipped inside `resourcepacks/`. When updating, replace the previous copy instead of keeping multiple versions enabled.
 5. Launch Minecraft. In **Options > Resource Packs**, enable **GTL1450 English**. Give it higher priority than other packs that replace the same translations.
 6. Set the game language to **English (US)**, then fully exit and restart Minecraft.
 
@@ -67,7 +62,7 @@ Close Minecraft. Restore the original quest directory and the three KubeJS scrip
 ## Credits
 
 - **English translation:** blucanillo, assisted by DeepSeek V4.1 Flash and ChatGPT Astra 6.
-- **CurseForge 1.4.5.2 quest book:** sgiath, assisted by Claude Opus 5.5, based on blucanillo's GTL1450 translation.
+- **CurseForge 1.4.5.2 quest book and shared quest wording corrections:** [sgiath](https://github.com/sgiath), assisted by Claude Opus 5.5, based on blucanillo's GTL1450 translation. The matching shared-text corrections were also backported to GTL1450; version-specific mechanics remain separate.
 - **Original modpack:** [GregTech Leisure](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure), published by nutant233, and its contributors.
 - **Included mods:** Their respective authors and contributors.
 
@@ -76,3 +71,16 @@ This is an unofficial community translation. AI-assisted text may contain transl
 ## Attribution and licensing
 
 This package builds on GregTech Leisure and its included mod content. No standalone redistribution license is included. Check the original project's permissions and preserve any required third-party notices when redistributing or adapting the files.
+
+## Checking and rebuilding
+
+The readable GTMThings fixes are in `resourcepack_overrides/assets/gtmthings/lang/en_us.json`. After editing them, run:
+
+```text
+python tools/build_resourcepack.py
+python tools/verify_translations.py
+```
+
+The first command updates the distributed resource-pack ZIP. The second checks both quest books, known name/value regressions, formatting, clickable quest actions and script translation keys. To compare local quest changes with a previous revision, pass `--baseline <commit>`. For an additional language-coverage check against installed mods, pass `--mods "path/to/instance/mods"`; this option can be supplied for both supported versions.
+
+The `tools` and `resourcepack_overrides` folders are for maintaining the translation; players only need the installation folders listed above. See [the correction notes](docs/translation-fixes-2026-10-15.md) for the reported issues, version-specific decisions and validation limits.

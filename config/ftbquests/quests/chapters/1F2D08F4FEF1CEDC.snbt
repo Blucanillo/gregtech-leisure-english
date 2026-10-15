@@ -173,7 +173,7 @@
 				""
 				"The Active Transformer, a multiblock unlocked at LuV, supports conversion between any voltage and any amperage, stepping up/down automatically, and can replace all ordinary transformers in the high-voltage, high-amperage environment of the mid and late game."
 				""
-				"But the real use of the Active Transformer is to turn lasers corners."
+				"But the real use of the Active Transformer is bending lasers around corners."
 			]
 			icon: "gtceu:active_transformer"
 			id: "010CF028448C17A9"

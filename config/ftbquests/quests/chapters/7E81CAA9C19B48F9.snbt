@@ -1118,7 +1118,7 @@
 			]
 			icon: "gtlcore:protonated_fullerene_sieving_matrix"
 			id: "5307680107A0D67B"
-			subtitle: "Recycled"
+			subtitle: "Recycling"
 			tasks: [
 				{
 					id: "292F3DA5966B5A22"
@@ -1781,7 +1781,7 @@
 				id: "16306AD6F5FF58CB"
 				type: "checkmark"
 			}]
-			title: "Recovered Feedstock"
+			title: "Recovered Materials"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -2195,7 +2195,7 @@
 			dependencies: ["21E6C6F69E0960DB"]
 			icon: "gtceu:unfolded_fullerene_dust"
 			id: "2F2926770C85FB36"
-			subtitle: "It Has Other Uses Later On"
+			subtitle: "It Has Other Uses Later"
 			tasks: [
 				{
 					id: "44F63BA86D6D129F"
@@ -2438,7 +2438,7 @@
 			dependencies: ["247E4E8498CA8A37"]
 			icon: "gtceu:succinimide_dust"
 			id: "06EAF19B016937D9"
-			subtitle: "Amounts to a Catalyst"
+			subtitle: "Acts as a Catalyst"
 			tasks: [
 				{
 					id: "39F16E3B9061885F"
@@ -2658,7 +2658,7 @@
 				id: "362AE23AF864D18D"
 				type: "checkmark"
 			}]
-			title: "Polyurethane Resin-Kevlar"
+			title: "Polyurethane Resin - Kevlar"
 			x: -18.0d
 			y: 9.0d
 		}
@@ -3077,7 +3077,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "1,4-Butyrolactone"
+			title: "Gamma-Butyrolactone"
 			x: -6.0d
 			y: 15.0d
 		}
@@ -3486,7 +3486,7 @@
 				title: "Biological Production Line"
 				type: "checkmark"
 			}]
-			title: "Biological Cell-Mutated Active Flux"
+			title: "Biological Cells - Mutated Living Solder"
 			x: -1.5d
 			y: -12.0d
 		}
@@ -3496,7 +3496,7 @@
 			id: "63FEF796CFF5E8DF"
 			min_required_dependencies: 1
 			shape: "pentagon"
-			subtitle: "Distillery, Circuit No. 3"
+			subtitle: "Distillery, Circuit 3"
 			tasks: [
 				{
 					id: "014038349888FC2A"
@@ -3545,7 +3545,7 @@
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "70E703942B61C86C"
-			subtitle: "Chemical Reactor with Steam, Circuit No. 3"
+			subtitle: "Chemical Reactor with Steam, Circuit 3"
 			tasks: [
 				{
 					id: "43A2C8C1FC309DE4"
@@ -3566,7 +3566,7 @@
 			dependencies: ["70E703942B61C86C"]
 			icon: "gtceu:ethylene_bucket"
 			id: "0C5B23E443F1A5D5"
-			subtitle: "Distillery, Circuit No. 10"
+			subtitle: "Distillery, Circuit 10"
 			tasks: [
 				{
 					id: "4AE736F84D6F23E1"
@@ -3891,7 +3891,7 @@
 				"5D9B209D891690FD"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Actually There Is Also Allyl Chloride"]
+			description: ["Actually, there is also Allyl Chloride"]
 			icon: "gtceu:epichlorohydrin_bucket"
 			id: "64738DFD97250F17"
 			subtitle: "You can also skip the Glycerol and use Gaseous Chlorine + Water + Sodium Hydroxide Dust instead"
@@ -5101,7 +5101,7 @@
 			dependencies: ["236C246F76B9A184"]
 			icon: "gtceu:enriched_bacterial_sludge_bucket"
 			id: "3FA6B4C0BBDAF426"
-			subtitle: "Efficiency Ranking (low to high): Uranium-238, Uranium-235, Naquadria"
+			subtitle: "Efficiency Ranking (low to high): Uranium 238, Uranium 235, Naquadria"
 			tasks: [
 				{
 					id: "05A34F183CE7B166"
@@ -5556,7 +5556,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Quantum Star and Gravi Star"
+			title: "Quantum Star and Gravi-Star"
 			x: 10.5d
 			y: -9.0d
 		}
@@ -5654,7 +5654,7 @@
 			dependencies: ["3D7729F7ACFF9F91"]
 			icon: "gtceu:wet_zeolite_sieving_pellets_dust"
 			id: "23BECF228C26D654"
-			subtitle: "Dehydrated and Recycled"
+			subtitle: "Dehydrate to Recycle"
 			tasks: [
 				{
 					id: "76044EA365D77F29"
@@ -6936,7 +6936,7 @@
 			id: "5785F2E43E76E624"
 			tasks: [{
 				id: "0D6827F6800FA11C"
-				title: "Polyethylene-Polyvinyl Chloride"
+				title: "Polyethylene - Polyvinyl Chloride"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -6956,7 +6956,7 @@
 			id: "58CA7CA601F675BA"
 			tasks: [{
 				id: "4D2E0A0CF6F0D08F"
-				title: "Epoxy-Reinforced Epoxy Resin"
+				title: "Epoxy - Reinforced Epoxy Resin"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -7166,5 +7166,5 @@
 			y: 10.5d
 		}
 	]
-	title: "Material Processing"
+	title: "Material Preparation"
 }
