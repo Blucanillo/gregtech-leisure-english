@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "24F4987B35ABEE82", title: "Tips and Tricks" }
+		{ id: "45061620BBCB7E0B", title: "Resource Acquisition" }
+		{ id: "68CBF1606D696C68", title: "Tech Tiers" }
+		{ id: "0ACE46048A3F93ED", title: "Milestones" }
+	]
+}
