@@ -420,7 +420,7 @@
 		}
 		{
 			dependencies: ["63998161D9D731E7"]
-			description: ["Hypogen is also a &cM&r&aA&r&9X&r&e Sup&r&5er&r&bconductor&r"]
+			description: ["Hypogen is also a &cM&r&aA&r&9X&r &eSup&r&5er&r&bconductor&r"]
 			icon_scale: 2.0d
 			id: "3CE5E9F78C13E1CD"
 			rewards: [{
@@ -512,7 +512,7 @@
 				id: "3AC5007EE51C1247"
 				type: "checkmark"
 			}]
-			title: "Excited Dimensionally Transcendent Stellar Catalyst"
+			title: "Excited Dimensional Transcendent Stellar Catalyst"
 			x: -2.0d
 			y: -9.0d
 		}
@@ -539,7 +539,7 @@
 				id: "4B6BEEAAADADE3E4"
 				type: "checkmark"
 			}]
-			title: "Excited Dimensionally Transcendent Exotic Catalyst"
+			title: "Excited Dimensional Transcendent Exotic Catalyst"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -549,7 +549,7 @@
 				"63998161D9D731E7"
 				"32186EFF7020D432"
 			]
-			description: ["The Spacetime Wire is also a &cM&r&aA&r&9X&r&eSuper&r&5conductor&r"]
+			description: ["The Spacetime Wire is also a &cM&r&aA&r&9X&r &eSuper&r&5conductor&r"]
 			hide_dependency_lines: true
 			id: "6AC9C2DEDE46A99D"
 			subtitle: "Passive Automated Production Recommended"
@@ -566,7 +566,7 @@
 			description: [
 				"The Dragon Nanoswarm is &4not&r a catalyst"
 				""
-				"You can use the Quantum Anomaly to start the loop recipe between Transcendent Metal and the Hypercube, saving some Excited Dimensionally Transcendent Exotic Catalyst"
+				"You can use the Quantum Anomaly to start the loop recipe between Transcendent Metal and the Hypercube, saving some Excited Dimensional Transcendent Exotic Catalyst"
 			]
 			id: "39A97D124B756814"
 			subtitle: "Remember to Optimise the Spatial Expansion Fluid Recipe"
@@ -588,7 +588,7 @@
 			description: [
 				"&bAvaritia&r's Neutronium Compressor can be accelerated by the World Accelerator (Block Entity Mode)"
 				""
-				"The World Accelerator's working energy requirement is 6A per accelerator voltage tier"
+				"The World Accelerator draws 6A at its own voltage tier while working"
 			]
 			id: "07EA8922673DFC93"
 			rewards: [
@@ -638,7 +638,7 @@
 		{
 			dependencies: ["32186EFF7020D432"]
 			description: [
-				"The laser version of the Cosmic Probe Surface Reception Unit; it can take a Parallel Hatch and needs less computation per unit of product"
+				"The laser version of the Cosmic Probe Surface Reception Unit; it can take a Parallel Control Hatch and needs less computation per unit of product"
 				""
 				"No blocks may obstruct the space above the topmost &eVibranium Frame&r, otherwise the machine will not work"
 			]
@@ -721,5 +721,5 @@
 		}
 	]
 	subtitle: ["Tier13-OpV"]
-	title: "Overpowered Voltage"
+	title: "Overpowered Ultimate Voltage"
 }

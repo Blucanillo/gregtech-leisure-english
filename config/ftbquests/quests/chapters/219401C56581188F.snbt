@@ -32,7 +32,7 @@
 				"Uses a special ritual that consumes energy to gather the mana around it"
 				"The mana here is equivalent to a raw material"
 				""
-				"Candles can first be made black from Oil, then dyed into the finished red ones"
+				"Candles can first be made black from Oil, then dyed magenta"
 				""
 				"The Dragon Egg can be made from Eggs"
 			]
@@ -127,7 +127,7 @@
 		}
 		{
 			dependencies: ["6DB1B7A9173E2C78"]
-			description: ["Remember the ISA line from before?"]
+			description: ["Remember the IsaMill line from before?"]
 			icon: "gtceu:naquadah_contain_rare_earth_dust"
 			id: "61B5CBFAACE6010D"
 			tasks: [
@@ -232,7 +232,7 @@
 		}
 		{
 			dependencies: ["7523FB4AAB1F89C3"]
-			description: ["You need a little Stone Dust as seed capital"]
+			description: ["You need a little Stone Dust to get it started"]
 			id: "61F8C5AA6DEB30D6"
 			tasks: [{
 				id: "78A6560A02FCD3E9"
@@ -406,7 +406,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["The laser version of the Supercritical Crafting Unit; it can also take a Parallel Hatch"]
+			description: ["The laser version of the Supercritical Crafting Unit; it can also take a Parallel Control Hatch"]
 			icon_scale: 2.0d
 			id: "33390417E8A0AB88"
 			optional: true
@@ -628,7 +628,7 @@
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
-			description: ["The last conventional Monocrystalline Silicon"]
+			description: ["The last conventional Monocrystalline Silicon Boule"]
 			icon_scale: 2.0d
 			id: "678E707F85CD2071"
 			size: 1.0d
@@ -912,7 +912,7 @@
 			hide_dependent_lines: true
 			id: "670D8EB2CE915FD5"
 			shape: "pentagon"
-			subtitle: " Fire of the Earth, Perditio Crystal, Adamantine Compound, Rare Earth Metal, Orichalcum, Mithril"
+			subtitle: " Earth Crystal, Ignis Crystal, Perditio Crystal, Adamantine Compound, Rare Earth Metal, Orichalcum, Mithril"
 			tasks: [{
 				id: "293848195AF04862"
 				item: "kubejs:space_drone_mk4"
@@ -962,7 +962,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["The laser version of the Rare Earth Centrifuge; it can also take a Parallel Hatch"]
+			description: ["The laser version of the Rare Earth Centrifuge; it can also take a Parallel Control Hatch"]
 			icon_scale: 2.0d
 			id: "4EED4298235AB11F"
 			optional: true
@@ -1010,5 +1010,5 @@
 		}
 	]
 	subtitle: ["Tier10-UEV"]
-	title: "Ultra Excessive Voltage"
+	title: "Extremely Ultimate Voltage"
 }

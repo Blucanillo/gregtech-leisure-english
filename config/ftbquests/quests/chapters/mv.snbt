@@ -24,7 +24,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "0A5103D6EA070927"
-				title: "Medium Voltage MV"
+				title: "Medium Voltage (MV)"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -88,7 +88,7 @@
 				"27C18D37D5E19043"
 				"56EA21AD61D2ACB1"
 			]
-			description: ["Another round of double-hatch boosting, this time MV"]
+			description: ["Another round of double-hatch boosting, this time to MV"]
 			id: "17E9AB180BA36353"
 			rewards: [{
 				id: "3A4DBEDE4E62E01E"
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["750D2CE269C7068D"]
-			description: ["After upgrading to the HV version you can also etch low-quality gems into high-quality gems"]
+			description: ["Once upgraded to the HV version, it can also engrave low-quality gems into high-quality gems"]
 			hide_dependent_lines: true
 			id: "535D45580FBDE02B"
 			rewards: [{
@@ -509,7 +509,7 @@
 		{
 			dependencies: ["4C2AD408BAB73087"]
 			description: [
-				"Most minerals can be electrolysed at MV"
+				"Most minerals can be electrolyzed at MV"
 				""
 				"You can now obtain Aluminium Dust and Silicon Dust by electrolysing Clay Dust"
 			]
@@ -549,7 +549,7 @@
 				"554D9DF1365F857C"
 				"55AB003495D2CCE9"
 			]
-			description: ["Later switch to the cheaper Ultimate Control Circuit"]
+			description: ["Later, switch to the cheaper Ultimate Control Circuit"]
 			icon_scale: 2.0d
 			id: "66DC60EABAAE0619"
 			rewards: [{
@@ -618,7 +618,7 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["Use Water to cool Hot Ingots"]
+			description: ["Cool Hot Ingots with Water"]
 			id: "65B89B0B9AEFDE00"
 			rewards: [{
 				id: "4F6074DD52C4EF52"
@@ -655,7 +655,7 @@
 				"0C8149BB0F901A88"
 				"58B03CD99B6C3A8B"
 			]
-			description: ["Another round of double-hatch boosting, this time MV"]
+			description: ["Another round of double-hatch boosting, this time to MV"]
 			id: "3E2F61B1A26AD378"
 			rewards: [{
 				id: "4C5A07460B528E86"
@@ -709,7 +709,7 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["The beginning of the biochem line"]
+			description: ["The start of the biochem line"]
 			id: "66060C8BB69F1AD9"
 			rewards: [{
 				id: "59A610D0DBED02E1"
@@ -745,15 +745,15 @@
 		{
 			dependencies: ["128671E4DC47EF55"]
 			description: [
-				"Use this thing to extract fluids from void fluid veins"
+				"Use this to extract fluids from void fluid veins"
 				""
-				"There is an upgraded version later on"
+				"There is an upgraded version later"
 				""
-				"Sneak-right-click the Prospector to switch it to fluid vein mode"
+				"Sneak-right-click with the Prospector to switch it to fluid vein mode"
 				""
-				"The depletion rate value represents how fast each execution of the recipe reduces the void fluid vein's reserves"
+				"The depletion rate is how much each recipe run reduces the void fluid vein's reserves"
 				""
-				"Even if the Prospector shows the void fluid vein as 0, drilling in this chunk will still produce a very small amount of fluid"
+				"Even if the Prospector shows the void fluid vein at 0, drilling in that chunk still yields a very small amount of fluid"
 			]
 			icon_scale: 1.5d
 			id: "4AF1D57BE5C49B3E"
@@ -774,9 +774,9 @@
 		{
 			dependencies: ["128671E4DC47EF55"]
 			description: [
-				"A highly efficient production machine: insert several Input Hatches/Buses/Assemblies and enable isolation, and one machine can run recipes for multiple circuits or molds"
+				"A highly efficient production machine: with several Input Hatches/Buses/Buffers and distinct mode enabled, one machine can run recipes for multiple circuits or molds"
 				""
-				"You need to put the &bsingle-block machine matching the working mode&r into the factory GUI (only one can be placed)"
+				"You need to place the &bsingle-block machine for the working mode&r in the factory GUI (only one fits)"
 				""
 				"&o&cThe tier of the single-block machine you place must exactly match the factory's &n&lrecipe voltage&r&o&c!&r"
 				"&o&cThe tier of the single-block machine you place must exactly match the factory's &n&lrecipe voltage&r&o&c!&r"
@@ -784,7 +784,7 @@
 				""
 				"This machine can do &6double-hatch boosting&r!!!"
 				""
-				"{ \"text\": \"As for parallel processing, you can view the specific settings here\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F503441C24ABD5B\" } }"
+				"{ \"text\": \"For the specifics of parallel processing, see here\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F503441C24ABD5B\" } }"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.3d
@@ -870,13 +870,13 @@
 		{
 			dependencies: ["66DC685BEC00E4A6"]
 			description: [
-				"Can pass through walls, with a CD of 2t (which is as good as none, and can also be changed in the gtlcore config file)"
+				"Works through walls with a 2t cooldown (effectively none; it can also be changed in the gtlcore config file)"
 				""
-				"No block may obstruct the space above a Travel Anchor, otherwise teleporting will not work"
+				"There must be no block above a Travel Anchor, or teleporting will fail"
 				""
-				"Right-clicking with a Stick unlocks a Travel Anchor"
+				"Right-click a Travel Anchor with a Stick to unlock it"
 				""
-				"Hold nothing in your main hand and a block in your off hand, then right-click an unlocked Travel Anchor to disguise it as the off-hand block"
+				"With nothing in your main hand and a block in your off hand, right-click an unlocked Travel Anchor to disguise it as the off-hand block"
 			]
 			hide_dependency_lines: true
 			id: "0BB44C475666B862"
@@ -920,7 +920,7 @@
 				"79AE49C5DE7900FF"
 				"56EA21AD61D2ACB1"
 			]
-			description: ["The etching output is 4 times that of ordinary Monocrystalline Silicon, and it can only be used once you have the &6HV&r Laser Engraver"]
+			description: ["Yields 4 times as much as an ordinary Monocrystalline Silicon Boule when engraved; usable only once you have an &6HV&r Laser Engraver"]
 			hide_dependency_lines: true
 			id: "506DFA831FEBD175"
 			rewards: [{
@@ -939,9 +939,9 @@
 		{
 			dependencies: ["56EA21AD61D2ACB1"]
 			description: [
-				"2 ordinary Energy Hatches give 4A of power, but they raise the recipe tier, with the result that e.g. a Universal Factory machine needs a higher-tier small machine to run"
+				"2 ordinary Energy Hatches give 4A of power, but they raise the recipe tier, so machines like the Universal Factory then need a higher-tier single-block machine to run"
 				""
-				"But if you place only one 4A Energy Hatch, the machine will only raise the power without raising the recipe tier, letting a Universal Factory run at HV speed with MV machines. If you place 2 of the 4A hatches, the machine will also raise the recipe tier, and compared with ordinary hatches it has 1x more power; if the machine supports parallel processing, it will get more parallels than with ordinary hatches"
+				"But if you place just one 4A Energy Hatch, the machine only gains power without raising the recipe tier, so a Universal Factory can run MV machines at HV speed. With 2 of the 4A hatches the machine also raises the recipe tier, with twice the power of ordinary hatches; if the machine supports parallels, it gets more of them than with ordinary hatches"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -973,7 +973,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "MV's Cheap Superconductor"
+			subtitle: "Cheap MV Superconductor"
 			tasks: [{
 				id: "412AE134485FD3CC"
 				item: "gtceu:energetic_alloy_ingot"
@@ -987,9 +987,9 @@
 			description: [
 				"It will be useful later"
 				""
-				"The Pattern Modifier switches modes in the top-left corner of the GUI: Multiply Mode (doubles the pattern), Replace Mode (replaces specific items in the pattern), and Copy Mode (literally what it says)"
+				"Switch the Pattern Modifier's mode in the top-left corner of the GUI: Multiply Mode (multiplies the pattern), Replace Mode (replaces specific items in the pattern) and Copy Mode (exactly what it says)"
 				""
-				"The Provider version only has Multiply Mode, and can also be used on a &bPattern Buffer&r"
+				"The Provider version only has Multiply Mode, and also works on &bPattern Buffers&r"
 			]
 			id: "527E9200ECB4A732"
 			rewards: [{

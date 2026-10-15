@@ -13,7 +13,7 @@
 				"Is the EU/t supplied to the multiblock greater than the recipe's EU/t?"
 				"Have you maintained the Maintenance Hatch?"
 				"Have you met any special requirements it might have?"
-				"Are the items and fluids all correctly inserted into the bus/hatch/assembly?"
+				"Are the items and fluids all correctly inserted into the buses/hatches/dual hatches?"
 				"Is there enough room in the output?"
 				"Is the Muffler Hatch facing an air block?"
 				"Maybe the multiblock has already formed, but you forgot a hatch."
@@ -80,9 +80,9 @@
 		}
 		{
 			description: [
-				"This is the key to a multiblock's input and output; higher-tier buses/hatches/assemblies provide more room."
+				"This is the key to a multiblock's input and output; higher-tier buses/hatches/dual hatches provide more room."
 				""
-				"Buses/hatches/assemblies also come with &dautomatic input and output&r, which can be controlled with a toggle."
+				"Buses/hatches/dual hatches also come with &dautomatic input and output&r, which can be toggled on and off."
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "5DB8BE71B3733C36"
@@ -101,7 +101,7 @@
 		}
 		{
 			description: [
-				"Run 16 LV machines at the same time: the power is equal to one HV machine, but the speed is four times that of one HV machine. This is because the 16 LV machines do not suffer the losses caused by lossy overclocking, which lets them get the job done faster at a lower speed."
+				"Run 16 LV machines at the same time: the power equals one HV machine, but the speed is four times that of one HV machine. This is because the 16 LV machines do not suffer the losses of lossy overclocking, so at a lower voltage they get the work done faster."
 				""
 				"Parallelism in multiblocks is a similar concept. Simply put, parallelism is a different kind of lossless overclock."
 				"{@pagebreak}"
@@ -115,15 +115,15 @@
 				""
 				"In reality there is a distinction between \"lossy 1toc\" and \"lossless 1toc\"; the examples above are only a reference."
 				"{@pagebreak}"
-				"Cross-recipe parallelism is a mechanism exclusive to some multiblock machines, allowing a machine to run several different recipes under the same machine mode at the same time."
+				"Cross-recipe parallelism is a mechanism exclusive to some multiblock machines, allowing a machine to run several different recipes of the same machine mode at the same time."
 				""
 				"Correspondingly, all machines with cross-recipe parallelism have a minimum recipe time of 1 second."
 				""
 				"Example: the Holy Separator can make Silver Rods and Iron Rods at the same time, but it cannot centrifuge Air and make Iron Rods at the same time."
 				""
-				"\"Threads\" are a property unique to machines with cross-recipe parallelism (all of them have 64 threads). The total parallelism of a cross-recipe parallel machine is the thread count multiplied by the machine's own parallelism; the thread count represents the maximum number of recipes the total parallelism can be distributed across. Note: a cross-recipe parallel machine will distribute all of its total parallelism to a single recipe whenever possible."
+				"\"Threads\" are a property unique to machines with cross-recipe parallelism (all of them have 64 threads). The total parallelism of a cross-recipe parallel machine is the thread count multiplied by the machine's own parallelism; the thread count is the maximum number of recipes the total parallelism can be split across. Note: a cross-recipe parallel machine will give all of its total parallelism to a single recipe whenever possible."
 				"{@pagebreak}"
-				"If a recipe contains a material that is consumed by chance, that material is calculated as 100% consumed when calculating parallelism."
+				"If a recipe has an ingredient that is consumed with a chance, parallel calculation treats that ingredient as 100% consumed."
 			]
 			icon: "gtceu:iv_parallel_hatch"
 			id: "6F503441C24ABD5B"
@@ -144,7 +144,7 @@
 			description: [
 				"The &7front&r should be obvious; the &9output face&r is the side with dots or holes, and by default this is the back when you place the machine."
 				""
-				"Machines can output automatically through their &aoutput face&r. To enable automatic output, click the corresponding button in the GUI; fluid and item auto-output are toggled separately, and automatic output can be controlled further with &dcovers&r."
+				"Machines can &aauto-output&r through their output face. To enable auto-output, click the corresponding button in the GUI; fluid and item auto-output are toggled separately, and auto-output can be controlled further with &dcovers&r."
 				""
 				"Right-click the machine with a &5Wrench&r to change the output side, and shift-right-click to change the front."
 				""
@@ -175,7 +175,7 @@
 				""
 				"Example 2: The Large Brewing Vat is running the Potato + Water → Biomass recipe in Brewery mode; after switching to Fermenter mode it will not switch to the Potato → Poisonous Potato recipe."
 				""
-				"Example 3: While the Space Elevator's collection module is running a mining recipe, switching to fluid extraction mode still mines."
+				"Example 3: When the Space Elevator's Collection Module is running a mining recipe, switching it to fluid collection mode still mines."
 				"{@pagebreak}"
 				"Likewise, if you change the machine's operating environment (such as duration reduction, parallelism, etc.) while it is running a recipe, the machine will keep running that recipe with the configuration it had when the recipe started, and will only switch to the new operating environment after this recipe has finished."
 				"{@pagebreak}"

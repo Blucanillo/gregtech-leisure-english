@@ -114,9 +114,9 @@
 				""
 				"Z toggles Night Vision"
 				""
-				"{ \"text\": \"Can be upgraded from the Space Suit into the spaceflight version that resists the dangers of space, needing no oxygen\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79AEF94C9E242133\" } }"
+				"{ \"text\": \"Can be upgraded with a Space Suit into a spaceflight version that resists the hazards of space and needs no oxygen\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79AEF94C9E242133\" } }"
 				""
-				"The Infinite Set and the Stellar Armor are operated in the same way as the Fermium Set"
+				"The Infinity Armor and the Stellar Armor work the same way as the Fermium Set"
 			]
 			icon: {
 				Count: 1
@@ -1354,7 +1354,7 @@
 				item: "ad_astra:fluid_pipe_duct"
 				type: "item"
 			}]
-			subtitle: "If you do not want to go and mine Desh"
+			subtitle: "If you don't want to go mine Desh"
 			tasks: [{
 				consume_items: true
 				id: "1A1A4D7DE1FE849B"

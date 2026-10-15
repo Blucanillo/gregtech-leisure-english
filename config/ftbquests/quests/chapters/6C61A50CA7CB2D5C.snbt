@@ -174,7 +174,7 @@
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
-			description: ["You need 3 in total: 2 to make the rocket and 1 to make the Steel Engine"]
+			description: ["You need 3 in total: 2 for the rocket and 1 for the Steel Engine"]
 			icon: "ad_astra:steel_tank"
 			id: "079CCDAEE4AD2447"
 			tasks: [
@@ -216,7 +216,7 @@
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
-			description: ["You need 14 in total: 6 to make the rocket and 8 to make the Rocket Fins"]
+			description: ["You need 14 in total: 6 for the rocket and 8 for the Rocket Fins"]
 			icon: "ad_astra:iron_plate"
 			id: "6CC32F9550D73065"
 			tasks: [
@@ -413,7 +413,7 @@
 		}
 		{
 			dependencies: ["18A773A6B710C658"]
-			description: ["&mYou can also go without a Space Suit and just tank it with a Totem&r"]
+			description: ["&mYou can also skip the Space Suit and survive on Totems&r"]
 			icon: "ad_astra:moon_stone"
 			icon_scale: 2.0d
 			id: "23C2F99FC949AF0A"
@@ -831,7 +831,7 @@
 		}
 		{
 			dependencies: ["589789F9FC81A557"]
-			description: ["It will be given back to you in the next reaction, so you do not need to make much"]
+			description: ["You get it back in the next reaction, so you don't need to make much"]
 			icon: "gtceu:ethylanthraquinone_bucket"
 			id: "357F8943B37E231D"
 			subtitle: "Catalyst"
@@ -1160,7 +1160,7 @@
 				"1FECF89B2EE569B5"
 			]
 			description: [
-				"If AE cannot recognise the Data Stick produced by autocrafting, it is recommended to manually replace the Data Stick in the pattern with one that already exists in the network (the same goes for Data Orbs and Data Modules)"
+				"If AE does not recognize the Data Stick produced by autocrafting, manually replace the Data Stick in the pattern with one that already exists in the network (the same goes for Data Orbs and Data Modules)"
 				""
 				"World Data &ccannot&r be copied with a Scanner"
 			]
@@ -1312,7 +1312,7 @@
 			description: [
 				"We can finally go to the Nether"
 				""
-				"How do we get there? Replace the Diamond Blocks in the Ancient World portal you made earlier with Emerald Blocks, replace the Steel Blocks with Gold Blocks, then hold the Nether Data and right-click"
+				"How do we get there? Replace the Diamond Blocks in the Ancient World portal you built earlier with Emerald Blocks and the Steel Blocks with Gold Blocks, then right-click while holding the Nether Data"
 				""
 				"What do we do in the Nether? Mine some Soul Sand, Ancient Debris and Nether Wart"
 			]
@@ -1324,7 +1324,7 @@
 				item: "avaritia:neutron_horse_armor"
 				type: "item"
 			}]
-			subtitle: "Flint and Steel will not work"
+			subtitle: "Flint and Steel won't work"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -1858,7 +1858,7 @@
 				"61140578961B01A9"
 				"67784DEB22D18308"
 			]
-			description: ["Opening it works almost the same as vanilla, except you need to hold the End Data in your off hand (it is consumed, so remember to bring several), then enter the portal to go to the End"]
+			description: ["Opening it works almost the same as in vanilla, except you need to hold End Data in your off hand (it is consumed, so bring a few extra); then enter the portal to go to the End"]
 			icon: "minecraft:end_portal_frame"
 			icon_scale: 2.0d
 			id: "2AE3DE0BC3CD1D5B"
@@ -1875,7 +1875,7 @@
 		}
 		{
 			dependencies: ["2AE3DE0BC3CD1D5B"]
-			description: ["What do we do in the End? Grab some Dragon's Breath, Chorus Flowers and a Dragon Egg"]
+			description: ["What do we do in the End? Get some Dragon's Breath, Chorus Flowers and the Dragon Egg"]
 			icon: "minecraft:dragon_head"
 			icon_scale: 2.0d
 			id: "5E3EDA6C94CEC3C4"
@@ -1999,9 +1999,9 @@
 		{
 			dependencies: ["25AA088531768F81"]
 			description: [
-				"Dropped by killing a Glacian Ram"
+				"Dropped by Glacian Rams"
 				""
-				"\"Cold\" knowledge: a Glacian Ram can actually be milked for &mgoat milk&r milk"
+				"A \"cool\" fact: Glacian Rams can actually be milked for &mgoat milk&r regular milk"
 			]
 			icon: "kubejs:glacio_spirit"
 			icon_scale: 2.0d
@@ -2537,11 +2537,11 @@
 		}
 		{
 			dependencies: ["18A773A6B710C658"]
-			description: ["The materials to make a Space Station are 1 Steel Engine, 16 &eMicroprocessor Supercomputers&r, 16 Iron Plates and 64 Steel Ingots"]
+			description: ["Building a Space Station takes 1 Steel Engine, 16 &eMicroprocessor Supercomputers&r, 16 Space-Grade Iron Plates and 64 Steel Ingots"]
 			icon: "gtceu:quantum_eye"
 			icon_scale: 2.0d
 			id: "3A48F268FB265977"
-			subtitle: "There is a zero-gravity environment here"
+			subtitle: "Zero gravity up here"
 			tasks: [
 				{
 					dimension: "ad_astra:earth_orbit"
@@ -2601,7 +2601,7 @@
 				title: "One-Click Teleport"
 				type: "command"
 			}]
-			subtitle: "Careful, do not fall to your death"
+			subtitle: "Careful, don't fall to your death"
 			tasks: [{
 				id: "6261241DFF0B95E0"
 				title: "Overworld"
@@ -2668,7 +2668,7 @@
 				title: "One-Click Teleport"
 				type: "command"
 			}]
-			subtitle: "Remember to wear the Stellar Armor"
+			subtitle: "Remember to wear your Stellar Armor"
 			tasks: [{
 				id: "78547A53869D8709"
 				title: "Go to the Creative Dimension"
@@ -2709,7 +2709,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Lightning-process Blue Ice; do not go looking for the ore"]
+			description: ["Use Lightning Processing on Blue Ice; don't go looking for the ore"]
 			icon: "ad_astra:ice_shard"
 			id: "3F3019EFE6CA0097"
 			tasks: [

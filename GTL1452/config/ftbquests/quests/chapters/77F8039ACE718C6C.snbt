@@ -1119,7 +1119,7 @@
 				""
 				"For fluids, use Input Hatches and Output Hatches; regular input/output hatches can only hold &cone fluid&r; regular Output Hatches and the LV Huge Output Hatch can lock their fluid output by marking the second slot from the top (drag from JEI, mark with a filled bucket, etc.)"
 				""
-				"Large steam multiblocks all have &664&r parallels, &bcan run LV recipes&r, and process twice as fast as LV machines; the non-large steam multiblocks have &68&r parallels and &bcan run LV recipes&r too"
+				"Large steam multiblocks all have &664&r parallels, &bcan run LV recipes&r, and process twice as fast as LV machines; the other non-large steam multiblocks have &68&r parallels and &bcan run LV recipes&r too The Steam Oven is an exception, with 256 parallels. The Steam Oven is an exception, with 256 parallels."
 				""
 				"{ \"text\": \"Steam multiblock casings can be bought at the Small Market\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E6BC2F76ED6F531\" } }"
 				""

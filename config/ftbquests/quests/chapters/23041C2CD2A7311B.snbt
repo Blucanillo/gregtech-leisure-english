@@ -82,7 +82,7 @@
 				"7B46E8DE77D0BE8F"
 				"49ED5C32664DDF6C"
 			]
-			description: ["With conventional coils, the parallel count is equivalent to a &bMAX Parallel Hatch"]
+			description: ["With conventional coils, the parallel count is equivalent to a &bMAX Parallel Control Hatch"]
 			icon_scale: 2.0d
 			id: "6E3F07B3E9AB5882"
 			rewards: [{
@@ -313,7 +313,7 @@
 			id: "74186877DB7DBE4D"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "The last kind of charge"
+			subtitle: "The Last Explosive"
 			tasks: [{
 				id: "68FDD4F89178DC73"
 				item: "kubejs:quantum_chromodynamic_charge"
@@ -454,7 +454,7 @@
 			description: [
 				"You can also optimise the following production lines (colours indicate the voltage stage):"
 				"&eGrade 8/16 Purified Water, Fullerene Polymer Matrix Pulp, Taranium&r"
-				"&1Broader Space Fluid, Radox Gas&r"
+				"&1Spatial Expansion Fluid, Radox Gas&r"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.3d
@@ -632,7 +632,7 @@
 			description: ["Remember to optimise the Cosmic Neutronium, Crystal Matrix and Dense Neutronium recipes"]
 			icon_scale: 2.0d
 			id: "77A53FAAC098F859"
-			subtitle: "Look at the Dimensionally Transcendent Plasma Forge recipes"
+			subtitle: "Check the Dimensionally Transcendent Plasma Forge recipes"
 			tasks: [{
 				id: "4ED6698376CC0B5A"
 				item: "avaritia:infinity_catalyst"
@@ -765,7 +765,7 @@
 			hide_dependent_lines: true
 			id: "760D2FA10E6907DD"
 			shape: "pentagon"
-			subtitle: "Black and White Dwarfs, Star Metal"
+			subtitle: "Black and White Dwarfs, Starmetal"
 			tasks: [{
 				id: "002EC33D0813520C"
 				item: "kubejs:space_drone_mk6"
@@ -800,7 +800,7 @@
 		}
 		{
 			dependencies: ["4C667361F07F4243"]
-			description: ["Upgraded from the tier 2 version; remember to replace the &eAssembly Line Casing&r with the &bSuper Assembly Line Casing&r"]
+			description: ["Upgraded from the Tier 2 version; remember to replace the &eAssembly Line Casing&r with the &bAdvanced Assembly Line Casing&r"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon_scale: 1.5d
@@ -839,5 +839,5 @@
 		}
 	]
 	subtitle: ["Tier12-UXV"]
-	title: "Ultra Extreme Voltage"
+	title: "Mega Ultimate Voltage"
 }

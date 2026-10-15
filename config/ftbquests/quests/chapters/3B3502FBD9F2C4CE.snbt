@@ -103,7 +103,7 @@
 				""
 				"Parallel Hatches can be &bshared"
 				""
-				"{\"text\": \"You can go here to see how many large versions of single-block machines there are in total\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1443E064A0AB0B8B\" } }"
+				"{ \"text\": \"Click here to see how many large versions of single-block machines there are\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1443E064A0AB0B8B\" } }"
 			]
 			icon: "gtceu:large_material_press"
 			icon_scale: 1.3d
@@ -407,7 +407,7 @@
 				""
 				"Items and fluids &bdo not need to be inserted in order&r; the same applies to the Advanced Assembly Line, Circuit Assembly Line, Suprachronal Assembly Line, Suprachronal Assembly Line Extension Module and Aggregation Device."
 				""
-				"When encoding assembly-line-style patterns, they will &dautomatically ignore&r&6Data Sticks containing research data&r, &6Data Orbs&r and &6Data Modules"
+				"When encoding assembly-line-style patterns, &dautomatically ignores&r &6Data Sticks containing research data&r, &6Data Orbs&r and &6Data Modules"
 			]
 			icon_scale: 1.3d
 			id: "7F8C2ECC7CE2BF20"
@@ -553,7 +553,7 @@
 				"38480A52A13DA157"
 				"7DE4799C4F88801B"
 			]
-			description: ["{\"text\": \"Another Small Production Line\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7DE4799C4F88801B\" } }"]
+			description: ["{ \"text\": \"Another small production line\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7DE4799C4F88801B\" } }"]
 			id: "148A5C927A0DCED1"
 			tasks: [{
 				id: "62F5055E01F9396B"
@@ -588,7 +588,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Do not forget to supply Molten Blaze."
+			subtitle: "Do not forget to supply Liquid Blaze."
 			tasks: [{
 				id: "2C69C2E860BDFB1B"
 				item: "gtceu:blaze_blast_furnace"
@@ -602,7 +602,7 @@
 			description: [
 				"Can serve as a transitional steam production machine before the fission reactor."
 				""
-				"The Compressed Diamond Block is Fireproof King Number Two."
+				"The Compressed Diamond Block is burn-time champion number two."
 			]
 			icon_scale: 1.5d
 			id: "5744F6172D4E112B"
@@ -628,7 +628,7 @@
 				"02D426BE0947F123"
 				"5010011959CF5337"
 			]
-			description: ["{\"text\": \"Mining a Little Is Enough\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F11B0FD7A04A57\" } }"]
+			description: ["{ \"text\": \"Mining a little is enough\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F11B0FD7A04A57\" } }"]
 			id: "00E7CB7CD9296B1A"
 			tasks: [{
 				id: "2FB73F086EA348D8"
@@ -643,7 +643,7 @@
 				"0F22A8CE63F369CA"
 				"00E7CB7CD9296B1A"
 			]
-			description: ["{\"text\": \"You can start using Naquadah for power generation\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
+			description: ["{ \"text\": \"You can start generating power with Naquadah\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_5_rocket"
@@ -699,7 +699,7 @@
 				""
 				"Please read the controller's text description carefully."
 				""
-				"If the fission reactor's damage reaches 100%, it will cause an explosion with a radius of 11 chunks * 11 chunks."
+				"If the fission reactor's damage reaches 100%, it causes an explosion covering 11 x 11 chunks."
 				""
 				"Under the default configuration, claimed chunks are not affected by the fission reactor's explosion; if the fission reactor is inside a claimed chunk, then only the controller disappears in the explosion."
 			]
@@ -729,7 +729,7 @@
 				""
 				"You can adjust the &6pull interval&r at the bottom left of the hatch GUI; by default it shows 0tick, which means the pull interval is not changed, with &ba minimum of 1tick&r (this affects the speed of pulling from the ME Network)"
 				""
-				"You can enable &dextreme pull mode&r in gtlcore's config file, so that the &6ME Dual Hatch Stock Part Machine&r pulls with no delay (this affects parallel calculation), though it may have some impact on TPS."
+				"You can enable &dextreme pull mode&r in gtlcore's config file so that the &6ME Dual Hatch Stock Part Machine&r pulls with no delay (this affects parallel calculation), though it may have some impact on TPS."
 				""
 				"Tag stock buses are used in the same way as tag storage buses."
 				""
@@ -882,7 +882,7 @@
 				"1223D839C224777B"
 				"29D4D49428BF7FF4"
 			]
-			description: ["{\"text\": \"Samarium's production line may be very long, or it may be very short\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1223D839C224777B\" } }"]
+			description: ["{ \"text\": \"Samarium's production line may be very long, or very short\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1223D839C224777B\" } }"]
 			id: "3ECA33037D940EAB"
 			tasks: [{
 				id: "7778FF7D320A8783"
@@ -894,7 +894,7 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["If the &bfluid&r ratio input into the Digestion Tank differs from the recipe's ratio, it will &ekeep devouring materials without outputting products&r."]
+			description: ["If the &bfluid&r ratio input into the Dissolving Tank differs from the recipe's ratio, it will &ekeep devouring materials without outputting products&r."]
 			icon_scale: 1.5d
 			id: "29D4D49428BF7FF4"
 			shape: "rsquare"
@@ -919,7 +919,7 @@
 			description: [
 				"Hot Sodium Potassium Alloy lets you obtain far more steam than the Dimensionally Transcendent Steam Boiler produces."
 				""
-				"You can also use Supercritical Sodium Potassium to obtain Supercritical Steam, which is used to generate power with the Supercritical Steam Turbine."
+				"You can also use Supercritical Sodium Potassium Alloy to obtain Supercritical Steam, which is used to generate power with the Supercritical Steam Turbine."
 				""
 				"Apart from the Hot Sodium Potassium Alloy recipe, the Heat Exchanger is not affected by the Configurable Maintenance Hatch."
 			]
@@ -945,9 +945,9 @@
 			description: [
 				"0.2x is for speeding up machines, 1.2x is for saving fuel, and in some cases it can give a generator extra overclocks and thereby increase its power output."
 				""
-				"{\"text\": \"The Configuration Copy Tool can copy and paste the processing time setting\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
+				"{ \"text\": \"The Configuration Copy Tool can copy and paste the processing time setting\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""
-				"You can also make the &6Configurable Cleaning Maintenance Hatch&r now."
+				"You can also make the &6Configurable Cleaning Maintenance Hatch&r now"
 			]
 			icon_scale: 2.0d
 			id: "585580AFDFACDDB8"

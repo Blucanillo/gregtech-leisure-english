@@ -80,7 +80,7 @@
 			description: [
 				"By default &6M&r opens the map, and &6T&r teleports you to the spot your cursor is pointing at; clicking the globe icon in the bottom left switches dimensions"
 				""
-				"You can claim and force-load chunks in the top left of the interface (claimed chunks are blast-proof). On a server, setting &6Force Load Mode&r in FTB Chunks' server settings (the purple gear) to &balways&r keeps force-loaded chunks loaded even when nobody is online"
+				"You can claim and force-load chunks in the top left of the interface (claimed chunks are blast-proof). On a server, setting &6Forceloading Mode&r in FTB Chunks' server settings (the purple gear) to &balways&r keeps force-loaded chunks loaded even when nobody is online"
 				""
 				"Hold &6~&r to enable chain mining"
 				""
@@ -149,16 +149,16 @@
 				"Low Voltage &7LV&r: basic electric machines, Electric Blast Furnace."
 				"Medium Voltage &bMV&r: silicon crystals, oil processing, machine upgrades."
 				"High Voltage &6HV&r: processors, Large Chemical Reactor, Tier 1 rocket to the Moon, Distillation Tower, titanium."
-				"Extreme Voltage &5EV&r: Nano Processor, Void Miner, Tier 2/3/4 rockets, tungsten, platinum group metals."
+				"Extreme Voltage &5EV&r: Nanoprocessor, Void Miner, Tier 2/3/4 rockets, tungsten, platinum group metals."
 				"Insane Voltage &9IV&r: Quantum Processor, Alloy Blast Smelter, Fission Reactor, Tier 5 rocket, large machines, Assembly Line, Data Bank."
 				"Ludicrous Voltage &dLuV&r: Crystal Processor, Naquadah, Tier 6 rocket, Fusion Reactor MK1, computers."
 				"ZPM Voltage &cZPM&r: Wetware Processor, Fusion Reactor MK2, Tier 7 rocket."
 				"Ultimate Voltage &3UV&r: Bioware Processor, Fusion Reactor MK3, Deep Chemical Distorter, Circuit Assembly Line, Space Elevator."
-				"Ultra High Voltage &4UHV&r: Optical Processor, Fusion Reactor MK4, Stellar Forge, Naquadria Bomb, Hyper Reactor."
-				"Ultra Excessive Voltage &aUEV&r: Exotic Processor, Fusion Reactor MK5, Supercritical Crafting, bedrock processing, Adamantine."
-				"Ultra Immense Voltage &2UIV&r: Cosmic Processor, Cosmic Probe, Mass Fabricator, quarks, superheavy elements."
-				"Ultra Extreme Voltage &eUXV&r: Suprachronal Processor, Draconium, Cosmic Neutronium, Infinity, Dimensionally Transcendent Plasma Forge, Radox."
-				"Overpowered Voltage &1OpV&r: Transcendent Circuits, Cosmos Simulation, Spacetime, Singularity, Eternity."
+				"Highly Ultimate Voltage &4UHV&r: Optical Processor, Fusion Reactor MK4, Stellar Forge, Naquadria Bomb, Hyper Reactor."
+				"Extremely Ultimate Voltage &aUEV&r: Exotic Processor, Fusion Reactor MK5, Supercritical Crafting, bedrock processing, Adamantine."
+				"Insanely Ultimate Voltage &2UIV&r: Cosmic Processor, Cosmic Probe, Mass Fabricator, quarks, superheavy elements."
+				"Mega Ultimate Voltage &eUXV&r: Supracausal Processor, dragon materials, Cosmic Neutronium, Infinity, Dimensionally Transcendent Plasma Forge, Radox."
+				"Overpowered Ultimate Voltage &1OpV&r: Transcendent Circuits, Cosmos Simulation, Spacetime, Singularity, Eternity."
 				"Maximum Voltage &cMAX&r: crafting creative items."
 				"Bonus Question &cM&r&aA&r&9X&r&e+&r: Fishbig."
 			]
@@ -645,9 +645,9 @@
 		{
 			dependencies: ["52A0EE026A3D3A79"]
 			description: [
-				"Holding the Terminal and &6sneak-right-clicking a multiblock controller&r builds the multiblock automatically; with a &dempty hand&r it shows a preview instead"
+				"Holding the Terminal and &6sneak-right-clicking a multiblock controller&r builds the multiblock automatically; with an &dempty hand&r it shows a preview instead"
 				""
-				"The Terminal can recognise blocks inside a Sophisticated Backpack that is &bnot in a curio slot&r"
+				"The Terminal can use blocks stored in a Sophisticated Backpack that is &bnot in a Curios slot&r"
 				""
 				"Auto-building has a few problems, especially in Creative mode; it is recommended not to carry functional hatches in your inventory at first, only structural blocks, and to place the functional hatches by hand after the main structure is built"
 			]
@@ -781,7 +781,7 @@
 				"{@pagebreak}"
 				"Wrench:"
 				"When you hold a Wrench and aim at a block that accepts a wrench, a 3x3 grid is shown on each face of the block:"
-				"The centre has the most, the edges come next, and the corners the least."
+				"The centre area is the largest, the edges are next, and the corners are the smallest."
 				"When you right-click the centre of a machine's face, the front is rotated to that face (for non-GT machines that only have face distinction) or the output is moved to that face (for GT machines); right-clicking an edge rotates the front to the face in that edge's direction; right-clicking a corner rotates the front to the face opposite the one you clicked. But if you right-click a non-GT machine with no face distinction, all of the above simply removes the machine. Shift-right-clicking the centre of a face rotates the front to that face (for all machines), and the rest is the same for edges and corners. For non-GT machines with no face distinction, all of the above also simply removes the machine."
 				"Right-clicking the centre of a pipe's face changes nothing; right-clicking an edge connects/disconnects the pipe in that edge's direction; right-clicking a corner connects/disconnects the pipe in the opposite direction. Shift-right-clicking controls whether the corresponding face accepts input."
 				"Right-clicking a non-front face of a log, hay bale, comparator, repeater, pumpkin, jack o'lantern, piston, sticky piston, dropper, dispenser, furnace, chest, trapped chest, ender chest or hopper rotates it;"
@@ -1205,7 +1205,7 @@
 			description: [
 				"GregTech ores all generate as ore veins, and each vein has its own specific ores"
 				""
-				"The Ore Vein Diagram can be viewed in the JEI page of a raw ore"
+				"The Ore Vein Diagram can be viewed on a raw ore's JEI page"
 				""
 				"See the Ore Generation chapter for the details of each ore vein"
 				""
@@ -1622,7 +1622,7 @@
 				""
 				"When using the cut tool, &ctry not to rotate&r, otherwise part of the block's NBT will be lost"
 				""
-				"Wireless Energy/Dynamo/Laser Hatches placed or copied directly with these tools must be manually bound to the wireless grid by right-clicking with a Data Stick, otherwise these hatches will not interact with the wireless grid (that is, no power or full charge)"
+				"Wireless Energy/Dynamo/Laser Hatches placed or copied directly with these tools must be bound to the wireless grid by hand by right-clicking them with a Data Stick, otherwise they will not interact with the wireless grid (they stay empty or stay full)"
 			]
 			id: "4B7B7EA38B836F96"
 			optional: true
@@ -1739,7 +1739,7 @@
 		{
 			dependencies: ["4AB25C15F0B05AA0"]
 			description: [
-				"{ \"text\": \"You Should Already Know How to Use It\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262671AC71B36736\" } }"
+				"{ \"text\": \"You should already know how to use it\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262671AC71B36736\" } }"
 				"{@pagebreak}"
 				"May cause a crash"
 			]
@@ -1761,11 +1761,11 @@
 		}
 		{
 			description: [
-				"The &6Bus Isolation&r in the Input Bus Assembly &bisolates items&r only; open &6Full Isolation&r in the multiblock controller's GUI to enable &bfluid isolation&r"
+				"The &6Bus Isolation&r in a Dual Input Hatch &bisolates items&r only; turn on &6Full Isolation&r in the multiblock controller's GUI to enable &bfluid isolation&r"
 				""
-				"Note: once Full Isolation is enabled it &doverrides the isolation of every assembly&r, meaning every assembly is in both item and fluid isolation mode"
+				"Note: once Full Isolation is enabled it &doverrides the isolation setting of every Dual Input Hatch&r, so every Dual Input Hatch is isolated for both items and fluids"
 				"{@pagebreak}"
-				"If you upgraded from an older version, take out all the Input Bus Assemblies and put them back, otherwise the isolation may fail"
+				"If you upgraded from an older version, take out all your Dual Input Hatches and put them back, otherwise the isolation may not work"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:nan_certificate"
@@ -1849,7 +1849,7 @@
 		}
 		{
 			dependencies: ["1D93602C5835593F"]
-			description: ["{ \"text\": \"You Should Already Know How to Use It\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"516564DCEA7FA80B\" } }"]
+			description: ["{ \"text\": \"You should already know how to use it\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"516564DCEA7FA80B\" } }"]
 			id: "13371F3E8D27310F"
 			optional: true
 			rewards: [{
@@ -1944,7 +1944,7 @@
 				id: "5A2BBDEBA9F14ADD"
 				type: "checkmark"
 			}]
-			title: "Framed Blocks"
+			title: "FramedBlocks"
 			x: 1.5d
 			y: 0.5d
 		}

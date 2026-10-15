@@ -34,7 +34,7 @@
 				"38D23D186C444492"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["The Sterile Cleanroom is &6backwards compatible&r with Cleanroom recipes, and the same goes for the Law Cleaning one"]
+			description: ["The Sterile Cleanroom is &6backwards compatible&r with Cleanroom recipes, and the same goes for the Law Cleanroom"]
 			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
@@ -857,7 +857,7 @@
 				"58936CEB6176A18B"
 			]
 			description: [
-				"Implode directly using electricity, no more Dynamite needed, and you can even install a Parallel Hatch!"
+				"Implode directly using electricity, no more Dynamite needed, and you can even install a Parallel Control Hatch!"
 				""
 				"Only &eLuV&r Muffler Hatches can be used"
 				""
