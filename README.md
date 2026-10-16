@@ -72,15 +72,6 @@ This is an unofficial community translation. AI-assisted text may contain transl
 
 This package builds on GregTech Leisure and its included mod content. No standalone redistribution license is included. Check the original project's permissions and preserve any required third-party notices when redistributing or adapting the files.
 
-## Checking and rebuilding
+## Maintenance
 
-The readable GTMThings fixes are in `resourcepack_overrides/assets/gtmthings/lang/en_us.json`. After editing them, run:
-
-```text
-python tools/build_resourcepack.py
-python tools/verify_translations.py
-```
-
-The first command updates the distributed resource-pack ZIP. The second checks both quest books, known name/value regressions, formatting, clickable quest actions and script translation keys. To compare local quest changes with a previous revision, pass `--baseline <commit>`. For an additional language-coverage check against installed mods, pass `--mods "path/to/instance/mods"`; this option can be supplied for both supported versions.
-
-The `tools` and `resourcepack_overrides` folders are for maintaining the translation; players only need the installation folders listed above. See [the correction notes](docs/translation-fixes-2026-10-15.md) for the reported issues, version-specific decisions and validation limits.
+Players only need the installation folders listed above. Notes, editable translation overrides and checking tools are grouped under [`maintenance/`](maintenance/README.md).
