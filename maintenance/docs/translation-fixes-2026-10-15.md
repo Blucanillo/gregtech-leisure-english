@@ -25,7 +25,7 @@ Including the Steam Oven correction and the two summary clarifications, the upda
 
 ## Validation
 
-Run `python tools/verify_translations.py --baseline e4c4777` to compare this update against the merged PR #1 baseline. Optional `--mods` arguments check coverage against the two installed mod sets.
+Run `python maintenance/tools/verify_translations.py --baseline e4c4777` to compare this update against the merged PR #1 baseline. Optional `--mods` arguments check coverage against the two installed mod sets.
 
 The checks cover all 97 quest files, retained non-text quest data, clickable component behavior, formatting codes, page-break markers, resource-pack integrity, duplicate/conflicting language keys, GTMThings missing names, amp labels, format placeholders, all 67 literal companion-script translation keys, unchanged JavaScript and unchanged original resource-pack payloads. The resource-pack build is deterministic.
 

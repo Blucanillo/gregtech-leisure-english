@@ -5,7 +5,7 @@ import json
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "resourcepacks/GTL1450-English-resourcepack.zip"
 
 
@@ -14,8 +14,8 @@ def build():
         if archive.testzip() is not None:
             raise ValueError("Existing resource pack is corrupt")
         files = {name: archive.read(name) for name in archive.namelist() if not name.endswith("/")}
-    for source in (ROOT / "resourcepack_overrides").rglob("*.json"):
-        relative = source.relative_to(ROOT / "resourcepack_overrides").as_posix()
+    for source in (ROOT / "maintenance/resourcepack_overrides").rglob("*.json"):
+        relative = source.relative_to(ROOT / "maintenance/resourcepack_overrides").as_posix()
         payload = source.read_bytes()
         json.loads(payload.decode("utf-8"))
         files[relative] = payload

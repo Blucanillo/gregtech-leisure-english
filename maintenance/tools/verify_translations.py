@@ -17,7 +17,7 @@ from zipfile import ZipFile
 from quest_snbt import Document, display_fields, lookup, without_component_text, without_display_text
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "resourcepacks/GTL1450-English-resourcepack.zip"
 HAN = re.compile(r"[\u3400-\u9fff]")
 FORMAT = re.compile(r"&[0-9a-fk-or]", re.I)
@@ -103,7 +103,7 @@ def main():
         # Git may convert line endings on Windows; compare the actual script text.
         assert path.read_bytes().replace(b"\r\n", b"\n") == git_bytes(args.baseline, relative).replace(b"\r\n", b"\n"), f"Script behavior changed: {relative}"
 
-    override_path = ROOT / "resourcepack_overrides/assets/gtmthings/lang/en_us.json"
+    override_path = ROOT / "maintenance/resourcepack_overrides/assets/gtmthings/lang/en_us.json"
     overrides = load_json(override_path.read_text(encoding="utf-8"))
     with ZipFile(PACK) as archive:
         assert archive.testzip() is None, "Corrupt resource pack"
