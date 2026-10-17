@@ -1,0 +1,13 @@
+{
+  "block.gtceu.iv_processing_array": "§9IV§r Processing Array",
+  "block.gtceu.luv_processing_array": "§dLuV§r Processing Array",
+  "compass.node.gtceu.covers/crafting_table_cover": "Crafting Table Cover",
+  "compass.node.gtceu.iv/processing_array": "Processing Array",
+  "compass.node.gtceu.multiblock/processing_array": "Processing Array",
+  "gtceu.multiblock.advanced_processing_array.description": "The Processing Array combines up to 64 single-block machines in one multiblock structure for more efficient automation.",
+  "gtceu.multiblock.processing_array.description": "The Processing Array combines up to 16 single-block machines in one multiblock structure for more efficient automation.",
+  "item.gtceu.crafting_table_cover": "Crafting Table Cover",
+  "item.gtceu.digital_interface_cover": "Digital Interface Cover",
+  "item.gtceu.wireless_digital_interface_cover": "Wireless Digital Interface Cover",
+  "material.gtceu.echo": "Echo"
+}

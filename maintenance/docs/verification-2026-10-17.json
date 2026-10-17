@@ -1,0 +1,86 @@
+{
+  "result": "PASS",
+  "versions": {
+    "1450": {
+      "quest_files": 48,
+      "quests": 2220,
+      "tasks": 3503,
+      "rewards": 1028,
+      "guide_pages": 123,
+      "scripts_syntax_checked": 4,
+      "status_lines_translated": 20,
+      "resource_pack_keys": 1349,
+      "script_behavior": {
+        "result": "PASS",
+        "registered_items": 435,
+        "item_mechanics_ast_identical": true,
+        "tooltip_targets_exercised": 453,
+        "forge_tooltip_lines": 90,
+        "client_tooltip_targets": 37,
+        "universal_circuit_tiers": 15,
+        "missing_dynamic_keys": []
+      },
+      "companion_keys": 71,
+      "language_coverage": {
+        "appliedenergistics2-forge-15.4.10.jar": 996,
+        "FramedBlocks-9.4.3.jar": 108,
+        "ftb-library-forge-2001.2.12.jar": 53,
+        "gtceu-1.20.1-1.4.4.jar": 5941,
+        "gtladditions-2.6.5Custom.jar": 1070,
+        "gtlcore-1.2.2.8-fix2.jar": 2216,
+        "gtmthings-1.3.5.b.jar": 377,
+        "JustEnoughResources-1.20.1-1.4.0.247.jar": 146,
+        "laserio-uel-1.5.0.jar": 71,
+        "merequester-forge-1.20.1-1.1.5.jar": 23,
+        "modernfix-forge-5.26.2+mc1.20.1.jar": 134,
+        "sophisticatedstorage-1.20.1-1.4.25.1488.jar": 290
+      },
+      "all_mod_chinese_keys_checked": 16812,
+      "namespace_order_verified": true,
+      "remaining_language_gaps": 0,
+      "installed_scripts_checked_for_chinese": 19,
+      "bundled_english_additions_guide_pages": 0
+    },
+    "1452": {
+      "quest_files": 49,
+      "quests": 2258,
+      "tasks": 3577,
+      "rewards": 1045,
+      "guide_pages": 123,
+      "scripts_syntax_checked": 4,
+      "status_lines_translated": 20,
+      "resource_pack_keys": 1349,
+      "script_behavior": {
+        "result": "PASS",
+        "registered_items": 435,
+        "item_mechanics_ast_identical": true,
+        "tooltip_targets_exercised": 453,
+        "forge_tooltip_lines": 90,
+        "client_tooltip_targets": 37,
+        "universal_circuit_tiers": 15,
+        "missing_dynamic_keys": []
+      },
+      "companion_keys": 71,
+      "language_coverage": {
+        "appliedenergistics2-forge-15.4.10.jar": 996,
+        "FramedBlocks-9.4.3.jar": 108,
+        "ftb-library-forge-2001.2.13.jar": 53,
+        "gtceu-1.20.1-1.4.4.jar": 5941,
+        "gtladditions-3.3.1Custom.jar": 1277,
+        "gtlcore-1.2.3.2-fix4.jar": 2995,
+        "gtmthings-1.3.5.b.jar": 377,
+        "JustEnoughResources-1.20.1-1.4.0.247.jar": 146,
+        "laserio-uel-1.5.1.jar": 71,
+        "merequester-forge-1.20.1-1.1.5.jar": 23,
+        "modernfix-forge-5.27.72+mc1.20.1.jar": 134,
+        "sophisticatedstorage-1.20.1-1.4.79.2078.jar": 309
+      },
+      "all_mod_chinese_keys_checked": 18129,
+      "namespace_order_verified": true,
+      "remaining_language_gaps": 0,
+      "installed_scripts_checked_for_chinese": 19,
+      "bundled_english_additions_guide_pages": 80
+    }
+  },
+  "guide_findings": []
+}

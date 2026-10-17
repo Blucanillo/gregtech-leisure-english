@@ -410,5 +410,15 @@
   "item.gtmthings.uv_4a_wireless_energy_receive_cover": "4A §3UV§r Wireless Energy Receiving Cover",
   "item.gtmthings.uxv_4a_wireless_energy_receive_cover": "4A §eUXV§r Wireless Energy Receiving Cover",
   "item.gtmthings.zpm_4a_wireless_energy_receive_cover": "4A §cZPM§r Wireless Energy Receiving Cover",
-  "itemGroup.gtmthings.more_machines": "More Machines"
+  "itemGroup.gtmthings.more_machines": "More Machines",
+  "gtmthings.machine.wireless_energy_cover.tooltip.1": "Wireless Energy Receiver is not bound to an owner.",
+  "gtmthings.machine.wireless_energy_cover.tooltip.2": "Wireless Energy Receiver bound to: %s",
+  "gtmthings.machine.wireless_energy_cover.tooltip.3": "Wireless Energy Receiver bound to unknown user: %s",
+  "item.gtmthings.wireless_transfer.tooltip.2": "§7Shift + right-click a container to bind it. Shift + right-click the air to unbind.",
+  "block.gtmthings.ev_262144a_wireless_laser_source_hatch": "262144A §5EV§r Wireless Laser Source Hatch",
+  "block.gtmthings.ev_262144a_wireless_laser_target_hatch": "262144A §5EV§r Wireless Laser Target Hatch",
+  "block.gtmthings.ev_1048576a_wireless_laser_source_hatch": "1048576A §5EV§r Wireless Laser Source Hatch",
+  "block.gtmthings.ev_1048576a_wireless_laser_target_hatch": "1048576A §5EV§r Wireless Laser Target Hatch",
+  "block.gtmthings.ev_4194304a_wireless_laser_source_hatch": "4194304A §5EV§r Wireless Laser Source Hatch",
+  "block.gtmthings.ev_4194304a_wireless_laser_target_hatch": "4194304A §5EV§r Wireless Laser Target Hatch"
 }

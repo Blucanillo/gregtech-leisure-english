@@ -1,77 +1,60 @@
 # GregTech Leisure English Translation
 
-For GTL1450 and for [GregTech Leisure 1.4.5.2 from CurseForge](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure/files/8903963) (GTL1452).
-
-## Supported versions
-
-- **GTL1450 custom:** the older pack from [this Google Drive folder](https://drive.google.com/drive/folders/1Ga_w-TmDKNru0me1kAM_gXyedz_Ne4-x). Install the root `config` folder.
-- **GTL1452:** [GregTech Leisure 1.4.5.2 from CurseForge](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure/files/8903963). Install `GTL1452/config` instead.
-
-The two versions have different quest books. Keep them separate; do not install the GTL1452 quests over GTL1450. The root `kubejs` scripts and English resource pack are shared by these two supported versions. Compatibility with other pack versions or newer GTLCore/GTLAdditions builds has not been established.
-
-This is an add-on translation package: install the matching modpack separately first. It includes translated FTB Quests, KubeJS item names and tooltips, and a companion resource pack. The resource pack also supplies missing GTMThings names and corrects misspelled Dynamo Hatch names.
-
-## Contents
+Choose the folder matching your installed modpack. Each folder is a complete translation package ready to copy into that version's instance folder.
 
 ```text
-config/
-  ftbquests/quests/                  Translated quest definitions (GTL1450)
-GTL1452/
-  config/ftbquests/quests/           Translated quest definitions (CurseForge 1.4.5.2)
-kubejs/
-  startup_scripts/item.js           Item registrations and translated names
-  startup_scripts/tips.js           Translated item tooltips
-  client_scripts/tips.js            Client-side tooltips
-resourcepacks/
-  GTL1450-English-resourcepack.zip   English language resources
+1450/
+  config/
+  kubejs/
+  resourcepacks/GTL1450-English-resourcepack.zip
+1452/
+  config/
+  kubejs/
+  resourcepacks/GTL1452-English-resourcepack.zip
 ```
+
+| Folder | Verified reference |
+| --- | --- |
+| **1450** | GTL 1.4.5.0 custom, Core **1.2.2.8-fix2**, Additions **2.6.5Custom** |
+| **1452** | GTL 1.4.5.2 with Core **1.2.3.2-fix4**, Additions **3.3.1Custom** |
+
+Both checked instances use Minecraft 1.20.1, GTCEu 1.4.4, AE2 15.4.10 and GTMThings 1.3.5.b. Other combinations need their own compatibility check.
+
+**Install 1450 only into 1450, and 1452 only into 1452. Their quest books differ.** Each folder supplies its own scripts and resource pack; you do not need files from the other folder.
 
 ## Installation
 
-1. Fully close Minecraft and back up the instance, including any worlds. Keep copies of the existing `config/ftbquests/quests/` directory and the three KubeJS files listed above so you can restore them later.
-2. Locate the GTL1450 or GTL1452 instance folder using your launcher's instance-folder option. This is the folder containing the instance's `config`, `kubejs`, and `resourcepacks` directories.
-3. Copy this package's `kubejs` and `resourcepacks` folders into that instance folder. Then copy the `config` folder for your version: `config` for GTL1450, or `GTL1452/config` for CurseForge 1.4.5.2. Merge the folders and replace the matching files when prompted. Keep unrelated instance files. Do not copy the outer `AIO` folder or the `GTL1452` folder itself into the instance.
-4. Keep `GTL1450-English-resourcepack.zip` zipped inside `resourcepacks/`. When updating, replace the previous copy instead of keeping multiple versions enabled.
-5. Launch Minecraft. In **Options > Resource Packs**, enable **GTL1450 English**. Give it higher priority than other packs that replace the same translations.
-6. Set the game language to **English (US)**, then fully exit and restart Minecraft.
+1. Close Minecraft and back up your instance. Locate its `.minecraft` folder, or the launcher instance folder containing `config`, `kubejs` and `resourcepacks`.
+2. Open **1450** or **1452**, matching your pack. Copy the **three folders inside it** (`config`, `kubejs`, `resourcepacks`) into the instance folder. Merge folders and replace matching files. Keep the resource-pack ZIP zipped.
+3. Launch Minecraft, choose **English (US)**, and enable the matching **GTL1450 English** or **GTL1452 English** resource pack above other translation packs. If updating 1452 from the previous shared package, disable/remove the old `GTL1450-English-resourcepack.zip` in that instance.
+4. Fully exit Minecraft and restart it so the startup scripts are loaded.
 
-A full restart is required for the KubeJS startup scripts. Reloading only the quest book does not apply the whole package.
+**Keep the matching English resource pack enabled.** It supplies the KubeJS tooltip text as well as the translated mod labels.
 
-## Installing individual components
+Do not copy the outer `1450` or `1452` folder itself into `.minecraft`. Server administrators should also install the matching quests and server/startup scripts; clients need the guide assets and resource pack.
 
-- **Quest book:** Install `config/ftbquests/quests/` (GTL1450) or `GTL1452/config/ftbquests/quests/` (CurseForge 1.4.5.2) to use the translated quest definitions.
-- **Language resources:** Enable the resource-pack ZIP to use its English language entries.
-- **Item names and tooltips:** Install the three KubeJS scripts together with the resource pack. The scripts depend on its translation keys; missing resources can cause raw keys to appear instead of English text.
+## Included translations
 
-## Multiplayer use
+- Version-specific quest books: **48 files for 1450**, **49 for 1452**. Quest IDs, tasks, rewards, commands, dependencies and layout are preserved for each version.
+- KubeJS item names and tooltips, plus action messages for teleport slots, Time Twister, flight speed, night vision and Vajra controls.
+- **123 English AE2 guide pages**, including the pack-added bucket-filling, bucket-emptying, recursive-crafting and Fluix Researcher pages. Available diagrams come from the installed AE2 version. Examples whose original diagrams were missing use text instructions instead.
+- Resource packs with GTMThings name corrections, missing GTCEu entries, and AE2 guide/interface labels.
 
-Server administrators should back up and review the quest definitions before installing them. They include command rewards with `elevate_perms: true`, such as teleportation, night vision, and `/ftbultimine serverconfig`. The last command opens Ultimine's server configuration screen. Review that reward against your server's permission policy before making the quest book available to players.
+The 1450 and 1452 guide translations are the same because both checked instances contain byte-identical source pages and the same AE2 build. Each version was checked independently. The newer Additions build already supplies its own English guide.
 
-Coordinate quest and startup-script changes with the server administrator. Players must enable the English resource pack on their own clients.
+## Verification and rollback
 
-## Troubleshooting
+The October 2026 update passed separate file and native-parser checks for both versions, followed by real Minecraft tests in disposable copies with fresh worlds. These checked every registered item name, normal and advanced tooltips, and all 123 translated AE2 pages per version. The full findings and limits are in the [consistency audit](maintenance/docs/consistency-audit-2026-10-17.md). This translation does not fix the modpack's separate recipe-registration or Additions guide-navigation problems.
 
-- **Raw translation keys:** Check that the resource pack is enabled, has suitable priority, and is installed in the same instance as the KubeJS scripts. Fully restart the game.
-- **Quest book still in Chinese:** Check that the quest directory for your version (`config/ftbquests/quests/` or `GTL1452/config/ftbquests/quests/`) was copied into the active instance and that the game language is English (US). On multiplayer servers, ask the administrator to check the server's quest definitions.
-- **Script errors or unexpected item behavior:** Confirm that the instance matches GTL1450 or CurseForge 1.4.5.2 and that other custom scripts do not conflict with the replaced files. Restore the backup if necessary.
-
-## Removing the package
-
-Close Minecraft. Restore the original quest directory and the three KubeJS scripts from your backup, then disable or remove `GTL1450-English-resourcepack.zip`. Restart the game.
+To undo installation, restore the overwritten `config` and `kubejs` files from your backup, remove the matching English resource-pack ZIP, and restart Minecraft.
 
 ## Credits
 
-- **English translation:** blucanillo, assisted by DeepSeek V4.1 Flash and ChatGPT Astra 6.
-- **CurseForge 1.4.5.2 quest book and shared quest wording corrections:** [sgiath](https://github.com/sgiath), assisted by Claude Opus 5.5, based on blucanillo's GTL1450 translation. The matching shared-text corrections were also backported to GTL1450; version-specific mechanics remain separate.
-- **Original modpack:** [GregTech Leisure](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure), published by nutant233, and its contributors.
-- **Included mods:** Their respective authors and contributors.
+- **English translation:** blucanillo, with AI assistance.
+- **1452 quest book and shared quest wording corrections:** [sgiath](https://github.com/sgiath), assisted by Claude, based on blucanillo's 1450 translation. Matching text corrections are retained in 1450 while its mechanics remain separate.
+- **AE2 guide:** English text from the installed Applied Energistics 2 build and translations of the pack's additional material. Original content belongs to its authors.
+- **Original modpack:** GregTech Leisure and its contributors; included mods belong to their respective authors.
 
-This is an unofficial community translation. AI-assisted text may contain translation errors.
+This is an unofficial community translation. AI-assisted text may contain errors. No standalone redistribution license is included; preserve applicable upstream attribution and permissions.
 
-## Attribution and licensing
-
-This package builds on GregTech Leisure and its included mod content. No standalone redistribution license is included. Check the original project's permissions and preserve any required third-party notices when redistributing or adapting the files.
-
-## Maintenance
-
-Players only need the installation folders listed above. Notes, editable translation overrides and checking tools are grouped under [`maintenance/`](maintenance/README.md).
+Maintainer notes and checking tools are under [`maintenance/`](maintenance/README.md). Only the contents of your matching numbered folder belong in the game instance.

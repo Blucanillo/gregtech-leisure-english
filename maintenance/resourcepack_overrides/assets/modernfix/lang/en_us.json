@@ -1,0 +1,3 @@
+{
+  "modernfix.option.mixin.feature.disable_unihex_font": "Remove the Unicode font to save 10 MB of memory; some special characters will no longer render."
+}
