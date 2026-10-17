@@ -1,6 +1,6 @@
 # GregTech Leisure English Translation
 
-Choose the folder matching your installed modpack. Each folder is a complete translation package ready to copy into that version's instance folder.
+Choose the folder matching your installed modpack. Each folder contains the installation files for its specific setup. The original CurseForge translation is preserved separately from the updated custom packages.
 
 ```text
 1450/
@@ -11,29 +11,41 @@ Choose the folder matching your installed modpack. Each folder is a complete tra
   config/
   kubejs/
   resourcepacks/GTL1452-English-resourcepack.zip
+1452-curseforge/
+  config/
+  kubejs/
+  resourcepacks/GTL1450-English-resourcepack.zip
 ```
 
-| Folder | Verified reference |
+| Folder | Target setup |
 | --- | --- |
 | **1450** | GTL 1.4.5.0 custom, Core **1.2.2.8-fix2**, Additions **2.6.5Custom** |
-| **1452** | GTL 1.4.5.2 with Core **1.2.3.2-fix4**, Additions **3.3.1Custom** |
+| **1452** | Custom GTL 1.4.5.2 with Core **1.2.3.2-fix4**, Additions **3.3.1Custom** |
+| **1452-curseforge** | Original unmodified CurseForge **1.4.5.2** release; sgiath's original PR #1 quest translation and its original companion files |
 
-Both checked instances use Minecraft 1.20.1, GTCEu 1.4.4, AE2 15.4.10 and GTMThings 1.3.5.b. Other combinations need their own compatibility check.
+The two checked custom instances use Minecraft 1.20.1, GTCEu 1.4.4, AE2 15.4.10 and GTMThings 1.3.5.b. Other combinations need their own compatibility check.
 
-**Install 1450 only into 1450, and 1452 only into 1452. Their quest books differ.** Each folder supplies its own scripts and resource pack; you do not need files from the other folder.
+**Use `1450` for the old custom setup, `1452` for the custom setup listed above, or `1452-curseforge` for the original CurseForge 1.4.5.2 setup. Install only one package.** Each folder supplies its own scripts and resource pack; you do not need files from the other folder.
 
 ## Installation
 
 1. Close Minecraft and back up your instance. Locate its `.minecraft` folder, or the launcher instance folder containing `config`, `kubejs` and `resourcepacks`.
-2. Open **1450** or **1452**, matching your pack. Copy the **three folders inside it** (`config`, `kubejs`, `resourcepacks`) into the instance folder. Merge folders and replace matching files. Keep the resource-pack ZIP zipped.
-3. Launch Minecraft, choose **English (US)**, and enable the matching **GTL1450 English** or **GTL1452 English** resource pack above other translation packs. If updating 1452 from the previous shared package, disable/remove the old `GTL1450-English-resourcepack.zip` in that instance.
+2. Open **1450**, **1452**, or **1452-curseforge**, matching your setup. Copy the **three folders inside it** (`config`, `kubejs`, `resourcepacks`) into the instance folder. Merge folders and replace matching files. Keep the resource-pack ZIP zipped.
+3. Launch Minecraft, choose **English (US)**, and enable the matching **GTL1450 English** or **GTL1452 English** resource pack above other translation packs. If updating the custom **1452** setup from the previous shared package, disable/remove the old `GTL1450-English-resourcepack.zip` in that instance.
+   For **1452-curseforge**, enable **GTL1450 English**: that historical filename is intentional and belongs to the original shared resource pack. Disable any other GTL English translation pack.
 4. Fully exit Minecraft and restart it so the startup scripts are loaded.
 
 **Keep the matching English resource pack enabled.** It supplies the KubeJS tooltip text as well as the translated mod labels.
 
-Do not copy the outer `1450` or `1452` folder itself into `.minecraft`. Server administrators should also install the matching quests and server/startup scripts; clients need the guide assets and resource pack.
+Do not copy the outer `1450`, `1452`, or `1452-curseforge` folder itself into `.minecraft`. Server administrators should also install the matching quests and server/startup scripts; clients need the guide assets and resource pack.
 
-## Included translations
+## Original CurseForge translation
+
+`1452-curseforge` restores [sgiath's original PR #1](https://github.com/Blucanillo/gregtech-leisure-english/pull/1) exactly: 49 quest files plus the three shared KubeJS scripts and resource-pack ZIP that its installation instructions specified. It targets [CurseForge 1.4.5.2](https://www.curseforge.com/minecraft/modpacks/gregtech-leisure/files/8903963), without the manual mod upgrades used by our custom setup.
+
+This is a preserved original, including its original wording and limitations. It does not include our later fixes, AE2 manual translation or additional server messages. The custom-package runtime results below do not apply to this restored package; restoration was checked against the original Git files. See [restoration details](maintenance/docs/1452-curseforge-restoration.md).
+
+## Included translations (custom packages)
 
 - Version-specific quest books: **48 files for 1450**, **49 for 1452**. Quest IDs, tasks, rewards, commands, dependencies and layout are preserved for each version.
 - KubeJS item names and tooltips, plus action messages for teleport slots, Time Twister, flight speed, night vision and Vajra controls.

@@ -1,0 +1,272 @@
+{
+  "source_commit": "9d6230902c0053ad77419fe7e2a9c457ff157e15",
+  "source_pr": "https://github.com/Blucanillo/gregtech-leisure-english/pull/1",
+  "package": "1452-curseforge",
+  "files": [
+    {
+      "path": "config/ftbquests/quests/chapter_groups.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapter_groups.snbt",
+      "sha256": "d477a28a004aeab35bb5b4bf8082cee02f66d412beda4ff80a7732457257a7a7"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/1051E55CD6BF7E7B.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/1051E55CD6BF7E7B.snbt",
+      "sha256": "95f49fc8d495ee274c9b80ebfbb42fc34f88babfc3562bd233200241b1d4e3ca"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/12538B9410F2DEC5.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/12538B9410F2DEC5.snbt",
+      "sha256": "75be1fc0e26c97cc4d92840c4d67dfa29d634190f59c6d0faf63fa930af45153"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/1F2D08F4FEF1CEDC.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/1F2D08F4FEF1CEDC.snbt",
+      "sha256": "4638147240c253c198022ecec74dbbb214c03a88205f7a3097bb3eaa68253b75"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/219401C56581188F.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/219401C56581188F.snbt",
+      "sha256": "1a7e8938aedb2a65825f8bb5b8a440633cac9552539faf807f7b0ab451d96feb"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/23041C2CD2A7311B.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/23041C2CD2A7311B.snbt",
+      "sha256": "39a7dfb206a0fc662c24cce7ed699df4ecb6fae2e352f6a0bfa8bea5624b9a30"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/2366BEB7A81C122D.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/2366BEB7A81C122D.snbt",
+      "sha256": "89f7086884da80e7638277b1e795548259c0f5de23e6a4e6ca07f2a546700165"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/250070563F8F7511.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/250070563F8F7511.snbt",
+      "sha256": "cae043e6292e2ef83bd1961c9d20fc9d2a84950dbce679d16212fdee33b7ef5a"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/2FBFEED9D83F24B7.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/2FBFEED9D83F24B7.snbt",
+      "sha256": "595d0e2e9d30d9126e1f08839fa94ad8542e77e68dd708e5aff6e5d12ae11ca8"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/319332DBAE997BBE.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/319332DBAE997BBE.snbt",
+      "sha256": "84d1cfe9414b4afdbb6d603dba201b4eb2b633353385c084421ae4a808ce31bb"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/367D3E683D1387D0.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/367D3E683D1387D0.snbt",
+      "sha256": "67140b5bc8db867bafa1797ca61e9e11fc509fed6574bcf5be2f0ca2fa6a7f2d"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/3B3502FBD9F2C4CE.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/3B3502FBD9F2C4CE.snbt",
+      "sha256": "4cb140029b1406a339a4475fdc8757d9008211597c9703016d80abc3f3405396"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/40507AA144BC3D21.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/40507AA144BC3D21.snbt",
+      "sha256": "f9825ccef6ea9b4b53be9b8618cea1196f0503cdcb0902b057d467b935062ef5"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/49ED18A26C5A1B83.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/49ED18A26C5A1B83.snbt",
+      "sha256": "c99da0054d672bc957571d13fdd335936b524ec334368a3743b0a916b008a0ec"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/508EE47AA8D412FC.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/508EE47AA8D412FC.snbt",
+      "sha256": "1dcd3201ee00d81caeafa9fe4b2ff1f1a55646635fe6480d869850d7b302f1ee"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/576CB57EB6B77F84.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/576CB57EB6B77F84.snbt",
+      "sha256": "d7889991bea6f696b82e14237a499dae4b09d3feb938354a2b57b546fab5df2b"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/5786819A13D84D25.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/5786819A13D84D25.snbt",
+      "sha256": "af180f7a7877d5bfeb2678b6bf7eb02a1a325bb1861c219763766cf1d3b44079"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/5D8BD23AA2113DC2.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/5D8BD23AA2113DC2.snbt",
+      "sha256": "1f53c964be1852c495f95a4505a0bccc2a9dc0989d908646cce369009f63df09"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/606A554994C6B31D.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/606A554994C6B31D.snbt",
+      "sha256": "ca1889f745749f7e70defd7778ba8b9a048187972babd961d15fdc8e10e2d4d8"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/6C61A50CA7CB2D5C.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/6C61A50CA7CB2D5C.snbt",
+      "sha256": "508ba495a2bbaf838b83e46d6baf5815c595fdeb328bc56138e0caa258ee70e9"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/703AFB9EF6FDD14E.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/703AFB9EF6FDD14E.snbt",
+      "sha256": "dd47327ef0a9ad19f52d818d5c5e9e81b1b591f647d56a0b273f1c99f4d0fff7"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/77C762813215SADD.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/77C762813215SADD.snbt",
+      "sha256": "403faa72de2b6accfa2a5bf2f749f1ea672bb5927c805eb8a8ce7a89c97b8b38"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/77F8039ACE718C6C.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/77F8039ACE718C6C.snbt",
+      "sha256": "6f578ff68236ca948de4e3ca4bfc42b1daea25bfeb79adc7d40787c166470cb0"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/7E81CAA9C19B48F9.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/7E81CAA9C19B48F9.snbt",
+      "sha256": "80f50bc3ed11f8cc327c50427cea565843b8a841f213acb752457c1bd8b4c175"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/ae2.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/ae2.snbt",
+      "sha256": "7def7fc3419cc4f5b1355c4454bf9c4844abc67e2f22427cfbc5b088d1414e31"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/ev.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/ev.snbt",
+      "sha256": "897174deb7643444f0d5dff66f91cae4495e95c89ff1a2544b1923c1aa7c9fc0"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/hv.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/hv.snbt",
+      "sha256": "bd586106bfddd0417db901da33ee7945427d259a8094da89193d9b80d764419f"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/lv.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/lv.snbt",
+      "sha256": "179baaa7d23229d0a3a3f0ae2def5c81364d4d0c737d543c3a79f8116461110b"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/mv.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/mv.snbt",
+      "sha256": "05e130642b81b9dbd92fae52b8a98188d7d73e9d11078cb8e378dfd782007df5"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/ziyuan.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/chapters/ziyuan.snbt",
+      "sha256": "626b911102dc5b08c38deec77b87179bff9385546b78dc77235fe60024efe68d"
+    },
+    {
+      "path": "config/ftbquests/quests/data.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/data.snbt",
+      "sha256": "9ca2faf9f88baa5c3d0367ca7d1b940f13d2fed1fdf1731cd7f68e6de1d421fc"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/en_us.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/lang/en_us.snbt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/zh_cn.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/lang/zh_cn.snbt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/01778f6baf0ad6fd.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/01778f6baf0ad6fd.snbt",
+      "sha256": "7ae48167b277c4c802ba14095f422abe4a35a81b0dcfcaeb42846b4ffdf4f98a"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/0344cd7a31502aee.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/0344cd7a31502aee.snbt",
+      "sha256": "8bd665bbaaed4e58f83675a907c1cbea77853f9413949ef9268a97b66dc2fa7e"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/0999bbee9c28fdde.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/0999bbee9c28fdde.snbt",
+      "sha256": "396a5bad17d524dede39dace522b2610721ff4829a3a71f4254496de71e155c3"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/10ae.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/10ae.snbt",
+      "sha256": "c8bac8cdbfcc920871946b545101363668d54579880f8ab5ca5b89c54a5f4eda"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/1707d474c10772e6.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/1707d474c10772e6.snbt",
+      "sha256": "fe4d099f598e1097c67246d8afea0e46a79908b12eb17f1e2cb9d77249706d7c"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/22c6fabc91e0609f.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/22c6fabc91e0609f.snbt",
+      "sha256": "a8f3141db76c763b308913e9f722a7aa92c2f9c2e469b86b57ec9162f5850fbf"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/2ec56857e6ddd0f5.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/2ec56857e6ddd0f5.snbt",
+      "sha256": "b29f5e36c101167c0d9f7d69c94c412208ffe0acdd62bae6c33f125a1b4ad5fc"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/437c11cc2aabe7cf.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/437c11cc2aabe7cf.snbt",
+      "sha256": "2594be8c1adef307328cd6826635e16b4d32c7249d8f6f2280563e2b5f7581ec"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/5663b9afadbde9f2.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/5663b9afadbde9f2.snbt",
+      "sha256": "770c9e9a6dc63e04b4cc5b8cd20dcf5df8ffc0a395187f05fc7da90a28f4ad99"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/5fc539ec684af2b7.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/5fc539ec684af2b7.snbt",
+      "sha256": "556cb05720dbe3035ab88615b912274b4bd9ddd20f58a406448700285918269b"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/718b1f3f8b5afe26.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/718b1f3f8b5afe26.snbt",
+      "sha256": "036bdab062aaf582d89ef7b4df62784a0e2472a3e64435fdd518b1650752933c"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/74b17f539246a931.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/74b17f539246a931.snbt",
+      "sha256": "1746b728f76377f46b3386b13ffe5c0808543c83e49a9070cca3eb0a03ea8641"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/7db5b0b64f6a7e4f.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/7db5b0b64f6a7e4f.snbt",
+      "sha256": "9900b1cd0aba761e71879e1f31b944b2952f4962403a302e3f1b6ee373850757"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/ae.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/ae.snbt",
+      "sha256": "93465bb45bd0b2367855dacabe468cd221d9c2976a6b6cded586d941643e5373"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/eviv.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/eviv.snbt",
+      "sha256": "49d356a0689ae538f38df02e22ef230f294a9f4503c699d4e9cb70021c457e12"
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/mvhv.snbt",
+      "source_path": "GTL1452/config/ftbquests/quests/reward_tables/mvhv.snbt",
+      "sha256": "4e0ebff05750aa714df85fb120aee9f88a8c6e06446470aacf29f9ebe198e714"
+    },
+    {
+      "path": "kubejs/client_scripts/tips.js",
+      "source_path": "kubejs/client_scripts/tips.js",
+      "sha256": "0f49c4595d74245c33d57607df9ad12be29f859764f1a3510ed663443ab6739a"
+    },
+    {
+      "path": "kubejs/startup_scripts/item.js",
+      "source_path": "kubejs/startup_scripts/item.js",
+      "sha256": "1e0b23e1d9e3b0b3378dda59d330fde949cf9b13888e6df61d08006360a27e4d"
+    },
+    {
+      "path": "kubejs/startup_scripts/tips.js",
+      "source_path": "kubejs/startup_scripts/tips.js",
+      "sha256": "dd7d56ea84ac0217f405bf95f828121106fa42d41f7f1976adea3d0f755550da"
+    },
+    {
+      "path": "resourcepacks/GTL1450-English-resourcepack.zip",
+      "source_path": "resourcepacks/GTL1450-English-resourcepack.zip",
+      "sha256": "6ba65867f12e792da3e06c26847e9da5db224d943558357bca9d90aadcef9cc4"
+    }
+  ]
+}
