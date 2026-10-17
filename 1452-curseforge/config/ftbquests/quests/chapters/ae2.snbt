@@ -1,0 +1,362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "24F4987B35ABEE82"
+	icon: "ae2:controller"
+	id: "6980669C5265DA02"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Request quantity limit increased to &d15 digits&r"]
+			icon: "merequester:requester"
+			id: "225FC6F6F3626C53"
+			rewards: [{
+				id: "65093F52636EB9D4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C01B0FEAADE8281"
+				title: "ME Requester"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Channels are &dunlimited&r by default here, and for performance reasons the &eME Controller's crafting recipe has been removed&r"
+				"{@pagebreak}"
+				"&mActually, making a Fishbig gives you a controller&r"
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "0259EEEAE6F3C3CB"
+			rewards: [{
+				id: "28E44D4CB84273F4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Why Can't I Craft an ME Controller?"
+			tasks: [{
+				id: "777CFBC4F54FBCE9"
+				title: "Channels"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Base transfer speed increased to the &b64*int&r level"]
+			icon: "expatternprovider:ex_io_port"
+			id: "4E1E59DD41AEEC17"
+			rewards: [{
+				id: "1B45E4F32729CBAA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF437FD2CAA4A4C"
+				title: "Extended IO Port"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&8Mid ULV&r unlocks AE storage and logistics"
+				"&bEarly MV&r unlocks autocrafting and (basic) upgrade cards"
+				"&bLate MV&r unlocks (advanced) upgrade cards"
+				"&6Late HV&r unlocks wireless AE"
+				"&dEarly EV&r unlocks the Creative Energy Cell and the Assembler Matrix"
+			]
+			icon: "ae2:controller"
+			id: "5AB25B6A1A96FFF1"
+			rewards: [{
+				id: "7BAB47A6F79DA3F0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E327F3A46D8F21"
+				title: "About the Stages"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The capacity of the infinite water/cobblestone cells is increased to &d9.22P/E&r"
+				"{@pagebreak}"
+				"Creative disks are buffed the same way"
+			]
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "324F420032FB9112"
+			rewards: [{
+				id: "0063B8E8FAFA7D3F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B2777F734BD4F5C"
+				title: "Infinite Cells"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Storage types are &d4x&r the default, adjustable in the gltcore config file"
+				""
+				"The AE inventory update interval can also be adjusted in the gtlcore config file"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "772E4BC43E9C3A09"
+			rewards: [{
+				id: "5D236A4D2FF670E5"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550042261D7CDFD8"
+				title: "Disks"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: ["In the &6gtlcore config file&r you can adjust the &bslot count of the Extended Pattern Provider&r and &bwhether smart doubling turns on automatically when it is placed&r"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "6B5FD34433F96957"
+			rewards: [{
+				id: "5E1211C813682438"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E27D16F8CFDACB4"
+				title: "Pattern Provider"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: ["Base capacity per slot increased to the &bint&r level"]
+			icon: "ae2:interface"
+			id: "3D2E392FD1C7A858"
+			rewards: [{
+				id: "18A0469DB87BA283"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "042A7D3DB05154B7"
+				title: "ME Interface"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You can now double quantities directly while encoding (processing patterns only)"
+				""
+				"The encoding input limit has been raised to &b9.22E/P"
+				""
+				"When blank patterns run out, it &6automatically pulls&r blank patterns from the ME network to refill"
+				""
+				"When writing patterns for multiblocks, you can &bautomatically filter certain blocks&r (see and modify the details in the gtlcore config; filtering is determined by whether the block id contains a string from the list), and after ordering, that specific order is &6automatically cancelled&r (i.e. orders whose product is a &dwritten book&r)"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "5BF2FF86A30EF30C"
+			rewards: [{
+				id: "1F4ED17AAA95E860"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11AFFE5DA6C9DF13"
+				type: "checkmark"
+			}]
+			title: "About Pattern Encoding"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The quantity of a single order has been raised from int to long"
+				""
+				"Crafting calculation uses &6ULTRA FAST mode&r by default, adjustable in the gtlcore config file (MAX_FAST mode has more computing power but is still being tested)"
+				""
+				"Pattern Providers can enable smart doubling (see the Pattern Buffer description)"
+				""
+				"The AE crafting update interval can also be adjusted in the gtlcore config file"
+				""
+				"The crafting confirmation screen adds a button to bookmark missing items, the number of crafting rounds (dispatch count), and the percentage of stock each item uses"
+				""
+				"The crafting status screen adds a pause button that pauses dispatching, Suspend All and Cancel All buttons that act on every CPU, and a search box that finds CPUs by CPU name or final product name"
+			]
+			icon: "ae2:1k_crafting_storage"
+			id: "60D25FEE107A7A63"
+			rewards: [{
+				id: "203D454048007BE3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2E7DAA9A528870"
+				type: "checkmark"
+			}]
+			title: "About Ordering and Crafting"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["When a Wireless Terminal is in your inventory, JEI and Jade show how many of the targeted item/fluid/block are stored in that terminal's network"]
+			icon: {
+				Count: 1
+				id: "ae2wtlib:wireless_universal_terminal"
+				tag: {
+					accessPoint: {
+						dimension: "minecraft:overworld"
+						pos: [I;
+							21
+							68
+							9
+						]
+					}
+					blankPattern: [{
+						Count: 54b
+						Slot: 0
+						id: "ae2:blank_pattern"
+					}]
+					craft_if_missing: 1b
+					crafting: 1b
+					craftingGrid: [
+						{
+							Count: 1b
+							Slot: 1
+							id: "ae2:cable_anchor"
+						}
+						{
+							Count: 1b
+							Slot: 3
+							id: "ae2:cable_anchor"
+						}
+						{
+							Count: 1b
+							Slot: 4
+							id: "minecraft:white_concrete"
+						}
+						{
+							Count: 1b
+							Slot: 5
+							id: "ae2:cable_anchor"
+						}
+						{
+							Count: 1b
+							Slot: 7
+							id: "ae2:cable_anchor"
+						}
+					]
+					currentTerminal: "pattern_encoding"
+					encodedInputs: [{
+						"#": 10L
+						"#c": "ae2:i"
+						id: "gtceu:mv_robot_arm"
+					}]
+					encodedOutputs: [{
+						"#": 1L
+						"#c": "ae2:i"
+						id: "gtlcore:ultimate_terminal"
+						tag: {
+							AEMode: 1b
+							BoundAE: {
+								X: 19
+								Y: 67
+								Z: 7
+								dim: "minecraft:overworld"
+							}
+							DismantleMode: 0b
+							IsFlipped: 0b
+							NoHatchMode: 1b
+							RepeatCount: 0
+							ReplaceMode: 1b
+							Tier: 16
+							blocks: "coil"
+						}
+					}]
+					ex_pattern_access: 1b
+					filter_type: "ALL"
+					internalCurrentPower: 4800000.0d
+					internalMaxPower: 4800000.0d
+					magnet_settings: 0b
+					mode: "PROCESSING"
+					pattern_encoding: 1b
+					pick_block: 1b
+					restock: 0b
+					show_pattern_providers: "VISIBLE"
+					singularity: [{
+						Count: 1b
+						Slot: 0
+						id: "ae2:quantum_entangled_singularity"
+						tag: {
+							freq: 175862367440505L
+						}
+					}]
+					sort_by: "AMOUNT"
+					sort_direction: "DESCENDING"
+					stonecuttingRecipeId: "minecraft:cobblestone_stairs_from_cobblestone_stonecutting"
+					substitute: 0b
+					substituteFluids: 1b
+					upgrades: [
+						{
+							Count: 1b
+							Slot: 0
+							id: "ae2wtlib:quantum_bridge_card"
+						}
+						{
+							Count: 1b
+							Slot: 1
+							id: "ae2wtlib:magnet_card"
+						}
+					]
+					view_mode: "ALL"
+				}
+			}
+			id: "1C946343173C3305"
+			rewards: [{
+				id: "175C056C2B366EB9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AAC20666177441"
+				type: "checkmark"
+			}]
+			title: "JEI and Jade Display"
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	title: "AE2 Tweaks"
+}
