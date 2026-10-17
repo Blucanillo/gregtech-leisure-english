@@ -1,0 +1,3 @@
+{
+  "fml.modloading.failedtoprocesswork": "{0,modinfo,name} ({0,modinfo,id}) encountered an error processing deferred work\n§7{2,exc,msg}"
+}

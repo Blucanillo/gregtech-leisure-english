@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "scope": "Real parser/component API execution; not a full game launch",
+  "versions": {
+    "1450": {
+      "guideme": "guideme-20.1.14.jar",
+      "ftb_library": "ftb-library-forge-2001.2.12.jar",
+      "results": {
+        "markdown": "2026-10-17 14:00:23,214 main WARN Advanced terminal features are not available in this environment\nPARSED=123 FAILED=0",
+        "frontmatter": "FRONTMATTER_PARSED=123 FAILED=0",
+        "quests": "QUEST_FILES_PARSED=46 UNCHANGED_EMPTY_FILES=2 FAILED=0",
+        "language": "2026-10-17 14:00:24,641 main WARN Advanced terminal features are not available in this environment\nCOMPONENT_KEYS=1336 PARAMETERIZED=24 NATIVE_FORGE_TEMPLATES=13 FORGE_PLURAL_CASES=3 FAILED=0"
+      }
+    },
+    "1452": {
+      "guideme": "guideme-20.1.15.jar",
+      "ftb_library": "ftb-library-forge-2001.2.13.jar",
+      "results": {
+        "markdown": "2026-10-17 14:00:25,423 main WARN Advanced terminal features are not available in this environment\nPARSED=123 FAILED=0",
+        "frontmatter": "FRONTMATTER_PARSED=123 FAILED=0",
+        "quests": "QUEST_FILES_PARSED=47 UNCHANGED_EMPTY_FILES=2 FAILED=0",
+        "language": "2026-10-17 14:00:26,849 main WARN Advanced terminal features are not available in this environment\nCOMPONENT_KEYS=1336 PARAMETERIZED=24 NATIVE_FORGE_TEMPLATES=13 FORGE_PLURAL_CASES=3 FAILED=0"
+      }
+    }
+  }
+}

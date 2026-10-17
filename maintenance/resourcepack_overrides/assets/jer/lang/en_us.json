@@ -1,0 +1,4 @@
+{
+  "jer.config.perChunkCount.title": "Show block counts per chunk",
+  "jer.config.perChunkCount.description": "Show per-chunk block counts in the world-generation view."
+}

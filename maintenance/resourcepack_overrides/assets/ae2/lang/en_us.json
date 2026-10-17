@@ -1,0 +1,16 @@
+{
+  "gui.ae2.units.tr": "E",
+  "ae2.guidebook.ZoomOut": "Zoom Out",
+  "ae2.guidebook.HistoryGoForward": "Go Forward",
+  "ae2.guidebook.HistoryGoBack": "Go Back",
+  "ae2.guidebook.ResetView": "Reset View",
+  "ae2.guidebook.ZoomIn": "Zoom In",
+  "gui.ae2.SearchTooltipIncludingTooltips": "Search by item name or tooltip",
+  "ae2.guidebook.Close": "Close",
+  "gui.ae2.SearchSettingsSearchTooltips": "Search tooltips",
+  "ae2.guidebook.Search": "Search",
+  "ae2.guidebook.HoldToShow": "Hold [%s] to open the guide",
+  "ae2.guidebook.HideAnnotations": "Hide Annotations",
+  "entity.minecraft.villager.fluix_researcher": "Fluix Researcher",
+  "ae2.guidebook.ShowAnnotations": "Show Annotations"
+}
